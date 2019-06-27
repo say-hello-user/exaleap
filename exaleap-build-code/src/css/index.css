@@ -1,0 +1,7 @@
+body{
+	background: red;
+	& > div{
+		height: 100px;
+		background: green;
+	}
+}

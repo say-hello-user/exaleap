@@ -1,0 +1,645 @@
+{
+  "modified": "Sat Jun 15 2019 17:29:25 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "totalWork",
+      "valueType": "String"
+    },
+    {
+      "attr": "unhandled",
+      "valueType": "String"
+    },
+    {
+      "attr": "label_0",
+      "valueType": "String"
+    },
+    {
+      "attr": "label_1",
+      "valueType": "String"
+    },
+    {
+      "attr": "label_2",
+      "valueType": "String"
+    },
+    {
+      "attr": "label_3",
+      "valueType": "String"
+    },
+    {
+      "attr": "label_4",
+      "valueType": "String"
+    },
+    {
+      "attr": "label_5",
+      "valueType": "String"
+    },
+    {
+      "attr": "label_6",
+      "valueType": "String"
+    }
+  ],
+  "width": 283,
+  "height": 299,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(66,180,218)",
+      "borderColor": "#979797",
+      "visible": false,
+      "rect": [
+        15.9754,
+        184.98266,
+        8.84378,
+        61.38198
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(66,180,218)",
+      "borderColor": "#979797",
+      "visible": false,
+      "rect": [
+        56.61105,
+        178.51403,
+        8.84378,
+        67.85061
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(66,180,218)",
+      "borderColor": "#979797",
+      "visible": false,
+      "rect": [
+        96.6267,
+        171.0915,
+        8.84378,
+        75.27314
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(66,180,218)",
+      "borderColor": "#979797",
+      "visible": false,
+      "rect": [
+        136.82869,
+        165.36954,
+        8.84378,
+        80.9951
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(66,180,218)",
+      "borderColor": "#979797",
+      "visible": false,
+      "rect": [
+        177.2312,
+        159.64758,
+        8.84378,
+        86.71706
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(66,180,218)",
+      "borderColor": "#979797",
+      "visible": false,
+      "rect": [
+        217.20036,
+        152.31807,
+        8.84378,
+        94.04657
+      ]
+    },
+    {
+      "type": "rect",
+      "background": "rgb(66,180,218)",
+      "borderColor": "#979797",
+      "visible": false,
+      "rect": [
+        257.45082,
+        142.08103,
+        8.84378,
+        104.28361
+      ]
+    },
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        145,
+        299,
+        145,
+        2,
+        1.0418,
+        0,
+        0,
+        1.0034,
+        -9.70397,
+        -1.5287,
+        0,
+        "rgba(0, 7, 29, 0.3)",
+        0.5,
+        "#00071D",
+        1,
+        "rgba(0, 7, 29, 0.3)"
+      ],
+      "selectable": false,
+      "displayName": "不规则图形",
+      "points": [
+        0.71406,
+        0.47811,
+        282.00068,
+        0.47811,
+        282.00068,
+        0.47811,
+        282.00068,
+        0.47811,
+        282.00068,
+        298.48839,
+        282.00068,
+        298.48839,
+        282.00068,
+        298.48839,
+        0.71406,
+        298.48839,
+        0.71406,
+        298.48839,
+        0.71406,
+        298.48839,
+        0.71406,
+        0.47811,
+        0.71406,
+        0.47811,
+        0.71406,
+        0.47811
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['work.order.today'] || '本日工单';\n}",
+        "value": "本日工单"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        12.43925,
+        32.19105,
+        60.9789,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['work.order.trend'] || '近期工单趋势';\n}",
+        "value": "近期工单趋势"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        15.08979,
+        96.24486,
+        87.48425,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['work.order.unprocessed'] || '未处理';\n}",
+        "value": "未处理"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        147.34488,
+        32.19099,
+        53.38583,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@totalWork",
+        "value": "0"
+      },
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 6.28319,
+      "rect": [
+        97.46161,
+        32.191,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unhandled",
+        "value": "0"
+      },
+      "color": "#e07619",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 6.28319,
+      "rect": [
+        231.55839,
+        32.191,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['work.order.label'] || '工单量（个）';\n}",
+        "value": "工单量（个）"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "12px arial",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 4.71239,
+      "rect": [
+        -14.82094,
+        178.7052,
+        55.05423,
+        10.60812
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#03326d",
+      "points": [
+        271.47685,
+        2.47817,
+        276.06078,
+        2.47817,
+        279.81127,
+        6.0783,
+        279.81127,
+        10.47845,
+        279.81127,
+        287.48801,
+        279.81127,
+        291.88816,
+        276.06078,
+        295.48829,
+        271.47685,
+        295.48829,
+        11.02627,
+        295.48829,
+        6.44234,
+        295.48829,
+        2.69185,
+        291.88816,
+        2.69185,
+        287.48801,
+        2.69185,
+        10.47845,
+        2.69185,
+        6.0783,
+        6.44234,
+        2.47817,
+        11.02627,
+        2.47817,
+        271.47685,
+        2.47817,
+        271.47685,
+        0.47811,
+        11.02627,
+        0.47811,
+        5.29636,
+        0.47811,
+        0.60825,
+        4.97826,
+        0.60825,
+        10.47845,
+        0.60825,
+        287.48801,
+        0.60825,
+        292.9882,
+        5.29636,
+        297.48836,
+        11.02627,
+        297.48836,
+        271.47685,
+        297.48836,
+        277.20676,
+        297.48836,
+        281.89487,
+        292.9882,
+        281.89487,
+        287.48801,
+        281.89487,
+        10.47845,
+        281.89487,
+        4.97826,
+        277.20676,
+        0.47811,
+        271.47685,
+        0.47811,
+        271.47685,
+        0.47811
+      ],
+      "segments": [
+        1,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        1,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        19.69832,
+        132.59872,
+        259.59567,
+        132.59872
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        19.69832,
+        145.50734,
+        259.59567,
+        145.50734
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        20.05007,
+        158.05783,
+        259.94743,
+        158.05783
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        19.34656,
+        170.5915,
+        259.24391,
+        170.5915
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        19.69832,
+        183.50926,
+        258.89216,
+        183.50926
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        19.69832,
+        196.01223,
+        259.24391,
+        196.01223
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        20.05007,
+        208.72533,
+        259.59567,
+        208.72533
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        19.69832,
+        221.43843,
+        259.94743,
+        221.43843
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        19.69832,
+        234.04647,
+        259.59567,
+        234.04647
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.26733,
+      "borderColor": "#d9d9d9",
+      "opacity": 0.3,
+      "points": [
+        19.69832,
+        246.86464,
+        259.59567,
+        246.86464
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/ht/chart/columnChart.json",
+      "displayName": "columnChart",
+      "rect": [
+        26.73343,
+        132.09872,
+        241.30438,
+        114.26592
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label_0",
+        "value": "周五"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "rotation": 6.28319,
+      "rect": [
+        17.73862,
+        259.11782,
+        40.00976,
+        15.76437
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label_1",
+        "value": "周六"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "rotation": 6.28319,
+      "rect": [
+        49.7635,
+        258.94266,
+        40.20621,
+        16.11469
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label_2",
+        "value": "周日"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "rotation": 6.28319,
+      "rect": [
+        83.24304,
+        259.01772,
+        40.4519,
+        15.96457
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label_3",
+        "value": "周一"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "rotation": 6.28319,
+      "rect": [
+        118.32252,
+        259.08576,
+        39.2289,
+        15.82849
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label_4",
+        "value": "周二"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "rect": [
+        151.25156,
+        259.15334,
+        40.25436,
+        15.69332
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label_5",
+        "value": "周三"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "rotation": 6.28319,
+      "rect": [
+        186.11719,
+        259.08576,
+        40.01422,
+        15.82849
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@label_6",
+        "value": "周四"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "rotation": 6.28319,
+      "rect": [
+        218.14621,
+        258.79145,
+        40.4519,
+        16.4171
+      ]
+    }
+  ]
+}

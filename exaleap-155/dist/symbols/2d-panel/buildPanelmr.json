@@ -1,0 +1,522 @@
+{
+  "modified": "Mon Jun 17 2019 10:51:44 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "editBuild1",
+      "valueType": "String",
+      "defaultValue": "全楼"
+    },
+    {
+      "attr": "editBuild1Color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "zj-btn",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn.json"
+    },
+    {
+      "attr": "dt-btn",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn.json"
+    },
+    {
+      "attr": "jb-btn",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn.json"
+    },
+    {
+      "attr": "kl-btn",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn.json"
+    },
+    {
+      "attr": "editBuild3",
+      "valueType": "String",
+      "defaultValue": "办公楼"
+    },
+    {
+      "attr": "editBuild3Color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "editBuild4",
+      "valueType": "String",
+      "defaultValue": "停车场"
+    },
+    {
+      "attr": "editBuild4Color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "ft-btn",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/close-btn.json"
+    },
+    {
+      "attr": "editBuild2",
+      "valueType": "String",
+      "defaultValue": "商   场"
+    },
+    {
+      "attr": "editBuild2Color",
+      "valueType": "Color"
+    }
+  ],
+  "width": 283,
+  "height": 299,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        145,
+        299,
+        145,
+        2,
+        1.0418,
+        0,
+        0,
+        1.0034,
+        -9.74973,
+        -1.61633,
+        0,
+        "rgba(0, 7, 29, 0.3)",
+        0.5,
+        "#00071D",
+        1,
+        "rgba(0, 7, 29, 0.3)"
+      ],
+      "selectable": false,
+      "points": [
+        0.6683,
+        0.39048,
+        281.95492,
+        0.39048,
+        281.95492,
+        0.39048,
+        281.95492,
+        0.39048,
+        281.95492,
+        298.40076,
+        281.95492,
+        298.40076,
+        281.95492,
+        298.40076,
+        0.6683,
+        298.40076,
+        0.6683,
+        298.40076,
+        0.6683,
+        298.40076,
+        0.6683,
+        0.39048,
+        0.6683,
+        0.39048,
+        0.6683,
+        0.39048
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#03326d",
+      "selectable": false,
+      "points": [
+        271.43109,
+        3.39057,
+        276.01502,
+        3.39057,
+        279.76551,
+        6.9907,
+        279.76551,
+        11.39085,
+        279.76551,
+        288.40041,
+        279.76551,
+        292.80056,
+        276.01502,
+        296.40069,
+        271.43109,
+        296.40069,
+        10.98051,
+        296.40069,
+        6.39658,
+        296.40069,
+        2.64609,
+        292.80056,
+        2.64609,
+        288.40041,
+        2.64609,
+        11.39085,
+        2.64609,
+        6.9907,
+        6.39658,
+        3.39057,
+        10.98051,
+        3.39057,
+        271.43109,
+        3.39057,
+        271.43109,
+        1.39051,
+        10.98051,
+        1.39051,
+        5.2506,
+        1.39051,
+        0.56249,
+        5.89066,
+        0.56249,
+        11.39085,
+        0.56249,
+        288.40041,
+        0.56249,
+        293.9006,
+        5.2506,
+        298.40076,
+        10.98051,
+        298.40076,
+        271.43109,
+        298.40076,
+        277.161,
+        298.40076,
+        281.84911,
+        293.9006,
+        281.84911,
+        288.40041,
+        281.84911,
+        11.39085,
+        281.84911,
+        5.89066,
+        277.161,
+        1.39051,
+        271.43109,
+        1.39051,
+        271.43109,
+        1.39051
+      ],
+      "segments": [
+        1,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        1,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": "#03326d",
+      "points": [
+        33.78437,
+        83.00301,
+        266.77829,
+        83.00301
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['gate'] || '闸机';\n}",
+        "value": "闸机"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        101.74555,
+        104.43346,
+        42.98262,
+        24.16007
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['elevator'] || '电梯';\n}",
+        "value": "电梯"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        101.74555,
+        139.55445,
+        42.98262,
+        24.16007
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['alarm'] || '警报';\n}",
+        "value": "警报"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        101.74555,
+        209.79642,
+        42.98262,
+        24.16007
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['passenger.flow'] || '客流';\n}",
+        "value": "客流"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        62.60819,
+        244.91752,
+        75.59708,
+        24.16007
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@editBuild1",
+        "value": "全楼"
+      },
+      "color": {
+        "func": "attr@editBuild1Color",
+        "value": "rgb(117,175,255)"
+      },
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.8,
+      "scaleY": 2.8,
+      "rotation": 6.28319,
+      "rect": [
+        71.21407,
+        38.93415,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@zj-btn",
+        "value": "symbols/2d-icon/open-btn.json"
+      },
+      "displayName": "闸机按钮",
+      "rect": [
+        163.14664,
+        106.24386,
+        36.08726,
+        18.50009
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar notifier = data.a('notifier');\nvar openIcon = 'symbols/2d-icon/open-btn.json';\nvar closeIcon = 'symbols/2d-icon/close-btn.json';\nvar iconType = 'zj';\nif(notifier) {\n    var btn = data.a(iconType + '-btn');\n    var nextStatus = !(btn === openIcon);\n    data.a(iconType + '-btn', nextStatus ? openIcon : closeIcon);\n    notifier.fire({ kind: iconType, nextStatus: nextStatus });\n}\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'default';\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@dt-btn",
+        "value": "symbols/2d-icon/open-btn.json"
+      },
+      "displayName": "电梯按钮",
+      "rect": [
+        163.14664,
+        141.61978,
+        36.08726,
+        18.50009
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar notifier = data.a('notifier');\nvar openIcon = 'symbols/2d-icon/open-btn.json';\nvar closeIcon = 'symbols/2d-icon/close-btn.json';\nvar iconType = 'dt';\nif(notifier) {\n    var btn = data.a(iconType + '-btn');\n    var nextStatus = !(btn === openIcon);\n    data.a(iconType + '-btn', nextStatus ? openIcon : closeIcon);\n    notifier.fire({ kind: iconType, nextStatus: nextStatus });\n}\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'default';\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@jb-btn",
+        "value": "symbols/2d-icon/open-btn.json"
+      },
+      "displayName": "警报按钮",
+      "rect": [
+        163.14664,
+        212.37162,
+        36.08726,
+        18.50009
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar notifier = data.a('notifier');\nvar openIcon = 'symbols/2d-icon/open-btn.json';\nvar closeIcon = 'symbols/2d-icon/close-btn.json';\nvar iconType = 'jb';\nif(notifier) {\n    var btn = data.a(iconType + '-btn');\n    var nextStatus = !(btn === openIcon);\n    data.a(iconType + '-btn', nextStatus ? openIcon : closeIcon);\n    notifier.fire({ kind: iconType, nextStatus: nextStatus });\n}\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'default';\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@kl-btn",
+        "value": "symbols/2d-icon/open-btn.json"
+      },
+      "displayName": "能耗密度按钮",
+      "rect": [
+        163.14664,
+        247.74754,
+        36.08726,
+        18.50009
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar notifier = data.a('notifier');\nvar openIcon = 'symbols/2d-icon/open-btn.json';\nvar closeIcon = 'symbols/2d-icon/close-btn.json';\nvar iconType = 'kl';\nif(notifier) {\n    var btn = data.a(iconType + '-btn');\n    var nextStatus = !(btn === openIcon);\n    data.a(iconType + '-btn', nextStatus ? openIcon : closeIcon);\n    notifier.fire({ kind: iconType, nextStatus: nextStatus });\n}\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'default';\n}"
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@editBuild3",
+        "value": "办公楼"
+      },
+      "color": {
+        "func": "attr@editBuild3Color",
+        "value": "rgb(117,175,255)"
+      },
+      "font": "12px PingFangSC-Thin",
+      "displayName": "editBuild",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        193.42816,
+        32.73356,
+        41.89136,
+        19.58915
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar editBuild1 = data.a('editBuild1');\nvar editBuild3 = data.a('editBuild3');\nvar notifier = data.a('notifier');\ndata.a('editBuild1', editBuild3);\ndata.a('editBuild3', editBuild1);\nif(notifier) {\n    notifier.fire({ data: data, kind: 'changeEditBuild' });\n}\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.a('editBuild3Color', 'white');\nview.getView().style.cursor = 'pointer';\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.a('editBuild3Color', 'rgb(117, 175, 255)');\nview.getView().style.cursor = 'default';\n}"
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@editBuild4",
+        "value": "停车场"
+      },
+      "color": {
+        "func": "attr@editBuild4Color",
+        "value": "rgb(117,175,255)"
+      },
+      "font": "12px PingFangSC-Thin",
+      "displayName": "editBuild",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        193.42816,
+        58.99589,
+        41.89136,
+        19.58915
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar editBuild1 = data.a('editBuild1');\nvar editBuild4 = data.a('editBuild4');\nvar notifier = data.a('notifier');\ndata.a('editBuild1', editBuild4);\ndata.a('editBuild4', editBuild1);\nif(notifier) {\n    notifier.fire({ data: data, kind: 'changeEditBuild' });\n}\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.a('editBuild4Color', 'white');\nview.getView().style.cursor = 'pointer';\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.a('editBuild4Color', 'rgb(117, 175, 255)');\nview.getView().style.cursor = 'default';\n}"
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['escalator'] || '扶梯';\n}",
+        "value": "扶梯"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        101.74555,
+        174.67544,
+        42.98262,
+        24.16007
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@ft-btn",
+        "value": "symbols/2d-icon/close-btn.json"
+      },
+      "displayName": "警报按钮",
+      "rect": [
+        163.14664,
+        176.9957,
+        36.08726,
+        18.50009
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar notifier = data.a('notifier');\nvar openIcon = 'symbols/2d-icon/open-btn.json';\nvar closeIcon = 'symbols/2d-icon/close-btn.json';\nvar iconType = 'ft';\nif(notifier) {\n    var btn = data.a(iconType + '-btn');\n    var nextStatus = !(btn === openIcon);\n    data.a(iconType + '-btn', nextStatus ? openIcon : closeIcon);\n    notifier.fire({ kind: iconType, nextStatus: nextStatus });\n}\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'pointer';\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\nview.getView().style.cursor = 'default';\n}"
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@editBuild2",
+        "value": "商   场"
+      },
+      "color": {
+        "func": "attr@editBuild2Color",
+        "value": "rgb(117,175,255)"
+      },
+      "font": "12px PingFangSC-Thin",
+      "displayName": "editBuild",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        193.42816,
+        7.94227,
+        41.89136,
+        19.58915
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar editBuild1 = data.a('editBuild1');\nvar editBuild2 = data.a('editBuild2');\nvar notifier = data.a('notifier');\ndata.a('editBuild1', editBuild2);\ndata.a('editBuild2', editBuild1);\nif(notifier) {\n    notifier.fire({ data: data, kind: 'changeEditBuild' });\n}\n}",
+      "onEnter": "__ht__function(event, data, view, point, width, height) {\ndata.a('editBuild2Color', 'white');\nview.getView().style.cursor = 'pointer';\n}",
+      "onLeave": "__ht__function(event, data, view, point, width, height) {\ndata.a('editBuild2Color', 'rgb(117, 175, 255)');\nview.getView().style.cursor = 'default';\n}"
+    }
+  ]
+}

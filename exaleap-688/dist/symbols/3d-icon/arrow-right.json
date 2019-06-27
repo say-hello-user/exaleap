@@ -1,0 +1,39 @@
+{
+  "modified": "Wed May 29 2019 11:56:35 GMT+0800 (中国标准时间)",
+  "width": 10,
+  "height": 10,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 0.512,
+      "borderColor": "#ffb71b",
+      "borderCap": "round",
+      "pixelPerfect": true,
+      "scaleX": -1,
+      "points": [
+        0.3408,
+        0.904,
+        5.256,
+        5,
+        0.3408,
+        9.096
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.512,
+      "borderColor": "#ffb71b",
+      "borderCap": "round",
+      "pixelPerfect": true,
+      "scaleX": -1,
+      "points": [
+        4.744,
+        0.904,
+        9.6592,
+        5,
+        4.744,
+        9.096
+      ]
+    }
+  ]
+}

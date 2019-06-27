@@ -1,0 +1,95 @@
+{
+    "data":[
+        {
+            "type": "fault",
+            "latestTime":"2019-04-01",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "alarm",
+            "latestTime":"2019-04-02",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "fault",
+            "latestTime":"2019-04-03",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "fault",
+            "latestTime":"2019-04-04",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "fault",
+            "latestTime":"2019-04-05",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "fault",
+            "latestTime":"2019-04-06",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "fault",
+            "latestTime":"2019-04-07",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "fault",
+            "latestTime":"2019-04-08",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "fault",
+            "latestTime":"2019-04-09",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        },
+        {
+            "type": "fault",
+            "latestTime":"2019-04-10",
+            "spaceName":"E-09 Floor",
+            "buildingName":"WFC-East Tower",
+            "faultName":"AHU-FD-016 CO2 sensor faulty",
+            "equipmentName":"AHU-E-9C",
+            "location":"Exaleap Henderson China/北京环球金融中心"
+        }
+    ],
+    "time":"2019-04-22 18:08:04"
+}

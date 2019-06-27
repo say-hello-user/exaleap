@@ -1,0 +1,92 @@
+{
+  "modified": "Fri Apr 26 2019 11:36:59 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "borderColor2",
+      "valueType": "Color"
+    },
+    {
+      "attr": "warnRect2",
+      "valueType": "String"
+    },
+    {
+      "attr": "borderColor1",
+      "valueType": "Color"
+    },
+    {
+      "attr": "warnRect1",
+      "valueType": "String"
+    },
+    {
+      "attr": "delete-icon-visible",
+      "valueType": "Boolean"
+    }
+  ],
+  "width": 300,
+  "height": 300,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "image",
+      "name": "symbols/3d-alarm/icon/a2-icon.json",
+      "displayName": "警报图标",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rect": [
+        50,
+        50,
+        200,
+        200
+      ]
+    },
+    {
+      "type": "circle",
+      "borderWidth": 3,
+      "borderColor": {
+        "func": "attr@borderColor2",
+        "value": "rgb(222,68,2)"
+      },
+      "rect": {
+        "func": "attr@warnRect2",
+        "value": [
+          1.5,
+          80,
+          297,
+          140
+        ]
+      }
+    },
+    {
+      "type": "circle",
+      "borderWidth": 8,
+      "borderColor": {
+        "func": "attr@borderColor1",
+        "value": "rgb(224,69,2)"
+      },
+      "rect": {
+        "func": "attr@warnRect1",
+        "value": [
+          4,
+          99,
+          292,
+          102
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/delete.json",
+      "visible": {
+        "func": "attr@delete-icon-visible",
+        "value": false
+      },
+      "displayName": "删除",
+      "rect": [
+        129.5,
+        213.90622,
+        41,
+        50
+      ]
+    }
+  ]
+}

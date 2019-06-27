@@ -1,0 +1,389 @@
+{
+  "modified": "Tue Jun 25 2019 09:49:00 GMT+0800 (中国标准时间)",
+  "background": "rgb(61,61,61)",
+  "dataBindings": [
+    {
+      "attr": "energy",
+      "valueType": "String"
+    },
+    {
+      "attr": "density",
+      "valueType": "String"
+    },
+    {
+      "attr": "percentage",
+      "valueType": "String"
+    },
+    {
+      "attr": "color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "ht.dataSource",
+      "valueType": "Object"
+    },
+    {
+      "attr": "ht.tdHeight",
+      "valueType": "PositiveNumber",
+      "defaultValue": 25
+    },
+    {
+      "attr": "ht.translateY",
+      "valueType": "Number"
+    }
+  ],
+  "width": 1269,
+  "height": 111,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        20,
+        401,
+        980,
+        401,
+        1.02775,
+        0,
+        0,
+        1.00479,
+        126.02809,
+        -347.1548,
+        0,
+        "rgba(0, 7, 29, 0)",
+        0.5,
+        "#00071D",
+        1,
+        "rgba(0, 7, 29, 0)"
+      ],
+      "points": [
+        146.58313,
+        1.50718,
+        1133.22501,
+        1.50718,
+        1133.22501,
+        1.50718,
+        1133.22501,
+        1.50718,
+        1133.22501,
+        110.02446,
+        1133.22501,
+        110.02446,
+        1133.22501,
+        110.02446,
+        146.58313,
+        110.02446,
+        146.58313,
+        110.02446,
+        146.58313,
+        110.02446,
+        146.58313,
+        1.50718,
+        146.58313,
+        1.50718,
+        146.58313,
+        1.50718
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": "rgba(255,255,255,0.60)",
+      "points": [
+        635.36378,
+        9.5683,
+        635.36378,
+        97.99817
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['energy'] || '塔楼公区能耗数据';\n}",
+        "value": "塔楼公区能耗数据"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "18px PingFangSC-Thin",
+      "scaleX": 1.3,
+      "scaleY": 1.3,
+      "rotation": 6.28319,
+      "rect": [
+        316.62572,
+        16.56336,
+        180.14773,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['today.energy'] || '本日能耗';\n}",
+        "value": "本日能耗"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.3,
+      "scaleY": 1.3,
+      "rotation": 6.28319,
+      "rect": [
+        252.21437,
+        42.02976,
+        64.92914,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['density'] || '能耗密度';\n}",
+        "value": "能耗密度"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.3,
+      "scaleY": 1.3,
+      "rotation": 6.28319,
+      "rect": [
+        253.67485,
+        70.81751,
+        64.00816,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@energy",
+        "value": "0"
+      },
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rotation": 6.28319,
+      "rect": [
+        339.45942,
+        43.98866,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@density",
+        "value": "0"
+      },
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rotation": 6.28319,
+      "rect": [
+        339.45942,
+        72.77642,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(Kw·h)",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "rotation": 6.28319,
+      "rect": [
+        486.05434,
+        39.51794,
+        56.02569,
+        26.19862
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@percentage",
+        "value": "0%"
+      },
+      "color": {
+        "func": "attr@color",
+        "value": "#70d44b"
+      },
+      "font": "12px PingFangSC-Thin",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rotation": 6.28319,
+      "rect": [
+        555.00714,
+        42.02976,
+        51.70792,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(Kw·h/㎡)",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "rotation": 6.28319,
+      "rect": [
+        486.05432,
+        71.61044,
+        65.03336,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": "(Kw·h/㎡)",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "visible": false,
+      "rotation": 6.28319,
+      "rect": [
+        1116.05432,
+        71.61039,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "components/ht/ui/table.json",
+      "displayName": "table",
+      "rect": [
+        652.16871,
+        10,
+        429.37564,
+        100
+      ],
+      "columns": [
+        {
+          "key": "time",
+          "displayName": "时间",
+          "width": "0.2",
+          "color": "rgb(65, 179, 217)"
+        },
+        {
+          "key": "alarmDetail",
+          "displayName": "警报详情",
+          "width": "0.4",
+          "color": "__ht__function(text, row) {\n            if(row.type === 'alarm') {\n                return 'rgb(255, 183, 27)';\n            }\n            return 'rgb(117, 175, 255)';\n        }"
+        },
+        {
+          "key": "name",
+          "displayName": "设备",
+          "width": "0.4",
+          "color": "rgb(65, 179, 217)"
+        },
+        {
+          "key": "type",
+          "displayName": "警报等级",
+          "width": "0"
+        }
+      ],
+      "dataSource": {
+        "func": "attr@ht.dataSource",
+        "value": []
+      },
+      "borderWidth": 0,
+      "columnLineWidth": 0,
+      "rowLineWidth": 0,
+      "thHeight": 0,
+      "tdHeight": {
+        "func": "attr@ht.tdHeight",
+        "value": 25
+      },
+      "textLineHeight": 24,
+      "tdColor": "rgb(247,247,247)",
+      "thFont": "14px sans-serif, Arial",
+      "tdFont": "14px sans-serif, Arial",
+      "showHead": false,
+      "translateY": {
+        "func": "attr@ht.translateY",
+        "value": 0
+      },
+      "scrollable": false,
+      "pannable": false,
+      "autoHideScrollBar": true,
+      "scrollBarWidth": 0
+    },
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        400.5,
+        80,
+        1679.5,
+        80,
+        0.99164,
+        0,
+        0,
+        1.13653,
+        -397.15102,
+        -88.98963,
+        0,
+        "rgba(66, 180, 218, 0)",
+        0.5,
+        "#42B4DA",
+        1,
+        "rgba(66, 180, 218, 0)"
+      ],
+      "points": [
+        0,
+        0.22792,
+        1268.30499,
+        0.22792,
+        1268.30499,
+        0.22792,
+        1268.30499,
+        0.22792,
+        1268.30499,
+        3.63751,
+        1268.30499,
+        3.63751,
+        1268.30499,
+        3.63751,
+        0,
+        3.63751,
+        0,
+        3.63751,
+        0,
+        3.63751,
+        0,
+        0.22792,
+        0,
+        0.22792,
+        0,
+        0.22792
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    }
+  ]
+}

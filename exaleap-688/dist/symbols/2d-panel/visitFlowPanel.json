@@ -1,0 +1,493 @@
+{
+  "modified": "Thu May 09 2019 11:01:11 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "dayVisitors",
+      "valueType": "String"
+    },
+    {
+      "attr": "temporary",
+      "valueType": "String"
+    },
+    {
+      "attr": "unsuccessful",
+      "valueType": "String"
+    },
+    {
+      "attr": "begin1",
+      "valueType": "String"
+    },
+    {
+      "attr": "end1",
+      "valueType": "String"
+    },
+    {
+      "attr": "begin2",
+      "valueType": "String"
+    },
+    {
+      "attr": "end2",
+      "valueType": "String"
+    },
+    {
+      "attr": "downShapeVisible",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "upShapeVisible",
+      "valueType": "Boolean"
+    },
+    {
+      "attr": "syncRatio",
+      "valueType": "String"
+    },
+    {
+      "attr": "syncRatioColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 283,
+  "height": 300,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        145,
+        299,
+        145,
+        2,
+        1.0418,
+        0,
+        0,
+        1.0034,
+        -9.58789,
+        -1.34833,
+        0,
+        "rgba(0, 7, 29, 0.3)",
+        0.5,
+        "#00071D",
+        1,
+        "rgba(0, 7, 29, 0.3)"
+      ],
+      "points": [
+        0.83014,
+        0.65848,
+        282.11675,
+        0.65848,
+        282.11675,
+        0.65848,
+        282.11675,
+        0.65848,
+        282.11675,
+        298.66876,
+        282.11675,
+        298.66876,
+        282.11675,
+        298.66876,
+        0.83014,
+        298.66876,
+        0.83014,
+        298.66876,
+        0.83014,
+        298.66876,
+        0.83014,
+        0.65848,
+        0.83014,
+        0.65848,
+        0.83014,
+        0.65848
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#03326d",
+      "points": [
+        271.59292,
+        2.65854,
+        276.17686,
+        2.65854,
+        279.92735,
+        6.25867,
+        279.92735,
+        10.65882,
+        279.92735,
+        287.66838,
+        279.92735,
+        292.06853,
+        276.17686,
+        295.66866,
+        271.59292,
+        295.66866,
+        11.14234,
+        295.66866,
+        6.55842,
+        295.66866,
+        2.80793,
+        292.06853,
+        2.80793,
+        287.66838,
+        2.80793,
+        10.65882,
+        2.80793,
+        6.25867,
+        6.55842,
+        2.65854,
+        11.14234,
+        2.65854,
+        271.59292,
+        2.65854,
+        271.59292,
+        0.65848,
+        11.14234,
+        0.65848,
+        5.41243,
+        0.65848,
+        0.72432,
+        5.15864,
+        0.72432,
+        10.65882,
+        0.72432,
+        287.66838,
+        0.72432,
+        293.16857,
+        5.41243,
+        297.66873,
+        11.14234,
+        297.66873,
+        271.59292,
+        297.66873,
+        277.32283,
+        297.66873,
+        282.01094,
+        293.16857,
+        282.01094,
+        287.66838,
+        282.01094,
+        10.65882,
+        282.01094,
+        5.15864,
+        277.32283,
+        0.65848,
+        271.59292,
+        0.65848,
+        271.59292,
+        0.65848
+      ],
+      "segments": [
+        1,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        1,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['passenger.flow.today'] || '本日客流';\n}",
+        "value": "本日客流"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        9.81627,
+        33.86616,
+        63.35958,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['passenger.flow.temp'] || '临时访客';\n}",
+        "value": "临时访客"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        10.82021,
+        73.87999,
+        62.69029,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['passenger.flow.peak'] || '高峰时段';\n}",
+        "value": "高峰时段"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        13.5643,
+        131.06064,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['passenger.flow.failure'] || '进入失败';\n}",
+        "value": "进入失败"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        143.09449,
+        73.87998,
+        65.59055,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@dayVisitors",
+        "value": "0"
+      },
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 6.28319,
+      "rect": [
+        102.59006,
+        30.34519,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@temporary",
+        "value": "0"
+      },
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 6.28319,
+      "rect": [
+        102.59006,
+        73.87995,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@unsuccessful",
+        "value": "0"
+      },
+      "color": "#e07619",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 6.28319,
+      "rect": [
+        240.36286,
+        73.87995,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@begin1",
+        "value": "N/A"
+      },
+      "align": "right",
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.3,
+      "scaleY": 2.3,
+      "rotation": 6.28319,
+      "rect": [
+        48.6546,
+        168.5051,
+        49.82159,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@end1",
+        "value": "N/A"
+      },
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.3,
+      "scaleY": 2.3,
+      "rotation": 6.28319,
+      "rect": [
+        176.95135,
+        169.00514,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@begin2",
+        "value": "N/A"
+      },
+      "align": "right",
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.3,
+      "scaleY": 2.3,
+      "rotation": 6.28319,
+      "rect": [
+        61.73947,
+        219.31475,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@end2",
+        "value": "N/A"
+      },
+      "color": "#42b4da",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.3,
+      "scaleY": 2.3,
+      "rotation": 6.28319,
+      "rect": [
+        176.95135,
+        219.31475,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "borderCap": "round",
+      "points": [
+        133.21013,
+        178.79972,
+        146.67761,
+        178.79972
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,255,255)",
+      "borderCap": "round",
+      "points": [
+        133.21013,
+        228.60933,
+        146.67761,
+        228.60933
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#70d44b",
+      "visible": {
+        "func": "attr@downShapeVisible",
+        "value": true
+      },
+      "points": [
+        187.27229,
+        41.38179,
+        181.6677,
+        48.85457,
+        176.06312,
+        41.38179
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(212,0,0)",
+      "visible": {
+        "func": "attr@upShapeVisible",
+        "value": false
+      },
+      "rotation": 3.14159,
+      "points": [
+        187.27229,
+        41.38179,
+        181.6677,
+        48.85457,
+        176.06312,
+        41.38179
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@syncRatio",
+        "value": "0"
+      },
+      "color": {
+        "func": "attr@syncRatioColor",
+        "value": "#70d44b"
+      },
+      "font": "14px PingFangSC-Thin",
+      "rotation": 6.28319,
+      "rect": [
+        192.64306,
+        35.3236,
+        41.89136,
+        19.58915
+      ]
+    }
+  ]
+}

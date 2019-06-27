@@ -1,0 +1,19 @@
+{
+    "data":{
+        "dayVisitors":"200",
+        "syncRatio":23,
+        "temporary":"30",
+        "unsuccessful":"5",
+        "dayPeak":[
+            {
+                "begin":"8:00",
+                "end":"9:30"
+            },
+            {
+                "begin":"12:00",
+                "end":"13:00"
+            }
+        ]
+    },
+    "time":"2019-04-22 18:08:04"
+}
