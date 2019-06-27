@@ -1,0 +1,24 @@
+{
+  "modified": "Sun Jun 16 2019 15:22:46 GMT+0800 (中国标准时间)",
+  "width": 140,
+  "height": 80,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 1,
+      "borderColor": "rgb(255,183,27)",
+      "borderCap": "round",
+      "pixelPerfect": true,
+      "anchorY": 1,
+      "rotation": -3.14159,
+      "points": [
+        0.47667,
+        40.00018,
+        104.82076,
+        39.9999,
+        139.396,
+        0.41339
+      ]
+    }
+  ]
+}

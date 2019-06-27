@@ -1,0 +1,455 @@
+{
+  "modified": "Mon Jun 17 2019 10:46:33 GMT+0800 (中国标准时间)",
+  "background": "rgb(61,61,61)",
+  "dataBindings": [],
+  "width": 283,
+  "height": 299,
+  "fitSize": true,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        145,
+        299,
+        145,
+        2,
+        1.04395,
+        0,
+        0,
+        1.00112,
+        -9.98697,
+        -0.53912,
+        0,
+        "rgba(0, 7, 29, 0.3)",
+        0.5,
+        "#00071D",
+        1,
+        "rgba(0, 7, 29, 0.3)"
+      ],
+      "selectable": false,
+      "points": [
+        0.45253,
+        1.46312,
+        282.31887,
+        1.46312,
+        282.31887,
+        1.46312,
+        282.31887,
+        1.46312,
+        282.31887,
+        298.79487,
+        282.31887,
+        298.79487,
+        282.31887,
+        298.79487,
+        0.45253,
+        298.79487,
+        0.45253,
+        298.79487,
+        0.45253,
+        298.79487,
+        0.45253,
+        1.46312,
+        0.45253,
+        1.46312,
+        0.45253,
+        1.46312
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#03326d",
+      "points": [
+        271.77335,
+        2.46423,
+        276.36673,
+        2.46423,
+        280.12495,
+        6.06826,
+        280.12495,
+        10.47317,
+        280.12495,
+        287.78258,
+        280.12495,
+        292.18749,
+        276.36673,
+        295.79152,
+        271.77335,
+        295.79152,
+        10.78599,
+        295.79152,
+        6.19262,
+        295.79152,
+        2.4344,
+        292.18749,
+        2.4344,
+        287.78258,
+        2.4344,
+        10.47317,
+        2.4344,
+        6.06826,
+        6.19262,
+        2.46423,
+        10.78599,
+        2.46423,
+        271.77335,
+        2.46423,
+        271.77335,
+        0.462,
+        10.78599,
+        0.462,
+        5.04427,
+        0.462,
+        0.3465,
+        4.96703,
+        0.3465,
+        10.47317,
+        0.3465,
+        287.78258,
+        0.3465,
+        293.28872,
+        5.04427,
+        297.79375,
+        10.78599,
+        297.79375,
+        271.77335,
+        297.79375,
+        277.51507,
+        297.79375,
+        282.21284,
+        293.28872,
+        282.21284,
+        287.78258,
+        282.21284,
+        10.47317,
+        282.21284,
+        4.96703,
+        277.51507,
+        0.462,
+        271.77335,
+        0.462,
+        271.77335,
+        0.462
+      ],
+      "segments": [
+        1,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        1,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@chillerIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rect": [
+        195.44161,
+        98.55133,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@efIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rotation": 5.80088,
+      "rect": [
+        149.38735,
+        69.93405,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@ahuIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rotation": 0.61793,
+      "rect": [
+        216.38734,
+        140.72151,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@chwpIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rotation": 0.90541,
+      "rect": [
+        217.47021,
+        170.00656,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@ctIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rotation": 1.26789,
+      "rect": [
+        206.88826,
+        202.79946,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@smokedIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rotation": 1.71887,
+      "rect": [
+        177.08522,
+        235.48535,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@pauIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rotation": 2.20285,
+      "rect": [
+        136.60297,
+        250.02045,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@cameraIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rotation": 2.8923,
+      "rect": [
+        84.36298,
+        240.5709,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/point.json",
+      "visible": {
+        "func": "attr@fastgateIconVisible",
+        "value": false
+      },
+      "displayName": "指向",
+      "rotation": 3.61107,
+      "rect": [
+        38.42459,
+        186.50573,
+        12,
+        11
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['parking.space.statistics'] || '停车场车位统计';\n}",
+        "value": "停车场车位统计"
+      },
+      "color": "rgb(117,175,255)",
+      "font": "24px PingFangSC-Thin",
+      "rect": [
+        15.25832,
+        7.86577,
+        50,
+        42.08583
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['parking.hours'] || '营业时间';\n}",
+        "value": "营业时间"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "18px PingFangSC-Thin",
+      "rect": [
+        15.25832,
+        64.75913,
+        50,
+        42.08583
+      ]
+    },
+    {
+      "type": "text",
+      "text": "N/A- N/A",
+      "align": "center",
+      "color": "rgb(117,175,255)",
+      "font": "32px PingFangSC-Thin",
+      "rect": [
+        15.25832,
+        98.17352,
+        253.80315,
+        42.08583
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['parking.used'] || '已使用车位';\n}",
+        "value": "已使用车位"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "18px PingFangSC-Thin",
+      "rect": [
+        14.59843,
+        159.70469,
+        126.02135,
+        34.54964
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.frequent.visitor'] || '常访客车位';\n}",
+        "value": "常访客车位"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "18px PingFangSC-Thin",
+      "rect": [
+        14.59843,
+        202.54316,
+        126.02135,
+        34.54964
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.very.visitor'] || '非常访客车位';\n}",
+        "value": "非常访客车位"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "18px PingFangSC-Thin",
+      "rect": [
+        14.59843,
+        245.86028,
+        126.02135,
+        34.54964
+      ]
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "color": "rgb(117,175,255)",
+      "font": "32px PingFangSC-Thin",
+      "rect": [
+        159.67794,
+        159.70469,
+        108.72363,
+        34.54964
+      ]
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "color": "rgb(117,175,255)",
+      "font": "32px PingFangSC-Thin",
+      "rect": [
+        159.67794,
+        202.54316,
+        108.72363,
+        34.54964
+      ]
+    },
+    {
+      "type": "text",
+      "text": "0",
+      "color": "rgb(117,175,255)",
+      "font": "32px PingFangSC-Thin",
+      "rect": [
+        159.67794,
+        245.86028,
+        108.72363,
+        34.54964
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": "#03326d",
+      "points": [
+        19.5671,
+        58.94077,
+        266.77829,
+        58.94077
+      ]
+    }
+  ]
+}

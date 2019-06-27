@@ -1,0 +1,63 @@
+{
+  "modified": "Mon Jun 03 2019 11:53:16 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "alarmColor",
+      "valueType": "Color"
+    }
+  ],
+  "width": 200,
+  "height": 200,
+  "comps": [
+    {
+      "type": "oval",
+      "background": {
+        "func": "attr@alarmColor",
+        "value": "rgb(255,183,27)"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        5.01924,
+        5,
+        190,
+        190
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "rgb(255,255,255)",
+      "scaleX": 0.7,
+      "scaleY": 0.7,
+      "points": [
+        16.66667,
+        83.33333,
+        100,
+        0,
+        183.33333,
+        83.33333,
+        16.66667,
+        83.33333,
+        96.16667,
+        200,
+        16.65,
+        116.66667,
+        175.68333,
+        116.66667,
+        96.16667,
+        200
+      ],
+      "segments": [
+        1,
+        2,
+        2,
+        2,
+        5,
+        1,
+        2,
+        2,
+        2,
+        5
+      ]
+    }
+  ]
+}

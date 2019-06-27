@@ -1,0 +1,372 @@
+{
+  "modified": "Mon Jun 17 2019 10:38:46 GMT+0800 (中国标准时间)",
+  "background": "rgb(61,61,61)",
+  "dataBindings": [
+    {
+      "attr": "month",
+      "valueType": "String"
+    },
+    {
+      "attr": "year",
+      "valueType": "String"
+    },
+    {
+      "attr": "lunarDay",
+      "valueType": "String"
+    },
+    {
+      "attr": "day",
+      "valueType": "String"
+    },
+    {
+      "attr": "week",
+      "valueType": "String"
+    },
+    {
+      "attr": "time",
+      "valueType": "String"
+    }
+  ],
+  "width": 1269,
+  "height": 82,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        560,
+        39,
+        1520,
+        39,
+        1.04607,
+        0,
+        0,
+        1.00577,
+        -451.37577,
+        0,
+        0,
+        "rgba(0, 7, 29, 0)",
+        0.5,
+        "#00071D",
+        1,
+        "rgba(0, 7, 29, 0)"
+      ],
+      "points": [
+        134.4228,
+        0,
+        1138.64892,
+        0,
+        1138.64892,
+        0,
+        1138.64892,
+        0,
+        1138.64892,
+        78.45,
+        1138.64892,
+        78.45,
+        1138.64892,
+        78.45,
+        134.4228,
+        78.45,
+        134.4228,
+        78.45,
+        134.4228,
+        78.45,
+        134.4228,
+        0,
+        134.4228,
+        0,
+        134.4228,
+        0
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        400.5,
+        80,
+        1679.5,
+        80,
+        0.99164,
+        0,
+        0,
+        1.13653,
+        -397.15102,
+        -10.98963,
+        0,
+        "rgba(66, 180, 218, 0)",
+        0.5,
+        "#42B4DA",
+        1,
+        "rgba(66, 180, 218, 0)"
+      ],
+      "points": [
+        0,
+        78.22792,
+        1268.30499,
+        78.22792,
+        1268.30499,
+        78.22792,
+        1268.30499,
+        78.22792,
+        1268.30499,
+        81.63751,
+        1268.30499,
+        81.63751,
+        1268.30499,
+        81.63751,
+        0,
+        81.63751,
+        0,
+        81.63751,
+        0,
+        81.63751,
+        0,
+        78.22792,
+        0,
+        78.22792,
+        0,
+        78.22792
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@month",
+        "value": "1"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.7,
+      "scaleY": 2.7,
+      "rotation": 6.28319,
+      "rect": [
+        295.09595,
+        42.69244,
+        24.01622,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['sub-title'] || 'E氪智慧楼宇企业管理平台';\n}",
+        "value": "E氪智慧楼宇企业管理平台"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        695.79072,
+        39.51187,
+        145.65301,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@year",
+        "value": "2019"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "rotation": 6.28319,
+      "rect": [
+        427.25512,
+        26.77845,
+        39.21369,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@lunarDay",
+        "value": "一月初一"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        437.686,
+        47.61339,
+        66.90582,
+        19.58915
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(168,151,96)",
+      "points": [
+        538.26246,
+        21.66786,
+        538.26246,
+        69.1615
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(168,151,96)",
+      "points": [
+        919.1309,
+        21.66786,
+        919.1309,
+        69.1615
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@day",
+        "value": "1"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.7,
+      "scaleY": 2.7,
+      "rotation": 6.28319,
+      "rect": [
+        367.94762,
+        42.69254,
+        18.22965,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": "月",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        339.94801,
+        47.61332,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": "日",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        400.47311,
+        47.61332,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@week",
+        "value": "周一"
+      },
+      "align": "right",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "rotation": 6.28319,
+      "rect": [
+        470.10803,
+        27.04452,
+        39.21369,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@time",
+        "value": "00: 00"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.7,
+      "scaleY": 2.7,
+      "rotation": 6.28319,
+      "rect": [
+        977.83583,
+        35.62019,
+        41.76631,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['main-title'] || '千兆跃';\n}",
+        "value": "千兆跃"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        582.11526,
+        39.51155,
+        76.55806,
+        19.58915
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "rect": [
+        646.44613,
+        47.80645,
+        3,
+        3
+      ]
+    }
+  ]
+}

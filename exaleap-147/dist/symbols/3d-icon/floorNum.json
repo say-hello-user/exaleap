@@ -1,0 +1,50 @@
+{
+  "modified": "Fri Jun 14 2019 10:20:25 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "floorNumColor",
+      "valueType": "Color"
+    },
+    {
+      "attr": "floorNum",
+      "valueType": "String"
+    }
+  ],
+  "width": 50,
+  "height": 50,
+  "comps": [
+    {
+      "type": "oval",
+      "background": {
+        "func": "attr@floorNumColor",
+        "value": "rgb(68,181,218)"
+      },
+      "borderColor": "#979797",
+      "rect": [
+        0,
+        0,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@floorNum",
+        "value": "1F"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "20px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        11.91145,
+        15.20543,
+        26.17711,
+        19.58915
+      ]
+    }
+  ]
+}

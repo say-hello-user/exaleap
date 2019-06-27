@@ -1,0 +1,409 @@
+{
+  "modified": "Tue Jun 11 2019 10:35:59 GMT+0800 (中国标准时间)",
+  "background": "rgb(61,61,61)",
+  "dataBindings": [
+    {
+      "attr": "temperature",
+      "valueType": "String"
+    },
+    {
+      "attr": "pm25Color",
+      "valueType": "Color"
+    },
+    {
+      "attr": "temperature1",
+      "valueType": "String"
+    },
+    {
+      "attr": "city",
+      "valueType": "String"
+    },
+    {
+      "attr": "pm25Des",
+      "valueType": "String"
+    },
+    {
+      "attr": "pm25",
+      "valueType": "String"
+    },
+    {
+      "attr": "weatherImg",
+      "valueType": "String"
+    }
+  ],
+  "width": 1269,
+  "height": 82,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        560,
+        39,
+        1520,
+        39,
+        1.04607,
+        0,
+        0,
+        1.00577,
+        -451.37577,
+        0,
+        0,
+        "rgba(0, 7, 29, 0)",
+        0.5,
+        "#00071D",
+        1,
+        "rgba(0, 7, 29, 0)"
+      ],
+      "points": [
+        134.4228,
+        0,
+        1138.64892,
+        0,
+        1138.64892,
+        0,
+        1138.64892,
+        0,
+        1138.64892,
+        78.45,
+        1138.64892,
+        78.45,
+        1138.64892,
+        78.45,
+        134.4228,
+        78.45,
+        134.4228,
+        78.45,
+        134.4228,
+        78.45,
+        134.4228,
+        0,
+        134.4228,
+        0,
+        134.4228,
+        0
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        400.5,
+        80,
+        1679.5,
+        80,
+        0.99164,
+        0,
+        0,
+        1.13653,
+        -397.15102,
+        -10.98963,
+        0,
+        "rgba(66, 180, 218, 0)",
+        0.5,
+        "#42B4DA",
+        1,
+        "rgba(66, 180, 218, 0)"
+      ],
+      "points": [
+        0,
+        78.22792,
+        1268.30499,
+        78.22792,
+        1268.30499,
+        78.22792,
+        1268.30499,
+        78.22792,
+        1268.30499,
+        81.63751,
+        1268.30499,
+        81.63751,
+        1268.30499,
+        81.63751,
+        0,
+        81.63751,
+        0,
+        81.63751,
+        0,
+        81.63751,
+        0,
+        78.22792,
+        0,
+        78.22792,
+        0,
+        78.22792
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": "PM2.5: ",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "rotation": 6.28319,
+      "rect": [
+        939.8369,
+        48.59279,
+        39.21369,
+        19.58915
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(168,151,96)",
+      "points": [
+        542.51855,
+        21.66786,
+        542.51855,
+        69.1615
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.5,
+      "borderColor": "rgb(168,151,96)",
+      "points": [
+        923.14046,
+        21.66786,
+        923.14046,
+        69.1615
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@weatherImg",
+        "value": "symbols/2d-icon/weather.json"
+      },
+      "displayName": "天气图片",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rect": [
+        300.46798,
+        26,
+        38,
+        38
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@temperature",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 2.7,
+      "scaleY": 2.7,
+      "rotation": 6.28319,
+      "rect": [
+        371.64386,
+        36.56154,
+        25.64823,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@temperature1",
+        "value": "0° / 0°"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "rotation": 6.28319,
+      "rect": [
+        433.42758,
+        26.77845,
+        39.21369,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@city",
+        "value": "北京市"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        432.73967,
+        47.61332,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "shape",
+      "background": {
+        "func": "attr@pm25Color",
+        "value": "rgb(1,142,91)"
+      },
+      "displayName": "pm颜色",
+      "points": [
+        1029.51861,
+        59.33747,
+        1029.51861,
+        62.54069,
+        1026.70936,
+        65.1615,
+        1023.27584,
+        65.1615,
+        994.14289,
+        65.1615,
+        990.70937,
+        65.1615,
+        987.90012,
+        62.54069,
+        987.90012,
+        59.33747,
+        987.90012,
+        55.45478,
+        987.90012,
+        52.25156,
+        990.70937,
+        49.63075,
+        994.14289,
+        49.63075,
+        1023.27584,
+        49.63075,
+        1026.70936,
+        49.63075,
+        1029.51861,
+        52.25156,
+        1029.51861,
+        55.45478,
+        1029.51861,
+        59.33747
+      ],
+      "segments": [
+        1,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@pm25",
+        "value": "0"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "displayName": "pm值",
+      "scaleX": 1.1,
+      "scaleY": 1.1,
+      "rotation": 6.28319,
+      "rect": [
+        988.10252,
+        48.59279,
+        39.21369,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@pm25Des",
+        "value": ""
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "displayName": "pm描述",
+      "scaleX": 1.2,
+      "scaleY": 1.2,
+      "rotation": 6.28319,
+      "rect": [
+        933.73804,
+        27.75793,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": "E氪智慧楼宇企业管理平台",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        695.79072,
+        39.51187,
+        145.65301,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": "千兆跃",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 1.4,
+      "scaleY": 1.4,
+      "rotation": 6.28319,
+      "rect": [
+        582.11526,
+        39.51155,
+        76.55806,
+        19.58915
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(255,255,255)",
+      "borderColor": "#979797",
+      "rect": [
+        646.44613,
+        47.80645,
+        3,
+        3
+      ]
+    }
+  ]
+}

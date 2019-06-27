@@ -1,0 +1,613 @@
+{
+  "modified": "Thu Jun 13 2019 10:25:39 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "btn1",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn2.json"
+    },
+    {
+      "attr": "btn2",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn2.json"
+    },
+    {
+      "attr": "btn3",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn2.json"
+    },
+    {
+      "attr": "btn4",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn2.json"
+    },
+    {
+      "attr": "btn5",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn2.json"
+    },
+    {
+      "attr": "btn6",
+      "valueType": "String",
+      "defaultValue": "symbols/2d-icon/open-btn2.json"
+    },
+    {
+      "attr": "mark1",
+      "valueType": "String",
+      "defaultValue": "panel1"
+    },
+    {
+      "attr": "mark2",
+      "valueType": "String",
+      "defaultValue": "panel2"
+    },
+    {
+      "attr": "mark3",
+      "valueType": "String",
+      "defaultValue": "panel3"
+    },
+    {
+      "attr": "mark4",
+      "valueType": "String",
+      "defaultValue": "panel4"
+    },
+    {
+      "attr": "mark5",
+      "valueType": "String",
+      "defaultValue": "panel5"
+    },
+    {
+      "attr": "mark6",
+      "valueType": "String",
+      "defaultValue": "panel6"
+    }
+  ],
+  "onClick": "__ht__function(event, data, view, point, width, height) {\n//event.stopPropagation();\n}",
+  "onDown": "__ht__function(event, data, view, point, width, height) {\nevent.stopPropagation();\n}",
+  "onUp": "__ht__function(event, data, view, point, width, height) {\nevent.stopPropagation();\n}",
+  "width": 163,
+  "height": 216,
+  "interactive": true,
+  "pixelPerfect": false,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "#000521",
+      "selectable": false,
+      "movable": false,
+      "opacity": 0.9,
+      "points": [
+        1.5,
+        1.45392,
+        161.5,
+        1.45392,
+        161.5,
+        1.45392,
+        161.5,
+        1.45392,
+        161.5,
+        214.78725,
+        161.5,
+        214.78725,
+        161.5,
+        214.78725,
+        1.5,
+        214.78725,
+        1.5,
+        214.78725,
+        1.5,
+        214.78725,
+        1.5,
+        1.45392,
+        1.5,
+        1.45392,
+        1.5,
+        1.45392
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "up",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn5 = data.a('btn5');\nvar btn6 = data.a('btn6');\ndata.a('btn5', btn6);\ndata.a('btn6', btn5);\n\nvar mark5 = data.a('mark5');\nvar mark6 = data.a('mark6');\n\ndata.a('mark5', mark6);\ndata.a('mark6', mark5);\n}",
+      "points": [
+        110.63334,
+        123.72058,
+        108.23334,
+        120.52058,
+        105.83334,
+        123.72058
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "up",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn4 = data.a('btn4');\nvar btn5 = data.a('btn5');\ndata.a('btn4', btn5);\ndata.a('btn5', btn4);\n\nvar mark4 = data.a('mark4');\nvar mark5 = data.a('mark5');\n\ndata.a('mark4', mark5);\ndata.a('mark5', mark4);\n}",
+      "points": [
+        110.63334,
+        107.56058,
+        108.23334,
+        104.36058,
+        105.83334,
+        107.56058
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "up",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn3 = data.a('btn3');\nvar btn4 = data.a('btn4');\ndata.a('btn3', btn4);\ndata.a('btn4', btn3);\n\nvar mark3 = data.a('mark3');\nvar mark4 = data.a('mark4');\n\ndata.a('mark3', mark4);\ndata.a('mark4', mark3);\n}",
+      "points": [
+        110.63334,
+        91.40058,
+        108.23334,
+        88.20058,
+        105.83334,
+        91.40058
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "up",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn2 = data.a('btn2');\nvar btn3 = data.a('btn3');\ndata.a('btn2', btn3);\ndata.a('btn3', btn2);\n\nvar mark2 = data.a('mark2');\nvar mark3 = data.a('mark3');\n\ndata.a('mark2', mark3);\ndata.a('mark3', mark2);\n}",
+      "points": [
+        110.63334,
+        75.24058,
+        108.23334,
+        72.04058,
+        105.83334,
+        75.24058
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "up",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn1 = data.a('btn1');\nvar btn2 = data.a('btn2');\ndata.a('btn1', btn2);\ndata.a('btn2', btn1);\n\nvar mark1 = data.a('mark1');\nvar mark2 = data.a('mark2');\n\ndata.a('mark1', mark2);\ndata.a('mark2', mark1);\n}",
+      "points": [
+        110.63334,
+        59.08058,
+        108.23334,
+        55.88058,
+        105.83334,
+        59.08058
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "down1",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar mark1 = data.a('mark1');\nvar mark2 = data.a('mark2');\n\ndata.a('mark1', mark2);\ndata.a('mark2', mark1);\n\nvar btn1 = data.a('btn1');\nvar btn2 = data.a('btn2');\ndata.a('btn1', btn2);\ndata.a('btn2', btn1);\n}",
+      "points": [
+        118.42,
+        39.76991,
+        120.82,
+        42.96991,
+        123.22,
+        39.76991
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "down",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn2 = data.a('btn2');\nvar btn3 = data.a('btn3');\ndata.a('btn2', btn3);\ndata.a('btn3', btn2);\n\nvar mark2 = data.a('mark2');\nvar mark3 = data.a('mark3');\n\ndata.a('mark2', mark3);\ndata.a('mark3', mark2);\n}",
+      "points": [
+        118.42,
+        55.88058,
+        120.82,
+        59.08058,
+        123.22,
+        55.88058
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "down",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn3 = data.a('btn3') || 'symbols/2d-icon/open-btn2.json';\nvar btn4 = data.a('btn4') || 'symbols/2d-icon/open-btn2.json';\ndata.a('btn3', btn4);\ndata.a('btn4', btn3);\n\nvar mark3 = data.a('mark3');\nvar mark4 = data.a('mark4');\n\ndata.a('mark3', mark4);\ndata.a('mark4', mark3);\n}",
+      "points": [
+        118.42,
+        72.04058,
+        120.82,
+        75.24058,
+        123.22,
+        72.04058
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "down",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn4 = data.a('btn4');\nvar btn5 = data.a('btn5');\ndata.a('btn4', btn5);\ndata.a('btn5', btn4);\n\nvar mark4 = data.a('mark4');\nvar mark5 = data.a('mark5');\n\ndata.a('mark4', mark5);\ndata.a('mark5', mark4);\n}",
+      "points": [
+        118.42,
+        88.20058,
+        120.82,
+        91.40058,
+        123.22,
+        88.20058
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 0.8,
+      "borderColor": "#0083c1",
+      "borderCap": "round",
+      "displayName": "down",
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn5 = data.a('btn5');\nvar btn6 = data.a('btn6');\ndata.a('btn5', btn6);\ndata.a('btn6', btn5);\n\nvar mark5 = data.a('mark5');\nvar mark6 = data.a('mark6');\n\ndata.a('mark5', mark6);\ndata.a('mark6', mark5);\n}",
+      "points": [
+        118.42,
+        104.37044,
+        120.82,
+        107.57044,
+        123.22,
+        104.37044
+      ]
+    },
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        790,
+        244.8594,
+        1290,
+        244.8594,
+        0.26667,
+        0,
+        0,
+        0.26667,
+        -193.16666,
+        -33.21275,
+        0,
+        "rgba(66, 180, 218, 0)",
+        0.5,
+        "#42B4DA",
+        1,
+        "rgba(66, 180, 218, 0)"
+      ],
+      "points": [
+        17.5,
+        31.69392,
+        150.83334,
+        31.69392,
+        150.83334,
+        31.69392,
+        150.83334,
+        31.69392,
+        150.83334,
+        32.49392,
+        150.83334,
+        32.49392,
+        150.83334,
+        32.49392,
+        17.5,
+        32.49392,
+        17.5,
+        32.49392,
+        17.5,
+        32.49392,
+        17.5,
+        31.69392,
+        17.5,
+        31.69392,
+        17.5,
+        31.69392
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark1 = data.a('mark1');\nvar info = keyMap[mark1];\nreturn localString[info.key] || info.name;\n}",
+        "value": "工单面板"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        30.59072,
+        31.57534,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/close.json",
+      "displayName": "关闭",
+      "rect": [
+        151.56667,
+        7.22184,
+        5,
+        5
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\ndata.s('2d.visible', false);\n}"
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['panel.name'] || '面板名称';\n}",
+        "value": "面板名称"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        26.08151,
+        6.35241,
+        59.9282,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['sort'] || '排序';\n}",
+        "value": "排序"
+      },
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        99.29003,
+        6.35238,
+        32.12853,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark2 = data.a('mark2');\nvar info = keyMap[mark2];\nreturn localString[info.key] || info.name;\n}",
+        "value": "客流量面板"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        30.59072,
+        47.72547,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark3 = data.a('mark3');\nvar info = keyMap[mark3];\nreturn localString[info.key] || info.name;\n}",
+        "value": "消防报警面板"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        30.59072,
+        63.8756,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark4 = data.a('mark4');\nvar info = keyMap[mark4];\nreturn localString[info.key] || info.name;\n}",
+        "value": "重点区域监控面板"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        30.59072,
+        80.02574,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark5 = data.a('mark5');\nvar info = keyMap[mark5];\nreturn localString[info.key] || info.name;\n}",
+        "value": "车位统计面板"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        30.59072,
+        96.17587,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark6 = data.a('mark6');\nvar info = keyMap[mark6];\nreturn localString[info.key] || info.name;\n}",
+        "value": "功能面板"
+      },
+      "color": "rgb(255,255,255)",
+      "font": "14px PingFangSC-Thin",
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        30.59072,
+        112.326,
+        41.89136,
+        19.58915
+      ]
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@btn1",
+        "value": "symbols/2d-icon/open-btn2.json"
+      },
+      "displayName": "btn1",
+      "rect": [
+        22.8286,
+        37.86991,
+        10,
+        7
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn = data.a('btn1');\ndata.a('btn1', btn === 'symbols/2d-icon/open-btn2.json' ? 'symbols/2d-icon/close-btn2.json' : 'symbols/2d-icon/open-btn2.json');\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@btn2",
+        "value": "symbols/2d-icon/open-btn2.json"
+      },
+      "displayName": "btn2",
+      "rect": [
+        22.8286,
+        53.98058,
+        10,
+        7
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn = data.a('btn2');\ndata.a('btn2', btn === 'symbols/2d-icon/open-btn2.json' ? 'symbols/2d-icon/close-btn2.json' : 'symbols/2d-icon/open-btn2.json');\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@btn3",
+        "value": "symbols/2d-icon/open-btn2.json"
+      },
+      "displayName": "btn3",
+      "rect": [
+        22.8286,
+        70.14058,
+        10,
+        7
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn = data.a('btn3');\ndata.a('btn3', btn === 'symbols/2d-icon/open-btn2.json' ? 'symbols/2d-icon/close-btn2.json' : 'symbols/2d-icon/open-btn2.json');\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@btn4",
+        "value": "symbols/2d-icon/open-btn2.json"
+      },
+      "displayName": "btn4",
+      "rect": [
+        22.8286,
+        86.30058,
+        10,
+        7
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn = data.a('btn4');\ndata.a('btn4', btn === 'symbols/2d-icon/open-btn2.json' ? 'symbols/2d-icon/close-btn2.json' : 'symbols/2d-icon/open-btn2.json');\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@btn5",
+        "value": "symbols/2d-icon/open-btn2.json"
+      },
+      "displayName": "btn5",
+      "rect": [
+        22.8286,
+        102.46058,
+        10,
+        7
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn = data.a('btn5');\ndata.a('btn5', btn === 'symbols/2d-icon/open-btn2.json' ? 'symbols/2d-icon/close-btn2.json' : 'symbols/2d-icon/open-btn2.json');\n}"
+    },
+    {
+      "type": "image",
+      "name": {
+        "func": "attr@btn6",
+        "value": "symbols/2d-icon/open-btn2.json"
+      },
+      "displayName": "btn6",
+      "rect": [
+        22.8286,
+        118.62058,
+        10,
+        7
+      ],
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nvar btn = data.a('btn6');\ndata.a('btn6', btn === 'symbols/2d-icon/open-btn2.json' ? 'symbols/2d-icon/close-btn2.json' : 'symbols/2d-icon/open-btn2.json');\n}"
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/confirm.json",
+      "displayName": "确认",
+      "rect": [
+        118.66001,
+        171.74058,
+        22,
+        11
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/2d-icon/reduction2.json",
+      "displayName": "还原",
+      "rect": [
+        94.70042,
+        171.74058,
+        22,
+        11
+      ]
+    }
+  ]
+}

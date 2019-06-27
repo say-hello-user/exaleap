@@ -1,0 +1,144 @@
+{
+  "modified": "Sun Jun 16 2019 16:50:34 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "clipPer",
+      "valueType": "Percentage"
+    },
+    {
+      "attr": "floorNum",
+      "valueType": "String"
+    }
+  ],
+  "width": 200,
+  "height": 80,
+  "comps": [
+    {
+      "type": "oval",
+      "borderWidth": 2,
+      "borderColor": "rgb(255,183,27)",
+      "pixelPerfect": true,
+      "scaleX": -1,
+      "rect": [
+        148.61468,
+        15.26043,
+        49.47913,
+        49.47913
+      ]
+    },
+    {
+      "type": "shape",
+      "gradientPack": [
+        "R",
+        98.0239,
+        85.0994,
+        0,
+        98.0239,
+        85.0994,
+        32.9991,
+        0.73618,
+        0,
+        0,
+        0.73618,
+        101.20878,
+        -22.62294,
+        0,
+        "rgba(0, 5, 33, 0)",
+        1,
+        "#000521"
+      ],
+      "pixelPerfect": true,
+      "opacity": 0.6,
+      "onUp": "__ht__function(event, data, view, point, width, height) {\nif(data.a('clipPer') === 0) {\n    ht.Default.startAnim({\n        frames: 10,\n        interval: 10, \n        easing: function(t){ return t; }, \n        action: function(v, t){ \n        data.a('clipPer', v)\n        }\n    });\n}\n}",
+      "points": [
+        197.64814,
+        40.02584,
+        197.64814,
+        26.6986,
+        186.68148,
+        15.73195,
+        173.35426,
+        15.73195,
+        160.02702,
+        15.73195,
+        149.06037,
+        26.6986,
+        149.06037,
+        40.02584,
+        149.06037,
+        53.35307,
+        160.02702,
+        64.31971,
+        173.35426,
+        64.31971,
+        186.68148,
+        64.31971,
+        197.64814,
+        53.35307,
+        197.64814,
+        40.02584
+      ],
+      "segments": [
+        1,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "type": "image",
+      "name": "symbols/3d-panel/elevator/left/text.json",
+      "clipPercentage": {
+        "func": "attr@clipPer",
+        "value": 1
+      },
+      "clipDirection": "right",
+      "displayName": "east-alarm-text-icon",
+      "rect": [
+        1.90619,
+        0,
+        142,
+        80
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@floorNum",
+        "value": "12F"
+      },
+      "align": "center",
+      "color": "rgb(255,183,27)",
+      "font": "14px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "rotation": 6.28319,
+      "rect": [
+        159.49299,
+        26.0153,
+        27.7225,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['elevator'] || '电梯';\n}",
+        "value": "电梯"
+      },
+      "align": "center",
+      "color": "rgb(255,183,27)",
+      "font": "14px PingFangSC-Thin",
+      "pixelPerfect": true,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "rotation": 6.28319,
+      "rect": [
+        157.61754,
+        43.34869,
+        31.47339,
+        19.58915
+      ]
+    }
+  ]
+}

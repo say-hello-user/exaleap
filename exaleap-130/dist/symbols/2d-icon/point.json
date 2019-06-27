@@ -1,0 +1,31 @@
+{
+  "modified": "Tue Apr 23 2019 10:21:43 GMT+0800 (中国标准时间)",
+  "background": "rgb(61,61,61)",
+  "width": 12,
+  "height": 11,
+  "comps": [
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": "#70d44b",
+      "points": [
+        5.61342,
+        5.47609,
+        9.98476,
+        1.10476
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(247,247,247)",
+      "borderWidth": 1,
+      "borderColor": "#70d44b",
+      "rect": [
+        1.11808,
+        4.48098,
+        5.54614,
+        5.54614
+      ]
+    }
+  ]
+}

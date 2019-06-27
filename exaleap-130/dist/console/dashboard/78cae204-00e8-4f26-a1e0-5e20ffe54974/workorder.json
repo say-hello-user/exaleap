@@ -1,0 +1,47 @@
+{
+    "data":{
+        "week":[
+            {
+                "unhandled":1,
+                "timePoint":"2019-04-12",
+                "totalWork":2
+            },
+            {
+                "unhandled":1,
+                "timePoint":"2019-04-13",
+                "totalWork":3
+            },
+            {
+                "unhandled":1,
+                "timePoint":"2019-04-14",
+                "totalWork":4
+            },
+            {
+                "unhandled":1,
+                "timePoint":"2019-04-15",
+                "totalWork":5
+            },
+            {
+                "unhandled":1,
+                "timePoint":"2019-04-16",
+                "totalWork":6
+            },
+            {
+                "unhandled":1,
+                "timePoint":"2019-04-17",
+                "totalWork":2
+            },
+            {
+                "unhandled":1,
+                "timePoint":"2019-04-18",
+                "totalWork":5
+            }
+        ],
+        "today":{
+            "unhandled":1,
+            "timePoint":"2019-04-18",
+            "totalWork":2
+        }
+    },
+    "time":"2019-04-22 18:08:04"
+}
