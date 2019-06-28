@@ -1,5 +1,5 @@
 {
-  "modified": "Mon Jun 17 2019 16:32:45 GMT+0800 (中国标准时间)",
+  "modified": "Fri Jun 28 2019 12:05:00 GMT+0800 (中国标准时间)",
   "background": "rgb(61,61,61)",
   "dataBindings": [
     {
@@ -417,13 +417,16 @@
     },
     {
       "type": "text",
-      "text": "本层人数",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar floorNum = data.a('floorNum');\nvar gx = window.gx;\nif(gx) {\n    if(floorNum === 'B1' || floorNum === 'B2') {\n        return '空余车位';\n    }\n}\nreturn '本层租户人数';\n}",
+        "value": "本层租户人数"
+      },
       "align": "right",
       "color": "rgb(255,255,255)",
       "font": "14px PingFangSC-Thin",
       "rotation": 6.28319,
       "rect": [
-        0.00005,
+        6.00005,
         28.62733,
         83.43491,
         19.58915
@@ -454,7 +457,7 @@
       "borderColor": "#ffffff",
       "borderCap": "round",
       "visible": {
-        "func": "__ht__function(data, view) {\nvar floorNum = data.a('floorNum');\nvar gx = window.gx;\nif(gx) {\nif(gx.build.editBuildName === 'all') {\n if(floorNum === '25F') {\n        return false;\n }\n}\nelse {\n    if(floorNum === '25F' || floorNum === '7F'|| floorNum === 'B3') {\n        return false;\n    }\n}\n}\n\nreturn true;\n}",
+        "func": "__ht__function(data, view) {\nvar floorNum = data.a('floorNum');\nvar gx = window.gx;\nif(gx) {\nif(gx.build.editBuildName === 'all') {\n if(floorNum === '28F') {\n        return false;\n }\n}\nelse {\n    if(floorNum === '28F' || floorNum === '3F'|| floorNum === 'B1') {\n        return false;\n    }\n}\n}\n\nreturn true;\n}",
         "value": true
       },
       "displayName": "floorUp",
@@ -474,7 +477,7 @@
       "borderColor": "#ffffff",
       "borderCap": "round",
       "visible": {
-        "func": "__ht__function(data, view) {\nvar floorNum = data.a('floorNum');\nvar gx = window.gx;\nif(gx) {\nif(gx.build.editBuildName === 'all') {\n if(floorNum === 'B4') {\n        return false;\n }\n}\nelse {\n    if(floorNum === '8F' || floorNum === 'B2'|| floorNum === 'B4') {\n        return false;\n    }\n}\n}\n\nreturn true;\n}",
+        "func": "__ht__function(data, view) {\nvar floorNum = data.a('floorNum');\nvar gx = window.gx;\nif(gx) {\nif(gx.build.editBuildName === 'all') {\n if(floorNum === 'B2') {\n        return false;\n }\n}\nelse {\n    if(floorNum === '1F' || floorNum === '4F'|| floorNum === 'B2') {\n        return false;\n    }\n}\n}\n\nreturn true;\n}",
         "value": true
       },
       "displayName": "floorDown",

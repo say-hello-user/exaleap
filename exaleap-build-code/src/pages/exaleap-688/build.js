@@ -199,6 +199,12 @@ export default class Build {
                        office.elevatorLines.push(...elevatorLines);
                        all.elevatorLines.push(...elevatorLines);
                    }
+                   if (displayName === '电梯集合') {
+                        let elevators = child.getChildren().toArray();
+                        basement.elevators.push(...elevators);
+                        office.elevators.push(...elevators);
+                        all.elevators.push(...elevators);
+                    }
                });
            }
            if(displayName === '办') {
@@ -219,6 +225,11 @@ export default class Build {
                         let elevatorLines = child.getChildren().toArray();
                         office.elevatorLines.push(...elevatorLines);
                         all.elevatorLines.push(...elevatorLines);
+                    }
+                    if (displayName === '电梯集合') {
+                        let elevators = child.getChildren().toArray();
+                        office.elevators.push(...elevators);
+                        all.elevators.push(...elevators);
                     }
                 });
            }

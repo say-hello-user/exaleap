@@ -1,0 +1,10 @@
+{
+    "data": {
+        "startTime": "06:00",
+        "endTime": "24:00",
+        "usedPark": 166,
+        "usualParkingLot": 100,
+        "seldomParkingLot": 66
+    },
+    "time": "2019-04-22 18:08:04"
+}

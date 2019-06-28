@@ -1,5 +1,5 @@
 {
-  "modified": "Thu Jun 13 2019 10:25:39 GMT+0800 (中国标准时间)",
+  "modified": "Fri Jun 28 2019 11:51:12 GMT+0800 (中国标准时间)",
   "dataBindings": [
     {
       "attr": "btn1",
@@ -342,7 +342,7 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark1 = data.a('mark1');\nvar info = keyMap[mark1];\nreturn localString[info.key] || info.name;\n}",
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.equipment.overhaul', name: '设备检修面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark1 = data.a('mark1');\nvar info = keyMap[mark1];\nreturn localString[info.key] || info.name;\n}",
         "value": "工单面板"
       },
       "color": "rgb(255,255,255)",
@@ -410,8 +410,8 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark2 = data.a('mark2');\nvar info = keyMap[mark2];\nreturn localString[info.key] || info.name;\n}",
-        "value": "客流量面板"
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.equipment.overhaul', name: '设备检修面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark2 = data.a('mark2');\nvar info = keyMap[mark2];\nreturn localString[info.key] || info.name;\n}",
+        "value": "设备检修面板"
       },
       "color": "rgb(255,255,255)",
       "font": "14px PingFangSC-Thin",
@@ -428,7 +428,7 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark3 = data.a('mark3');\nvar info = keyMap[mark3];\nreturn localString[info.key] || info.name;\n}",
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.equipment.overhaul', name: '设备检修面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark3 = data.a('mark3');\nvar info = keyMap[mark3];\nreturn localString[info.key] || info.name;\n}",
         "value": "消防报警面板"
       },
       "color": "rgb(255,255,255)",
@@ -446,7 +446,7 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark4 = data.a('mark4');\nvar info = keyMap[mark4];\nreturn localString[info.key] || info.name;\n}",
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.equipment.overhaul', name: '设备检修面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark4 = data.a('mark4');\nvar info = keyMap[mark4];\nreturn localString[info.key] || info.name;\n}",
         "value": "重点区域监控面板"
       },
       "color": "rgb(255,255,255)",
@@ -464,7 +464,7 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark5 = data.a('mark5');\nvar info = keyMap[mark5];\nreturn localString[info.key] || info.name;\n}",
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.equipment.overhaul', name: '设备检修面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark5 = data.a('mark5');\nvar info = keyMap[mark5];\nreturn localString[info.key] || info.name;\n}",
         "value": "车位统计面板"
       },
       "color": "rgb(255,255,255)",
@@ -482,7 +482,7 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.visit', name: '客流量面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark6 = data.a('mark6');\nvar info = keyMap[mark6];\nreturn localString[info.key] || info.name;\n}",
+        "func": "__ht__function(data, view) {\nvar keyMap = {\n    'panel1': { key: 'panel.work', name: '工单面板' },\n    'panel2': { key: 'panel.equipment.overhaul', name: '设备检修面板' },\n    'panel3': { key: 'panel.fire', name: '消防报警面板' },\n    'panel4': { key: 'panel.monitor', name: '重点区域监控面板' },\n    'panel5': { key: 'panel.park', name: '车位统计面板' },\n    'panel6': { key: 'panel.build', name: '功能面板' }\n};\nvar localString = window.localString || {};\nvar mark6 = data.a('mark6');\nvar info = keyMap[mark6];\nreturn localString[info.key] || info.name;\n}",
         "value": "功能面板"
       },
       "color": "rgb(255,255,255)",

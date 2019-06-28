@@ -27,7 +27,7 @@
   "d": [
     {
       "c": "ht.Node",
-      "i": 585,
+      "i": 918,
       "p": {
         "displayName": "静态物体",
         "position": {
@@ -52,14 +52,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 586,
+      "i": 919,
       "p": {
         "displayName": "按钮",
         "parent": {
-          "__i": 585
+          "__i": 918
         },
         "host": {
-          "__i": 585
+          "__i": 918
         },
         "position": {
           "x": 994.99881,
@@ -86,14 +86,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 587,
+      "i": 920,
       "p": {
         "displayName": "按钮",
         "parent": {
-          "__i": 586
+          "__i": 919
         },
         "host": {
-          "__i": 586
+          "__i": 919
         },
         "position": {
           "x": 463.56242,
@@ -126,14 +126,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 588,
+      "i": 921,
       "p": {
         "displayName": "文字",
         "parent": {
-          "__i": 586
+          "__i": 919
         },
         "host": {
-          "__i": 586
+          "__i": 919
         },
         "position": {
           "x": 357.67156,
@@ -173,14 +173,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 589,
+      "i": 922,
       "p": {
         "displayName": "文字",
         "parent": {
-          "__i": 586
+          "__i": 919
         },
         "host": {
-          "__i": 586
+          "__i": 919
         },
         "position": {
           "x": 395.46717,
@@ -220,14 +220,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 590,
+      "i": 923,
       "p": {
         "displayName": "滑块",
         "parent": {
-          "__i": 586
+          "__i": 919
         },
         "host": {
-          "__i": 586
+          "__i": 919
         },
         "position": {
           "x": 475.34506,
@@ -258,14 +258,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 591,
+      "i": 924,
       "p": {
         "displayName": "文字",
         "parent": {
-          "__i": 586
+          "__i": 919
         },
         "host": {
-          "__i": 586
+          "__i": 919
         },
         "position": {
           "x": 737.29728,
@@ -305,14 +305,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 592,
+      "i": 925,
       "p": {
         "displayName": "滑块",
         "parent": {
-          "__i": 586
+          "__i": 919
         },
         "host": {
-          "__i": 586
+          "__i": 919
         },
         "position": {
           "x": 830.07571,
@@ -343,14 +343,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 593,
+      "i": 926,
       "p": {
         "displayName": "按钮",
         "parent": {
-          "__i": 586
+          "__i": 919
         },
         "host": {
-          "__i": 586
+          "__i": 919
         },
         "position": {
           "x": 841.85836,
@@ -383,14 +383,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 594,
+      "i": 927,
       "p": {
         "displayName": "文字",
         "parent": {
-          "__i": 586
+          "__i": 919
         },
         "host": {
-          "__i": 586
+          "__i": 919
         },
         "position": {
           "x": 775.09289,
@@ -430,14 +430,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 595,
+      "i": 928,
       "p": {
         "displayName": "楼名",
         "parent": {
-          "__i": 585
+          "__i": 918
         },
         "host": {
-          "__i": 585
+          "__i": 918
         },
         "position": {
           "x": 236.86616,
@@ -462,13 +462,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 596,
+      "i": 929,
       "p": {
         "parent": {
-          "__i": 595
+          "__i": 928
         },
         "host": {
-          "__i": 595
+          "__i": 928
         },
         "rotationX": 1.5708,
         "position": {
@@ -521,14 +521,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 597,
+      "i": 930,
       "p": {
         "displayName": "小点",
         "parent": {
-          "__i": 585
+          "__i": 918
         },
         "host": {
-          "__i": 585
+          "__i": 918
         },
         "position": {
           "x": 123.27008,
@@ -564,14 +564,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 598,
+      "i": 931,
       "p": {
         "displayName": "指南针",
         "parent": {
-          "__i": 585
+          "__i": 918
         },
         "host": {
-          "__i": 585
+          "__i": 918
         },
         "position": {
           "x": 45.44142,
@@ -599,15 +599,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 599,
+      "i": 932,
       "p": {
         "displayName": "建筑楼层号",
         "parent": {
-          "__i": 585
+          "__i": 918
         },
         "tag": "buildFloorNum",
         "host": {
-          "__i": 585
+          "__i": 918
         },
         "position": {
           "x": -334.97967,
@@ -650,7 +650,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 600,
+      "i": 933,
       "p": {
         "displayName": "楼梯框架",
         "position": {
@@ -674,15 +674,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 601,
+      "i": 934,
       "p": {
         "displayName": "last6",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "last6",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 200.31032,
@@ -763,13 +763,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 602,
+      "i": 935,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 200.31032,
@@ -850,13 +850,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 603,
+      "i": 936,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 200.31032,
@@ -937,15 +937,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 604,
+      "i": 937,
       "p": {
         "displayName": "first6",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "first6",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 200.31032,
@@ -1026,15 +1026,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 605,
+      "i": 938,
       "p": {
         "displayName": "last5",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "last5",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1135,13 +1135,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 606,
+      "i": 939,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1242,13 +1242,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 607,
+      "i": 940,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1349,13 +1349,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 608,
+      "i": 941,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1456,13 +1456,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 609,
+      "i": 942,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1563,13 +1563,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 610,
+      "i": 943,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1670,13 +1670,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 611,
+      "i": 944,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1777,13 +1777,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 612,
+      "i": 945,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1884,15 +1884,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 613,
+      "i": 946,
       "p": {
         "displayName": "first5",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "first5",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 174.8077,
@@ -1993,15 +1993,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 614,
+      "i": 947,
       "p": {
         "displayName": "last4",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "last4",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -2137,13 +2137,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 615,
+      "i": 948,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -2279,13 +2279,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 616,
+      "i": 949,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -2421,13 +2421,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 617,
+      "i": 950,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -2563,13 +2563,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 618,
+      "i": 951,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -2705,13 +2705,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 619,
+      "i": 952,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -2847,13 +2847,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 620,
+      "i": 953,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -2989,13 +2989,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 621,
+      "i": 954,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -3131,15 +3131,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 622,
+      "i": 955,
       "p": {
         "displayName": "first4",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "first4",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 134.24208,
@@ -3275,15 +3275,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 623,
+      "i": 956,
       "p": {
         "displayName": "first3",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "first3",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 128.61065,
@@ -3399,15 +3399,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 624,
+      "i": 957,
       "p": {
         "displayName": "first2",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "first2",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 64.76144,
@@ -3542,15 +3542,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 625,
+      "i": 958,
       "p": {
         "displayName": "last1",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "last1",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 64.76144,
@@ -3656,13 +3656,13 @@
     },
     {
       "c": "ht.Shape",
-      "i": 626,
+      "i": 959,
       "p": {
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 64.76144,
@@ -3768,15 +3768,15 @@
     },
     {
       "c": "ht.Shape",
-      "i": 627,
+      "i": 960,
       "p": {
         "displayName": "first1",
         "parent": {
-          "__i": 600
+          "__i": 933
         },
         "tag": "first1",
         "host": {
-          "__i": 600
+          "__i": 933
         },
         "position": {
           "x": 64.76144,
@@ -3882,7 +3882,7 @@
     },
     {
       "c": "ht.Node",
-      "i": 628,
+      "i": 961,
       "p": {
         "displayName": "办",
         "position": {
@@ -3910,14 +3910,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 629,
+      "i": 962,
       "p": {
         "displayName": "扶梯集合",
         "parent": {
-          "__i": 628
+          "__i": 961
         },
         "host": {
-          "__i": 628
+          "__i": 961
         },
         "rotation": 6.28319,
         "position": {
@@ -3945,14 +3945,14 @@
     },
     {
       "c": "ht.Polyline",
-      "i": 630,
+      "i": 963,
       "p": {
         "displayName": "扶梯",
         "parent": {
-          "__i": 629
+          "__i": 962
         },
         "host": {
-          "__i": 629
+          "__i": 962
         },
         "rotationX": 0.45962,
         "position": {
@@ -4030,14 +4030,14 @@
     },
     {
       "c": "ht.Polyline",
-      "i": 631,
+      "i": 964,
       "p": {
         "displayName": "扶梯",
         "parent": {
-          "__i": 629
+          "__i": 962
         },
         "host": {
-          "__i": 629
+          "__i": 962
         },
         "rotation": 6.28319,
         "rotationX": 0.45962,
@@ -4116,14 +4116,14 @@
     },
     {
       "c": "ht.Polyline",
-      "i": 632,
+      "i": 965,
       "p": {
         "displayName": "白",
         "parent": {
-          "__i": 629
+          "__i": 962
         },
         "host": {
-          "__i": 629
+          "__i": 962
         },
         "position": {
           "x": 74.0376,
@@ -4200,14 +4200,14 @@
     },
     {
       "c": "ht.Polyline",
-      "i": 633,
+      "i": 966,
       "p": {
         "displayName": "白",
         "parent": {
-          "__i": 629
+          "__i": 962
         },
         "host": {
-          "__i": 629
+          "__i": 962
         },
         "position": {
           "x": 108.36616,
@@ -4284,14 +4284,14 @@
     },
     {
       "c": "ht.Polyline",
-      "i": 634,
+      "i": 967,
       "p": {
         "displayName": "白",
         "parent": {
-          "__i": 629
+          "__i": 962
         },
         "host": {
-          "__i": 629
+          "__i": 962
         },
         "position": {
           "x": 74.0376,
@@ -4368,14 +4368,14 @@
     },
     {
       "c": "ht.Polyline",
-      "i": 635,
+      "i": 968,
       "p": {
         "displayName": "白",
         "parent": {
-          "__i": 629
+          "__i": 962
         },
         "host": {
-          "__i": 629
+          "__i": 962
         },
         "position": {
           "x": 108.36616,
@@ -4452,14 +4452,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 636,
+      "i": 969,
       "p": {
         "displayName": "闸机集合",
         "parent": {
-          "__i": 628
+          "__i": 961
         },
         "host": {
-          "__i": 628
+          "__i": 961
         },
         "position": {
           "x": 323.92117,
@@ -4486,14 +4486,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 637,
+      "i": 970,
       "p": {
         "displayName": "闸机",
         "parent": {
-          "__i": 636
+          "__i": 969
         },
         "host": {
-          "__i": 636
+          "__i": 969
         },
         "position": {
           "x": 323.92117,
@@ -4518,14 +4518,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 638,
+      "i": 971,
       "p": {
         "displayName": "闸机",
         "parent": {
-          "__i": 636
+          "__i": 969
         },
         "host": {
-          "__i": 636
+          "__i": 969
         },
         "position": {
           "x": 323.92117,
@@ -4550,14 +4550,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 639,
+      "i": 972,
       "p": {
         "displayName": "闸机",
         "parent": {
-          "__i": 636
+          "__i": 969
         },
         "host": {
-          "__i": 636
+          "__i": 969
         },
         "position": {
           "x": 323.92117,
@@ -4582,14 +4582,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 640,
+      "i": 973,
       "p": {
         "displayName": "闸机",
         "parent": {
-          "__i": 636
+          "__i": 969
         },
         "host": {
-          "__i": 636
+          "__i": 969
         },
         "position": {
           "x": 323.92117,
@@ -4614,14 +4614,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 641,
+      "i": 974,
       "p": {
         "displayName": "闸机",
         "parent": {
-          "__i": 636
+          "__i": 969
         },
         "host": {
-          "__i": 636
+          "__i": 969
         },
         "position": {
           "x": 323.92117,
@@ -4646,14 +4646,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 642,
+      "i": 975,
       "p": {
         "displayName": "闸机",
         "parent": {
-          "__i": 636
+          "__i": 969
         },
         "host": {
-          "__i": 636
+          "__i": 969
         },
         "position": {
           "x": 323.92117,
@@ -4678,14 +4678,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 643,
+      "i": 976,
       "p": {
         "displayName": "闸机",
         "parent": {
-          "__i": 636
+          "__i": 969
         },
         "host": {
-          "__i": 636
+          "__i": 969
         },
         "position": {
           "x": 323.92117,
@@ -4710,14 +4710,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 644,
+      "i": 977,
       "p": {
         "displayName": "闸机",
         "parent": {
-          "__i": 636
+          "__i": 969
         },
         "host": {
-          "__i": 636
+          "__i": 969
         },
         "position": {
           "x": 323.92117,
@@ -4742,14 +4742,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 645,
+      "i": 978,
       "p": {
         "displayName": "电梯线集合",
         "parent": {
-          "__i": 628
+          "__i": 961
         },
         "host": {
-          "__i": 628
+          "__i": 961
         },
         "position": {
           "x": 217.40887,
@@ -4776,14 +4776,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 646,
+      "i": 979,
       "p": {
         "displayName": "电梯线-1F-24F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 280.16704,
@@ -4805,21 +4805,19 @@
         "all.transparent": true,
         "all.reverse.cull": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 647,
+      "i": 980,
       "p": {
         "displayName": "电梯线-1F-24F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 236.86616,
@@ -4841,21 +4839,19 @@
         "all.transparent": true,
         "all.reverse.cull": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 648,
+      "i": 981,
       "p": {
         "displayName": "电梯线-1F-24F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 195.40388,
@@ -4877,21 +4873,19 @@
         "all.transparent": true,
         "all.reverse.cull": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 649,
+      "i": 982,
       "p": {
         "displayName": "电梯线-1F-24F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 149.74425,
@@ -4913,21 +4907,19 @@
         "all.transparent": true,
         "all.reverse.cull": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 650,
+      "i": 983,
       "p": {
         "displayName": "电梯线-1F-17F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 280.16704,
@@ -4947,21 +4939,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 651,
+      "i": 984,
       "p": {
         "displayName": "电梯线-1F-17F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 236.86616,
@@ -4981,21 +4971,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 652,
+      "i": 985,
       "p": {
         "displayName": "电梯线-1F-17F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 195.40388,
@@ -5015,21 +5003,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 653,
+      "i": 986,
       "p": {
         "displayName": "电梯线-1F-17F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 149.74425,
@@ -5049,21 +5035,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 654,
+      "i": 987,
       "p": {
         "displayName": "电梯线-1F-11F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 285.07348,
@@ -5083,21 +5067,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 655,
+      "i": 988,
       "p": {
         "displayName": "电梯线-1F-11F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 241.7726,
@@ -5117,21 +5099,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 656,
+      "i": 989,
       "p": {
         "displayName": "电梯线-1F-11F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 200.31032,
@@ -5151,21 +5131,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 657,
+      "i": 990,
       "p": {
         "displayName": "电梯线-1F-11F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 280.16704,
@@ -5185,21 +5163,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 658,
+      "i": 991,
       "p": {
         "displayName": "电梯线-1F-11F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 236.86616,
@@ -5219,21 +5195,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 659,
+      "i": 992,
       "p": {
         "displayName": "电梯线-1F-11F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 195.40388,
@@ -5253,21 +5227,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 660,
+      "i": 993,
       "p": {
         "displayName": "电梯线-1F-11F",
         "parent": {
-          "__i": 645
+          "__i": 978
         },
         "host": {
-          "__i": 645
+          "__i": 978
         },
         "position": {
           "x": 149.74425,
@@ -5287,14 +5259,2803 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1086,
+      "p": {
+        "displayName": "电梯集合",
+        "parent": {
+          "__i": 961
+        },
+        "host": {
+          "__i": 961
+        },
+        "position": {
+          "x": 43.22449,
+          "y": 295.71999
+        },
+        "anchorElevation": 0,
+        "width": 1,
+        "height": 1,
+        "tall": 1,
+        "elevation": -9.43322
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "2d.visible": false,
+        "3d.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1003,
+      "p": {
+        "displayName": "电梯-1F-17F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 283.29623,
+          "y": 234.78944
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 258.30429
+      },
+      "s": {
+        "all.color": "rgba(109,71,186,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
         "3d.movable": false,
         "2d.selectable": false,
         "3d.selectable": false
       }
     },
     {
+      "c": "ht.Polyline",
+      "i": 1004,
+      "p": {
+        "displayName": "电梯-1F-17F",
+        "parent": {
+          "__i": 1003
+        },
+        "host": {
+          "__i": 1003
+        },
+        "position": {
+          "x": 283.29623,
+          "y": 234.78944
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 141.30429,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 268.47185,
+              "y": 224.66362,
+              "e": 272.11552
+            },
+            {
+              "x": 298.12061,
+              "y": 224.66362,
+              "e": 272.11552
+            },
+            {
+              "x": 298.12061,
+              "y": 244.91526,
+              "e": 272.11552
+            },
+            {
+              "x": 268.47185,
+              "y": 244.91526,
+              "e": 272.11552
+            },
+            {
+              "x": 268.47185,
+              "y": 224.66362,
+              "e": 272.11552
+            },
+            {
+              "x": 268.47185,
+              "y": 224.66362,
+              "e": 318.11552
+            },
+            {
+              "x": 268.47185,
+              "y": 244.91526,
+              "e": 318.11552
+            },
+            {
+              "x": 298.12061,
+              "y": 244.91526,
+              "e": 318.11552
+            },
+            {
+              "x": 298.12061,
+              "y": 224.66362,
+              "e": 318.11552
+            },
+            {
+              "x": 268.47185,
+              "y": 224.66362,
+              "e": 318.11552
+            },
+            {
+              "x": 268.47185,
+              "y": 244.91526,
+              "e": 318.11552
+            },
+            {
+              "x": 268.47185,
+              "y": 244.91526,
+              "e": 272.13257
+            },
+            {
+              "x": 298.12061,
+              "y": 224.66362,
+              "e": 318.11552
+            },
+            {
+              "x": 298.12061,
+              "y": 224.66362,
+              "e": 272.13257
+            },
+            {
+              "x": 298.12061,
+              "y": 244.91526,
+              "e": 318.11552
+            },
+            {
+              "x": 298.12061,
+              "y": 244.91526,
+              "e": 272.13257
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(109,71,186,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
       "c": "ht.Node",
-      "i": 661,
+      "i": 1007,
+      "p": {
+        "displayName": "电梯-1F-17F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 239.87299,
+          "y": 235.53089
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 258.30429
+      },
+      "s": {
+        "all.color": "rgba(109,71,186,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1008,
+      "p": {
+        "displayName": "电梯-1F-17F",
+        "parent": {
+          "__i": 1007
+        },
+        "host": {
+          "__i": 1007
+        },
+        "position": {
+          "x": 239.87299,
+          "y": 235.53089
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 141.30429,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 225.04861,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 254.69737,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 254.69737,
+              "y": 245.65671,
+              "e": 272.11552
+            },
+            {
+              "x": 225.04861,
+              "y": 245.65671,
+              "e": 272.11552
+            },
+            {
+              "x": 225.04861,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 225.04861,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 225.04861,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 254.69737,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 254.69737,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 225.04861,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 225.04861,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 225.04861,
+              "y": 245.65671,
+              "e": 272.13257
+            },
+            {
+              "x": 254.69737,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 254.69737,
+              "y": 225.40507,
+              "e": 272.13257
+            },
+            {
+              "x": 254.69737,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 254.69737,
+              "y": 245.65671,
+              "e": 272.13257
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(109,71,186,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1013,
+      "p": {
+        "displayName": "电梯-1F-17F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 197.89978,
+          "y": 235.53089
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 258.30429
+      },
+      "s": {
+        "all.color": "rgba(109,71,186,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1014,
+      "p": {
+        "displayName": "电梯-1F-17F",
+        "parent": {
+          "__i": 1013
+        },
+        "host": {
+          "__i": 1013
+        },
+        "position": {
+          "x": 197.89978,
+          "y": 235.53089
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 141.30429,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 183.0754,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 212.72416,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 212.72416,
+              "y": 245.65671,
+              "e": 272.11552
+            },
+            {
+              "x": 183.0754,
+              "y": 245.65671,
+              "e": 272.11552
+            },
+            {
+              "x": 183.0754,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 183.0754,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 183.0754,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 212.72416,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 212.72416,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 183.0754,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 183.0754,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 183.0754,
+              "y": 245.65671,
+              "e": 272.13257
+            },
+            {
+              "x": 212.72416,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 212.72416,
+              "y": 225.40507,
+              "e": 272.13257
+            },
+            {
+              "x": 212.72416,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 212.72416,
+              "y": 245.65671,
+              "e": 272.13257
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(109,71,186,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1017,
+      "p": {
+        "displayName": "电梯-1F-17F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 153.03548,
+          "y": 235.53089
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 258.30429
+      },
+      "s": {
+        "all.color": "rgba(109,71,186,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1018,
+      "p": {
+        "displayName": "电梯-1F-17F",
+        "parent": {
+          "__i": 1017
+        },
+        "host": {
+          "__i": 1017
+        },
+        "position": {
+          "x": 153.03548,
+          "y": 235.53089
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 141.30429,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 138.2111,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 167.85986,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 167.85986,
+              "y": 245.65671,
+              "e": 272.11552
+            },
+            {
+              "x": 138.2111,
+              "y": 245.65671,
+              "e": 272.11552
+            },
+            {
+              "x": 138.2111,
+              "y": 225.40507,
+              "e": 272.11552
+            },
+            {
+              "x": 138.2111,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 138.2111,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 167.85986,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 167.85986,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 138.2111,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 138.2111,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 138.2111,
+              "y": 245.65671,
+              "e": 272.13257
+            },
+            {
+              "x": 167.85986,
+              "y": 225.40507,
+              "e": 318.11552
+            },
+            {
+              "x": 167.85986,
+              "y": 225.40507,
+              "e": 272.13257
+            },
+            {
+              "x": 167.85986,
+              "y": 245.65671,
+              "e": 318.11552
+            },
+            {
+              "x": 167.85986,
+              "y": 245.65671,
+              "e": 272.13257
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(109,71,186,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1031,
+      "p": {
+        "displayName": "电梯-1F-24F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 150.6822,
+          "y": 321.20575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 256.89906
+      },
+      "s": {
+        "all.color": "rgba(27,133,126,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1032,
+      "p": {
+        "displayName": "电梯-1F-24F",
+        "parent": {
+          "__i": 1031
+        },
+        "host": {
+          "__i": 1031
+        },
+        "position": {
+          "x": 150.6822,
+          "y": 321.20575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 139.89906,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 135.85782,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 165.50658,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 165.50658,
+              "y": 331.33157,
+              "e": 270.71029
+            },
+            {
+              "x": 135.85782,
+              "y": 331.33157,
+              "e": 270.71029
+            },
+            {
+              "x": 135.85782,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 135.85782,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 135.85782,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 165.50658,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 165.50658,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 135.85782,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 135.85782,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 135.85782,
+              "y": 331.33157,
+              "e": 270.72734
+            },
+            {
+              "x": 165.50658,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 165.50658,
+              "y": 311.07993,
+              "e": 270.72734
+            },
+            {
+              "x": 165.50658,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 165.50658,
+              "y": 331.33157,
+              "e": 270.72734
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(27,133,126,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1035,
+      "p": {
+        "displayName": "电梯-1F-24F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 195.5409,
+          "y": 321.20575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 256.89906
+      },
+      "s": {
+        "all.color": "rgba(27,133,126,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1036,
+      "p": {
+        "displayName": "电梯-1F-24F",
+        "parent": {
+          "__i": 1035
+        },
+        "host": {
+          "__i": 1035
+        },
+        "position": {
+          "x": 195.5409,
+          "y": 321.20575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 139.89906,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 180.71652,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 210.36528,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 210.36528,
+              "y": 331.33157,
+              "e": 270.71029
+            },
+            {
+              "x": 180.71652,
+              "y": 331.33157,
+              "e": 270.71029
+            },
+            {
+              "x": 180.71652,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 180.71652,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 180.71652,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 210.36528,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 210.36528,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 180.71652,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 180.71652,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 180.71652,
+              "y": 331.33157,
+              "e": 270.72734
+            },
+            {
+              "x": 210.36528,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 210.36528,
+              "y": 311.07993,
+              "e": 270.72734
+            },
+            {
+              "x": 210.36528,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 210.36528,
+              "y": 331.33157,
+              "e": 270.72734
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(27,133,126,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1037,
+      "p": {
+        "displayName": "电梯-1F-24F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 236.78032,
+          "y": 321.20575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 256.89906
+      },
+      "s": {
+        "all.color": "rgba(27,133,126,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1038,
+      "p": {
+        "displayName": "电梯-1F-24F",
+        "parent": {
+          "__i": 1037
+        },
+        "host": {
+          "__i": 1037
+        },
+        "position": {
+          "x": 236.78032,
+          "y": 321.20575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 139.89906,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 221.95594,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 251.6047,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 251.6047,
+              "y": 331.33157,
+              "e": 270.71029
+            },
+            {
+              "x": 221.95594,
+              "y": 331.33157,
+              "e": 270.71029
+            },
+            {
+              "x": 221.95594,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 221.95594,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 221.95594,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 251.6047,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 251.6047,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 221.95594,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 221.95594,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 221.95594,
+              "y": 331.33157,
+              "e": 270.72734
+            },
+            {
+              "x": 251.6047,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 251.6047,
+              "y": 311.07993,
+              "e": 270.72734
+            },
+            {
+              "x": 251.6047,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 251.6047,
+              "y": 331.33157,
+              "e": 270.72734
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(27,133,126,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1039,
+      "p": {
+        "displayName": "电梯-1F-24F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 280.91604,
+          "y": 321.20575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 256.89906
+      },
+      "s": {
+        "all.color": "rgba(27,133,126,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1040,
+      "p": {
+        "displayName": "电梯-1F-24F",
+        "parent": {
+          "__i": 1039
+        },
+        "host": {
+          "__i": 1039
+        },
+        "position": {
+          "x": 280.91604,
+          "y": 321.20575
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 139.89906,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 266.09166,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 295.74042,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 295.74042,
+              "y": 331.33157,
+              "e": 270.71029
+            },
+            {
+              "x": 266.09166,
+              "y": 331.33157,
+              "e": 270.71029
+            },
+            {
+              "x": 266.09166,
+              "y": 311.07993,
+              "e": 270.71029
+            },
+            {
+              "x": 266.09166,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 266.09166,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 295.74042,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 295.74042,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 266.09166,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 266.09166,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 266.09166,
+              "y": 331.33157,
+              "e": 270.72734
+            },
+            {
+              "x": 295.74042,
+              "y": 311.07993,
+              "e": 316.71029
+            },
+            {
+              "x": 295.74042,
+              "y": 311.07993,
+              "e": 270.72734
+            },
+            {
+              "x": 295.74042,
+              "y": 331.33157,
+              "e": 316.71029
+            },
+            {
+              "x": 295.74042,
+              "y": 331.33157,
+              "e": 270.72734
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(27,133,126,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1047,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 200.6067,
+          "y": 107.02562
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 299.0149
+      },
+      "s": {
+        "all.color": "rgba(49,210,235,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1048,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1047
+        },
+        "host": {
+          "__i": 1047
+        },
+        "position": {
+          "x": 200.6067,
+          "y": 107.02562
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 182.0149,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 185.78232,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 215.43108,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 215.43108,
+              "y": 117.15144,
+              "e": 312.82613
+            },
+            {
+              "x": 185.78232,
+              "y": 117.15144,
+              "e": 312.82613
+            },
+            {
+              "x": 185.78232,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 185.78232,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 185.78232,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 215.43108,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 215.43108,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 185.78232,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 185.78232,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 185.78232,
+              "y": 117.15144,
+              "e": 312.84318
+            },
+            {
+              "x": 215.43108,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 215.43108,
+              "y": 96.8998,
+              "e": 312.84318
+            },
+            {
+              "x": 215.43108,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 215.43108,
+              "y": 117.15144,
+              "e": 312.84318
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(49,210,235,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1051,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 241.84832,
+          "y": 107.02562
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 299.0149
+      },
+      "s": {
+        "all.color": "rgba(49,210,235,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1052,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1051
+        },
+        "host": {
+          "__i": 1051
+        },
+        "position": {
+          "x": 241.84832,
+          "y": 107.02562
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 182.0149,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 227.02394,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 256.6727,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 256.6727,
+              "y": 117.15144,
+              "e": 312.82613
+            },
+            {
+              "x": 227.02394,
+              "y": 117.15144,
+              "e": 312.82613
+            },
+            {
+              "x": 227.02394,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 227.02394,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 227.02394,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 256.6727,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 256.6727,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 227.02394,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 227.02394,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 227.02394,
+              "y": 117.15144,
+              "e": 312.84318
+            },
+            {
+              "x": 256.6727,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 256.6727,
+              "y": 96.8998,
+              "e": 312.84318
+            },
+            {
+              "x": 256.6727,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 256.6727,
+              "y": 117.15144,
+              "e": 312.84318
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(49,210,235,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1055,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 285.26052,
+          "y": 107.02562
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 299.0149
+      },
+      "s": {
+        "all.color": "rgba(49,210,235,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1056,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1055
+        },
+        "host": {
+          "__i": 1055
+        },
+        "position": {
+          "x": 285.26052,
+          "y": 107.02562
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 182.0149,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 270.43614,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 300.0849,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 300.0849,
+              "y": 117.15144,
+              "e": 312.82613
+            },
+            {
+              "x": 270.43614,
+              "y": 117.15144,
+              "e": 312.82613
+            },
+            {
+              "x": 270.43614,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 270.43614,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 270.43614,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 300.0849,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 300.0849,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 270.43614,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 270.43614,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 270.43614,
+              "y": 117.15144,
+              "e": 312.84318
+            },
+            {
+              "x": 300.0849,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 300.0849,
+              "y": 96.8998,
+              "e": 312.84318
+            },
+            {
+              "x": 300.0849,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 300.0849,
+              "y": 117.15144,
+              "e": 312.84318
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(49,210,235,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1059,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 150.68496,
+          "y": 17.31097
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 264.00252
+      },
+      "s": {
+        "all.color": "rgba(49,210,235,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1060,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1059
+        },
+        "host": {
+          "__i": 1059
+        },
+        "position": {
+          "x": 150.68496,
+          "y": 17.31097
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 147.00252,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 135.86058,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 165.50934,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 165.50934,
+              "y": 27.43679,
+              "e": 277.81375
+            },
+            {
+              "x": 135.86058,
+              "y": 27.43679,
+              "e": 277.81375
+            },
+            {
+              "x": 135.86058,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 135.86058,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 135.86058,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 165.50934,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 165.50934,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 135.86058,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 135.86058,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 135.86058,
+              "y": 27.43679,
+              "e": 277.8308
+            },
+            {
+              "x": 165.50934,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 165.50934,
+              "y": 7.18515,
+              "e": 277.8308
+            },
+            {
+              "x": 165.50934,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 165.50934,
+              "y": 27.43679,
+              "e": 277.8308
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(49,210,235,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1063,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 195.54311,
+          "y": 17.31097
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 264.00252
+      },
+      "s": {
+        "all.color": "rgba(49,210,235,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1064,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1063
+        },
+        "host": {
+          "__i": 1063
+        },
+        "position": {
+          "x": 195.54311,
+          "y": 17.31097
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 147.00252,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 180.71873,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 210.36749,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 210.36749,
+              "y": 27.43679,
+              "e": 277.81375
+            },
+            {
+              "x": 180.71873,
+              "y": 27.43679,
+              "e": 277.81375
+            },
+            {
+              "x": 180.71873,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 180.71873,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 180.71873,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 210.36749,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 210.36749,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 180.71873,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 180.71873,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 180.71873,
+              "y": 27.43679,
+              "e": 277.8308
+            },
+            {
+              "x": 210.36749,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 210.36749,
+              "y": 7.18515,
+              "e": 277.8308
+            },
+            {
+              "x": 210.36749,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 210.36749,
+              "y": 27.43679,
+              "e": 277.8308
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(49,210,235,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1067,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 237.5077,
+          "y": 17.31097
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 264.00252
+      },
+      "s": {
+        "all.color": "rgba(49,210,235,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1068,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1067
+        },
+        "host": {
+          "__i": 1067
+        },
+        "position": {
+          "x": 237.5077,
+          "y": 17.31097
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 147.00252,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 222.68332,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 252.33208,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 252.33208,
+              "y": 27.43679,
+              "e": 277.81375
+            },
+            {
+              "x": 222.68332,
+              "y": 27.43679,
+              "e": 277.81375
+            },
+            {
+              "x": 222.68332,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 222.68332,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 222.68332,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 252.33208,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 252.33208,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 222.68332,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 222.68332,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 222.68332,
+              "y": 27.43679,
+              "e": 277.8308
+            },
+            {
+              "x": 252.33208,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 252.33208,
+              "y": 7.18515,
+              "e": 277.8308
+            },
+            {
+              "x": 252.33208,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 252.33208,
+              "y": 27.43679,
+              "e": 277.8308
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(49,210,235,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1071,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1086
+        },
+        "host": {
+          "__i": 1086
+        },
+        "position": {
+          "x": 280.19637,
+          "y": 17.31097
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 264.00252
+      },
+      "s": {
+        "all.color": "rgba(49,210,235,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1072,
+      "p": {
+        "displayName": "电梯-1F-11F",
+        "parent": {
+          "__i": 1071
+        },
+        "host": {
+          "__i": 1071
+        },
+        "position": {
+          "x": 280.19637,
+          "y": 17.31097
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 147.00252,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 265.37199,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 295.02075,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 295.02075,
+              "y": 27.43679,
+              "e": 277.81375
+            },
+            {
+              "x": 265.37199,
+              "y": 27.43679,
+              "e": 277.81375
+            },
+            {
+              "x": 265.37199,
+              "y": 7.18515,
+              "e": 277.81375
+            },
+            {
+              "x": 265.37199,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 265.37199,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 295.02075,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 295.02075,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 265.37199,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 265.37199,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 265.37199,
+              "y": 27.43679,
+              "e": 277.8308
+            },
+            {
+              "x": 295.02075,
+              "y": 7.18515,
+              "e": 323.81375
+            },
+            {
+              "x": 295.02075,
+              "y": 7.18515,
+              "e": 277.8308
+            },
+            {
+              "x": 295.02075,
+              "y": 27.43679,
+              "e": 323.81375
+            },
+            {
+              "x": 295.02075,
+              "y": 27.43679,
+              "e": 277.8308
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(49,210,235,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 994,
       "p": {
         "displayName": "地-办",
         "position": {
@@ -5322,14 +8083,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 662,
+      "i": 995,
       "p": {
         "displayName": "电梯线集合",
         "parent": {
-          "__i": 661
+          "__i": 994
         },
         "host": {
-          "__i": 661
+          "__i": 994
         },
         "position": {
           "x": 217.40887,
@@ -5356,14 +8117,14 @@
     },
     {
       "c": "ht.Node",
-      "i": 663,
+      "i": 996,
       "p": {
         "displayName": "电梯线-B1-2F",
         "parent": {
-          "__i": 662
+          "__i": 995
         },
         "host": {
-          "__i": 662
+          "__i": 995
         },
         "position": {
           "x": 275.2606,
@@ -5383,21 +8144,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 664,
+      "i": 997,
       "p": {
         "displayName": "电梯线-B3-2F",
         "parent": {
-          "__i": 662
+          "__i": 995
         },
         "host": {
-          "__i": 662
+          "__i": 995
         },
         "position": {
           "x": 247.7575,
@@ -5417,21 +8176,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 665,
+      "i": 998,
       "p": {
         "displayName": "电梯线-B3-1F",
         "parent": {
-          "__i": 662
+          "__i": 995
         },
         "host": {
-          "__i": 662
+          "__i": 995
         },
         "position": {
           "x": 195.40388,
@@ -5451,21 +8208,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 666,
+      "i": 999,
       "p": {
         "displayName": "电梯线-B3-24F",
         "parent": {
-          "__i": 662
+          "__i": 995
         },
         "host": {
-          "__i": 662
+          "__i": 995
         },
         "position": {
           "x": 149.74425,
@@ -5485,21 +8240,19 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
-        "3d.movable": false,
-        "2d.selectable": false,
-        "3d.selectable": false
+        "3d.movable": false
       }
     },
     {
       "c": "ht.Node",
-      "i": 667,
+      "i": 1000,
       "p": {
         "displayName": "电梯线-B3-24F",
         "parent": {
-          "__i": 662
+          "__i": 995
         },
         "host": {
-          "__i": 662
+          "__i": 995
         },
         "position": {
           "x": 149.74425,
@@ -5519,14 +8272,963 @@
         "bottom.reverse.flip": true,
         "all.reverse.flip": true,
         "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1002,
+      "p": {
+        "displayName": "电梯集合",
+        "parent": {
+          "__i": 994
+        },
+        "host": {
+          "__i": 994
+        },
+        "position": {
+          "x": 43.22449,
+          "y": 295.71999
+        },
+        "anchorElevation": 0,
+        "width": 1,
+        "height": 1,
+        "tall": 1,
+        "elevation": -9.43322
+      },
+      "s": {
+        "all.color": "#DDDDDD",
+        "2d.visible": false,
+        "3d.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1083,
+      "p": {
+        "displayName": "电梯-B1-2F",
+        "parent": {
+          "__i": 1002
+        },
+        "host": {
+          "__i": 1002
+        },
+        "position": {
+          "x": 275.85024,
+          "y": -227.98525
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 201.17214
+      },
+      "s": {
+        "all.color": "rgba(51,153,255,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
         "3d.movable": false,
         "2d.selectable": false,
         "3d.selectable": false
       }
     },
     {
+      "c": "ht.Polyline",
+      "i": 1084,
+      "p": {
+        "displayName": "电梯-B1-2F",
+        "parent": {
+          "__i": 1083
+        },
+        "host": {
+          "__i": 1083
+        },
+        "position": {
+          "x": 275.85024,
+          "y": -227.98525
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 84.17214,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 261.02586,
+              "y": -238.11107,
+              "e": 214.98337
+            },
+            {
+              "x": 290.67462,
+              "y": -238.11107,
+              "e": 214.98337
+            },
+            {
+              "x": 290.67462,
+              "y": -217.85943,
+              "e": 214.98337
+            },
+            {
+              "x": 261.02586,
+              "y": -217.85943,
+              "e": 214.98337
+            },
+            {
+              "x": 261.02586,
+              "y": -238.11107,
+              "e": 214.98337
+            },
+            {
+              "x": 261.02586,
+              "y": -238.11107,
+              "e": 260.98337
+            },
+            {
+              "x": 261.02586,
+              "y": -217.85943,
+              "e": 260.98337
+            },
+            {
+              "x": 290.67462,
+              "y": -217.85943,
+              "e": 260.98337
+            },
+            {
+              "x": 290.67462,
+              "y": -238.11107,
+              "e": 260.98337
+            },
+            {
+              "x": 261.02586,
+              "y": -238.11107,
+              "e": 260.98337
+            },
+            {
+              "x": 261.02586,
+              "y": -217.85943,
+              "e": 260.98337
+            },
+            {
+              "x": 261.02586,
+              "y": -217.85943,
+              "e": 215.00042
+            },
+            {
+              "x": 290.67462,
+              "y": -238.11107,
+              "e": 260.98337
+            },
+            {
+              "x": 290.67462,
+              "y": -238.11107,
+              "e": 215.00042
+            },
+            {
+              "x": 290.67462,
+              "y": -217.85943,
+              "e": 260.98337
+            },
+            {
+              "x": 290.67462,
+              "y": -217.85943,
+              "e": 215.00042
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(51,153,255,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
       "c": "ht.Node",
-      "i": 668,
+      "i": 1075,
+      "p": {
+        "displayName": "电梯-B3-2F",
+        "parent": {
+          "__i": 1002
+        },
+        "host": {
+          "__i": 1002
+        },
+        "position": {
+          "x": 248.36116,
+          "y": -54.32156
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 49.06618
+      },
+      "s": {
+        "all.color": "rgba(51,153,255,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1076,
+      "p": {
+        "displayName": "电梯-B3-2F",
+        "parent": {
+          "__i": 1075
+        },
+        "host": {
+          "__i": 1075
+        },
+        "position": {
+          "x": 248.36116,
+          "y": -54.32156
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": -67.93382,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 233.53678,
+              "y": -64.44738,
+              "e": 62.87741
+            },
+            {
+              "x": 263.18554,
+              "y": -64.44738,
+              "e": 62.87741
+            },
+            {
+              "x": 263.18554,
+              "y": -44.19574,
+              "e": 62.87741
+            },
+            {
+              "x": 233.53678,
+              "y": -44.19574,
+              "e": 62.87741
+            },
+            {
+              "x": 233.53678,
+              "y": -64.44738,
+              "e": 62.87741
+            },
+            {
+              "x": 233.53678,
+              "y": -64.44738,
+              "e": 108.87741
+            },
+            {
+              "x": 233.53678,
+              "y": -44.19574,
+              "e": 108.87741
+            },
+            {
+              "x": 263.18554,
+              "y": -44.19574,
+              "e": 108.87741
+            },
+            {
+              "x": 263.18554,
+              "y": -64.44738,
+              "e": 108.87741
+            },
+            {
+              "x": 233.53678,
+              "y": -64.44738,
+              "e": 108.87741
+            },
+            {
+              "x": 233.53678,
+              "y": -44.19574,
+              "e": 108.87741
+            },
+            {
+              "x": 233.53678,
+              "y": -44.19574,
+              "e": 62.89446
+            },
+            {
+              "x": 263.18554,
+              "y": -64.44738,
+              "e": 108.87741
+            },
+            {
+              "x": 263.18554,
+              "y": -64.44738,
+              "e": 62.89446
+            },
+            {
+              "x": 263.18554,
+              "y": -44.19574,
+              "e": 108.87741
+            },
+            {
+              "x": 263.18554,
+              "y": -44.19574,
+              "e": 62.89446
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(51,153,255,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1079,
+      "p": {
+        "displayName": "电梯-B3-1F",
+        "parent": {
+          "__i": 1002
+        },
+        "host": {
+          "__i": 1002
+        },
+        "position": {
+          "x": 195.53869,
+          "y": -72.41195
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 49.06618
+      },
+      "s": {
+        "all.color": "rgba(51,153,255,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1080,
+      "p": {
+        "displayName": "电梯-B3-1F",
+        "parent": {
+          "__i": 1079
+        },
+        "host": {
+          "__i": 1079
+        },
+        "position": {
+          "x": 195.53869,
+          "y": -72.41195
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": -67.93382,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 180.71431,
+              "y": -82.53777,
+              "e": 62.87741
+            },
+            {
+              "x": 210.36307,
+              "y": -82.53777,
+              "e": 62.87741
+            },
+            {
+              "x": 210.36307,
+              "y": -62.28613,
+              "e": 62.87741
+            },
+            {
+              "x": 180.71431,
+              "y": -62.28613,
+              "e": 62.87741
+            },
+            {
+              "x": 180.71431,
+              "y": -82.53777,
+              "e": 62.87741
+            },
+            {
+              "x": 180.71431,
+              "y": -82.53777,
+              "e": 108.87741
+            },
+            {
+              "x": 180.71431,
+              "y": -62.28613,
+              "e": 108.87741
+            },
+            {
+              "x": 210.36307,
+              "y": -62.28613,
+              "e": 108.87741
+            },
+            {
+              "x": 210.36307,
+              "y": -82.53777,
+              "e": 108.87741
+            },
+            {
+              "x": 180.71431,
+              "y": -82.53777,
+              "e": 108.87741
+            },
+            {
+              "x": 180.71431,
+              "y": -62.28613,
+              "e": 108.87741
+            },
+            {
+              "x": 180.71431,
+              "y": -62.28613,
+              "e": 62.89446
+            },
+            {
+              "x": 210.36307,
+              "y": -82.53777,
+              "e": 108.87741
+            },
+            {
+              "x": 210.36307,
+              "y": -82.53777,
+              "e": 62.89446
+            },
+            {
+              "x": 210.36307,
+              "y": -62.28613,
+              "e": 108.87741
+            },
+            {
+              "x": 210.36307,
+              "y": -62.28613,
+              "e": 62.89446
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(51,153,255,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1023,
+      "p": {
+        "displayName": "电梯-B3-24F",
+        "parent": {
+          "__i": 1002
+        },
+        "host": {
+          "__i": 1002
+        },
+        "position": {
+          "x": 150.6822,
+          "y": 373.29642
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 49.06618
+      },
+      "s": {
+        "all.color": "rgba(255,184,77,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1024,
+      "p": {
+        "displayName": "电梯-B3-24F",
+        "parent": {
+          "__i": 1023
+        },
+        "host": {
+          "__i": 1023
+        },
+        "position": {
+          "x": 150.6822,
+          "y": 373.29642
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": -67.93382,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 135.85782,
+              "y": 363.1706,
+              "e": 62.87741
+            },
+            {
+              "x": 165.50658,
+              "y": 363.1706,
+              "e": 62.87741
+            },
+            {
+              "x": 165.50658,
+              "y": 383.42224,
+              "e": 62.87741
+            },
+            {
+              "x": 135.85782,
+              "y": 383.42224,
+              "e": 62.87741
+            },
+            {
+              "x": 135.85782,
+              "y": 363.1706,
+              "e": 62.87741
+            },
+            {
+              "x": 135.85782,
+              "y": 363.1706,
+              "e": 108.87741
+            },
+            {
+              "x": 135.85782,
+              "y": 383.42224,
+              "e": 108.87741
+            },
+            {
+              "x": 165.50658,
+              "y": 383.42224,
+              "e": 108.87741
+            },
+            {
+              "x": 165.50658,
+              "y": 363.1706,
+              "e": 108.87741
+            },
+            {
+              "x": 135.85782,
+              "y": 363.1706,
+              "e": 108.87741
+            },
+            {
+              "x": 135.85782,
+              "y": 383.42224,
+              "e": 108.87741
+            },
+            {
+              "x": 135.85782,
+              "y": 383.42224,
+              "e": 62.89446
+            },
+            {
+              "x": 165.50658,
+              "y": 363.1706,
+              "e": 108.87741
+            },
+            {
+              "x": 165.50658,
+              "y": 363.1706,
+              "e": 62.89446
+            },
+            {
+              "x": 165.50658,
+              "y": 383.42224,
+              "e": 108.87741
+            },
+            {
+              "x": 165.50658,
+              "y": 383.42224,
+              "e": 62.89446
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(255,174,77,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1043,
+      "p": {
+        "displayName": "电梯-B3-24F",
+        "parent": {
+          "__i": 1002
+        },
+        "host": {
+          "__i": 1002
+        },
+        "position": {
+          "x": 149.96198,
+          "y": 107.02562
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25165,
+        "tall": 46,
+        "elevation": 299.0149
+      },
+      "s": {
+        "all.color": "rgba(255,184,77,0.40)",
+        "all.reverse.cull": true,
+        "all.transparent": true,
+        "2d.movable": false,
+        "3d.movable": false,
+        "2d.selectable": false,
+        "3d.selectable": false
+      }
+    },
+    {
+      "c": "ht.Polyline",
+      "i": 1044,
+      "p": {
+        "displayName": "电梯-B3-24F",
+        "parent": {
+          "__i": 1043
+        },
+        "host": {
+          "__i": 1043
+        },
+        "position": {
+          "x": 149.96198,
+          "y": 107.02562
+        },
+        "anchorElevation": 0,
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        },
+        "scaleTall": 0.9,
+        "width": 29.64876,
+        "height": 20.25164,
+        "tall": 46,
+        "elevation": 182.0149,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            1,
+            2,
+            1,
+            2,
+            1,
+            2
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 135.1376,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 164.78636,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 164.78636,
+              "y": 117.15144,
+              "e": 312.82613
+            },
+            {
+              "x": 135.1376,
+              "y": 117.15144,
+              "e": 312.82613
+            },
+            {
+              "x": 135.1376,
+              "y": 96.8998,
+              "e": 312.82613
+            },
+            {
+              "x": 135.1376,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 135.1376,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 164.78636,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 164.78636,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 135.1376,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 135.1376,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 135.1376,
+              "y": 117.15144,
+              "e": 312.84318
+            },
+            {
+              "x": 164.78636,
+              "y": 96.8998,
+              "e": 358.82613
+            },
+            {
+              "x": 164.78636,
+              "y": 96.8998,
+              "e": 312.84318
+            },
+            {
+              "x": 164.78636,
+              "y": 117.15144,
+              "e": 358.82613
+            },
+            {
+              "x": 164.78636,
+              "y": 117.15144,
+              "e": 312.84318
+            }
+          ]
+        },
+        "thickness": 2
+      },
+      "s": {
+        "shape.border.width": 10,
+        "shape3d": "cylinder",
+        "shape3d.color": "rgba(255,184,77,0.89)",
+        "shape3d.top.color": null,
+        "shape3d.bottom.color": null,
+        "shape.border.color": "#BFBFBF",
+        "shape3d.side": 3,
+        "shape3d.resolution": 1,
+        "shape3d.top.visible": false,
+        "shape3d.bottom.visible": false,
+        "2d.selectable": false,
+        "3d.selectable": false,
+        "2d.movable": false,
+        "3d.movable": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 1001,
       "p": {
         "displayName": "楼层面板",
         "tag": "floorPanel",
@@ -5570,14 +9272,14 @@
   ],
   "scene": {
     "eye": [
-      1797.46771,
-      3151.50378,
-      2297.34555
+      977.56584,
+      2377.50539,
+      1103.98278
     ],
     "center": [
-      238.99962,
-      670.18028,
-      235.35715
+      8.67033,
+      676.06749,
+      359.08184
     ],
     "near": 100,
     "far": 100000,

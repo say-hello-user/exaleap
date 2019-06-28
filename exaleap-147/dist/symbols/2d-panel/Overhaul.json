@@ -1,5 +1,6 @@
 {
-  "modified": "Thu Jun 27 2019 09:47:05 GMT+0800 (中国标准时间)",
+  "modified": "Fri Jun 28 2019 14:24:22 GMT+0800 (中国标准时间)",
+  "dataBindings": [],
   "width": 283,
   "height": 300,
   "comps": [
@@ -167,7 +168,7 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['parking.space.statistics'] || '设备检修';\n}",
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.overhaul'] || '设备检修';\n}",
         "value": "设备检修"
       },
       "color": "rgb(117,175,255)",
@@ -181,7 +182,10 @@
     },
     {
       "type": "text",
-      "text": "本月待检设备数",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.pending'] || '本月待检设备数';\n}",
+        "value": "本月待检设备数"
+      },
       "color": "rgb(255,255,255)",
       "font": "18px PingFangSC-Thin",
       "rect": [
@@ -204,7 +208,10 @@
     },
     {
       "type": "text",
-      "text": "本月已检设备数",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.checked'] || '本月已检设备数';\n}",
+        "value": "本月已检设备数"
+      },
       "color": "rgb(255,255,255)",
       "font": "18px PingFangSC-Thin",
       "rect": [
@@ -216,7 +223,10 @@
     },
     {
       "type": "text",
-      "text": "本月待维修设备数",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.waiting.repair'] || '本月待维修设备数';\n}",
+        "value": "本月待维修设备数"
+      },
       "color": "rgb(255,255,255)",
       "font": "18px PingFangSC-Thin",
       "rect": [
@@ -228,7 +238,7 @@
     },
     {
       "type": "text",
-      "text": "115",
+      "text": "0",
       "align": "right",
       "color": "rgb(117,175,255)",
       "font": "24px PingFangSC-Thin",
@@ -241,7 +251,7 @@
     },
     {
       "type": "text",
-      "text": "78",
+      "text": "0",
       "align": "right",
       "color": "rgb(117,175,255)",
       "font": "24px PingFangSC-Thin",
@@ -254,7 +264,7 @@
     },
     {
       "type": "text",
-      "text": "15",
+      "text": "0",
       "align": "right",
       "color": "rgb(117,175,255)",
       "font": "24px PingFangSC-Thin",

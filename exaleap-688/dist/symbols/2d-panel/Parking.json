@@ -1,5 +1,5 @@
 {
-  "modified": "Mon Jun 17 2019 10:46:33 GMT+0800 (中国标准时间)",
+  "modified": "Mon Jun 24 2019 18:07:17 GMT+0800 (中国标准时间)",
   "background": "rgb(61,61,61)",
   "dataBindings": [],
   "width": 283,
@@ -345,7 +345,10 @@
     },
     {
       "type": "text",
-      "text": "N/A- N/A",
+      "text": {
+        "func": "attr@openingTime",
+        "value": "00:00 - 24:00"
+      },
       "align": "center",
       "color": "rgb(117,175,255)",
       "font": "32px PingFangSC-Thin",
@@ -406,7 +409,10 @@
     },
     {
       "type": "text",
-      "text": "0",
+      "text": {
+        "func": "attr@usedPark",
+        "value": "0"
+      },
       "color": "rgb(117,175,255)",
       "font": "32px PingFangSC-Thin",
       "rect": [
@@ -418,7 +424,10 @@
     },
     {
       "type": "text",
-      "text": "0",
+      "text": {
+        "func": "attr@usualParkingLot",
+        "value": "0"
+      },
       "color": "rgb(117,175,255)",
       "font": "32px PingFangSC-Thin",
       "rect": [
@@ -430,7 +439,10 @@
     },
     {
       "type": "text",
-      "text": "0",
+      "text": {
+        "func": "attr@seldomParkingLot",
+        "value": "0"
+      },
       "color": "rgb(117,175,255)",
       "font": "32px PingFangSC-Thin",
       "rect": [

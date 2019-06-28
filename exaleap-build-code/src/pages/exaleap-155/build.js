@@ -303,11 +303,6 @@ export default class Build {
                         business.elevators.push(...elevators);
                         all.elevators.push(...elevators);
                     }
-                    if(displayName === '扶梯集合') {
-                        let escalators = child.getChildren().toArray();
-                        business.escalators.push(...escalators);
-                        all.escalators.push(...escalators);
-                    }
                 });
             }
             if (displayName === '楼层面板') {

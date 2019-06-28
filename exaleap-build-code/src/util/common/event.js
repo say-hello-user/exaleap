@@ -42,6 +42,7 @@ const mi2dEvent = function (e) {
         if (displayName === '切换') notifier.fire({ kind: 'switch' });
         if (displayName === '工单面板') notifier.fire({ kind: 'workSheetPanel' });
         if (displayName === '客流量面板') notifier.fire({ kind: 'visitFlowPanel' });
+        if (displayName === '设备检修面板') notifier.fire({ kind: 'equipmentOverhaulPanel' });
         if (displayName === '消防报警面板') notifier.fire({ kind: 'firePanel' });
         if (displayName === '重点区域监控面板') notifier.fire({ kind: 'monitorPanel' });
         if (displayName === '投屏') notifier.fire({ kind: 'screening' });

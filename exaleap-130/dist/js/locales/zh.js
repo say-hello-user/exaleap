@@ -1,8 +1,6 @@
 window.localString = {
     'main-title': '千兆跃',
     'sub-title': 'E氪智慧楼宇企业管理平台',
-    'staff': '员工',
-    'visitor': '访客',
     'total.parking.space': '总车位',
     'remaining.parking.space': '空余车位',
 
@@ -10,10 +8,10 @@ window.localString = {
     'work.order.unprocessed': '未处理',
     'work.order.trend': '近期工单趋势',
 
-    'passenger.flow.today': '本日客流',
-    'passenger.flow.temp': '临时访客',
-    'passenger.flow.failure': '进入失败',
-    'passenger.flow.peak': '高峰时段',
+    'equipment.overhaul': '设备检修',
+    'equipment.pending': '本月待检设备数',
+    'equipment.checked': '本月已检设备数',
+    'equipment.waiting.repair': '本月待维修设备数',
 
     'fire.alarm': '消防报警',
     'fire.today.alarm': '本日报警次数',
@@ -42,7 +40,7 @@ window.localString = {
     'panel.name': '面板名称',
     'sort': '排序',
     'panel.work': '工单面板',
-    'panel.visit': '客流量面板',
+    'panel.equipment.overhaul': '设备检修面板',
     'panel.fire': '消防报警面板',
     'panel.monitor': '重点区域监控面板',
     'panel.park': '车位统计面板',
