@@ -62,6 +62,14 @@ export default class Build {
         this.preClickInfo = null;
         this.buildPanelStatus = null;
         this.editBuildName = null;
+        if(this.right_alarmPanel) this.right_alarmPanel = null;
+        if(this.left_alarmPanel) this.left_alarmPanel = null;
+        if(this.right_escalatorPanel) this.right_escalatorPanel = null;
+        if(this.left_escalatorPanel) this.left_escalatorPanel = null;
+        if(this.right_elevatorPanel) this.right_elevatorPanel = null;
+        if(this.left_elevatorPanel) this.left_elevatorPanel = null;
+        if(this.right_gatePanel) this.right_gatePanel = null;
+        if(this.left_gatePanel) this.left_gatePanel = null;
         if (this.player) {
             this.player.dispose();
             this.player = null;
