@@ -1,30 +1,6 @@
 import gradientColor from './gradientColor';
 
 export default {
-    // 根据楼层类别以及楼层人数获取楼层颜色
-    getFloorInfoByPassengers(type, passengers) {
-        if(type === 'office') { // 办公楼
-            if(passengers >= 0 && passengers < 250) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(passengers >= 250 && passengers < 500) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(passengers >= 500 && passengers < 750) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(passengers >= 750 && passengers < 1000) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(passengers >= 1000) return { color: 'rgb(224, 68, 3)', level: 1 };
-        }
-        if(type === 'business') { // 商业楼层
-            if(passengers >= 0 && passengers < 500) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(passengers >= 500 && passengers < 1000) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(passengers >= 1000 && passengers < 1500) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(passengers >= 1500 && passengers < 2000) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(passengers >= 2000) return { color: 'rgb(224, 68, 3)', level: 1 };
-        }
-        if(type === 'basement') { // 地下室
-            if(passengers >= 0 && passengers < 50) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(passengers >= 50 && passengers < 100) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(passengers >= 100 && passengers < 150) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(passengers >= 150 && passengers < 200) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(passengers >= 200) return { color: 'rgb(224, 68, 3)', level: 1 };
-        }
-    },
     // 根据空气质量指数获取相应颜色值
     getColorByAirQualityIndex(airQualityIndex) {
         if(airQualityIndex >= 0 && airQualityIndex <= 50) return 'rgb(1, 142, 91)';

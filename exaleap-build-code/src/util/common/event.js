@@ -1,5 +1,28 @@
 import pTools from '../pTools';
 
+const adjustDevicePanle = function(data, devicePanelName) {
+    let { dm3d, allPanelStatus } = this,
+        { scale, leftX, rightX } = allPanelStatus[devicePanelName],
+        xNum, direction;
+    if(data.getX() <= (leftX + rightX) / 2) {
+        xNum = leftX;
+        direction = 'left';
+    }
+    else {
+        xNum = rightX;
+        direction = 'right';
+    }
+    let devicePanel = this[direction + '_' + devicePanelName];
+    if (!devicePanel) {
+        devicePanel = this[direction + '_' + devicePanelName] = pTools.addDevicePanel(dm3d, devicePanelName, direction, scale);
+    }
+    let line = devicePanel.getParent(),
+        dataP3 = data.p3();
+    line.p3(dataP3);
+    line.setSize({ width: Math.abs(xNum - data.getX()) });
+    pTools.showPanel(this, data, devicePanel);
+}
+
 const mi2dEvent = function (e) {
     let { kind, data, type, comp } = e;
     if (kind === 'clickData') {
@@ -69,39 +92,15 @@ const mi3dEvent = function (e) {
                     pTools.showPanel(this, data, floorPanel, null, '楼层地板');
                 }
             }
-            // if (displayName === '扶梯') {
-            //     let { dm3d, escalatorPanel } = this;
-            //     if (!escalatorPanel) {
-            //         escalatorPanel = this.escalatorPanel = pTools.addDevicePanel(dm3d, 'alarm', 'right', 3);
-            //     }
-            //     let line = escalatorPanel.getParent(),
-            //         dataP3 = data.p3();
-            //     line.p3(dataP3);
-            //     line.setSize({ width: Math.abs(850 - data.getX()) });
-            //     pTools.showPanel(this, data, escalatorPanel);
-            // }
-            // if (displayName.indexOf('电梯-') > -1) {
-            //     let { dm3d, elevatorPanel } = this;
-            //     if (!elevatorPanel) {
-            //         elevatorPanel = this.elevatorPanel = pTools.addDevicePanel(dm3d, 'alarm', 'right', 3);
-            //     }
-            //     let line = elevatorPanel.getParent(),
-            //         dataP3 = data.p3();
-            //     line.p3(dataP3);
-            //     line.setSize({ width: Math.abs(850 - data.getX()) });
-            //     pTools.showPanel(this, data, elevatorPanel);
-            // }
-            // if (displayName === '闸机') {
-            //     let { dm3d, gatePanel } = this;
-            //     if (!gatePanel) {
-            //         gatePanel = this.gatePanel = pTools.addDevicePanel(dm3d, 'alarm', 'right', 3);
-            //     }
-            //     let line = gatePanel.getParent(),
-            //         dataP3 = data.p3();
-            //     line.p3(dataP3);
-            //     line.setSize({ width: Math.abs(850 - data.getX()) });
-            //     pTools.showPanel(this, data, gatePanel);
-            // }
+            if (displayName === '扶梯') {
+                //adjustDevicePanle.call(this, data, 'escalatorPanel');
+            }
+            if (displayName.indexOf('电梯-') > -1) {
+                //adjustDevicePanle.call(this, data, 'elevatorPanel');
+            }
+            if (displayName === '闸机') {
+                //adjustDevicePanle.call(this, data, 'gatePanel');
+            }
         }
     }
     if (kind === 'onDown' && comp) {
@@ -117,15 +116,7 @@ const mi3dEvent = function (e) {
             dm3d.remove(data);
         }
         if (displayName === '警报图标') {
-            let { dm3d, alarmPanel } = this;
-            if (!alarmPanel) {
-                alarmPanel = this.alarmPanel = pTools.addDevicePanel(dm3d, 'alarm', 'right', 3);
-            }
-            let line = alarmPanel.getParent(),
-                dataP3 = data.p3();
-            line.p3(dataP3);
-            line.setSize({ width: Math.abs(850 - data.getX()) });
-            pTools.showPanel(this, data, alarmPanel);
+            adjustDevicePanle.call(this, data, 'alarmPanel');
         }
         if (displayName === 'floorUp') {
             let { preClickInfo, editBuildName, floorPanel } = this, { floorNodes } = this[editBuildName],

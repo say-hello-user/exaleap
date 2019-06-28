@@ -2,7 +2,7 @@ import pTools from '../pTools';
 import util from '../util';
 import animate from '../animate';
 
-const notifyCb = function(btnArray = [], e) {
+const notifyCb = function (btnArray = [], e) {
     let { kind, data, nextStatus } = e;
     if (btnArray.indexOf(kind) > -1) {
         let { editBuildName, buildPanelStatus } = this;
@@ -47,6 +47,7 @@ const notifyCb = function(btnArray = [], e) {
         if (dm2d.size() > 0 && dm3d.size() > 0) {
             this.startAnimate();
             this.refresh();
+            this.addPropertyChangeListener();
         }
     }
 };
@@ -165,7 +166,7 @@ const executeBtnAction = function (btnName, nextStatus, needAnimate = true) {
     nextStatus ? btnAction[btnName].onOpen() : btnAction[btnName].onClose();
 }
 
-const startAnimate = function() {
+const startAnimate = function () {
     let { g2d, dm3d, weatherPanel, timePanel, all } = this,
         elevators = all.elevators,
         randomElevatorFloor = () => { elevators.forEach((elevator) => { pTools.setElevatorFloor(elevator, 5); }); };
@@ -228,4 +229,28 @@ const startAnimate = function() {
     }, 5000);
 }
 
-export default { notifyCb, showBuildByType, executeBtnAction, startAnimate };
+const addPropertyChangeListener = function () {
+    this.g2d.addPropertyChangeListener((e) => {
+        if (e.property === "videoLayout") {
+            if (!this.player) {
+                this.dataFill.getFlowVedioToken(result => {
+                    if (result.token) {
+                        let token = result.token;
+                        videojs.Hls.xhr.beforeRequest = function(options) {
+                            options.headers = { "Authorization": "Bearer " + token }
+                            return options;
+                        };
+                        this.player = videojs('robot-video-flow');
+                        this.player.src({
+                            src: 'https://exaleap.net/videos/robot_dog_sr_20004/index.m3u8?token=' + encodeURIComponent(token),
+                            type: 'application/x-mpegURL',
+                        });
+                        this.player.play();
+                    }
+                });
+            }
+        }
+    });
+}
+
+export default { notifyCb, showBuildByType, executeBtnAction, startAnimate, addPropertyChangeListener };

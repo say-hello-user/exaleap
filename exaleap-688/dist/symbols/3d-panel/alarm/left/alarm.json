@@ -1,5 +1,5 @@
 {
-  "modified": "Sun Jun 16 2019 16:50:34 GMT+0800 (中国标准时间)",
+  "modified": "Fri Jun 28 2019 10:37:18 GMT+0800 (中国标准时间)",
   "dataBindings": [
     {
       "attr": "clipPer",
@@ -88,7 +88,7 @@
     },
     {
       "type": "image",
-      "name": "symbols/3d-panel/elevator/left/text.json",
+      "name": "symbols/3d-panel/alarm/left/text.json",
       "clipPercentage": {
         "func": "attr@clipPer",
         "value": 1

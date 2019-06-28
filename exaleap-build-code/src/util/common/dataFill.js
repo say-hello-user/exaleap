@@ -31,7 +31,7 @@ export default class DataFill {
             let { totalPassengers } = result || {};
             totalPassengers = totalPassengers || 0;
 
-            let { color, level } = config.getFloorInfoByPassengers(floorType, totalPassengers);
+            let { color, level } = build.getInfoByNum(floorType, totalPassengers);
             panel.s('state', 'level' + level);
             panel.a({
                 floorNum: floorNum,

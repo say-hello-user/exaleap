@@ -13,6 +13,13 @@ export default class Build {
         this.showBuildByType = common.showBuildByType;
         this.executeBtnAction = common.executeBtnAction;
         this.startAnimate = common.startAnimate;
+        this.addPropertyChangeListener = common.addPropertyChangeListener;
+        this.allPanelStatus = {
+            alarmPanel: { scale: 3, leftX: -300, rightX: 850 },
+            escalatorPanel: { scale: 3, leftX: -300, rightX: 850 },
+            elevatorPanel: { scale: 3, leftX: -300, rightX: 850 },
+            gatePanel: { scale: 3, leftX: -300, rightX: 850 }
+        };
     }
     loadScreen(screen) {
         Object.assign(this, { g3d: screen.g3d, dm3d: screen.dm3d, g2d: screen.g2d, dm2d: screen.dm2d });
@@ -122,7 +129,7 @@ export default class Build {
         });
     }
     init2dNodes() {
-        let { g2d, dm2d, notifier } = this;
+        let { dm2d, notifier } = this;
         this.editBuildName = 'all';
         this.buildPanelStatus = {
             all: { 'zj': true, 'dt': true, 'ft': false, 'jb': true, 'kl': true },
@@ -163,27 +170,6 @@ export default class Build {
             if (displayName === '投屏') node.a('notifier', notifier);
             if (displayName === '左侧toggle') node.a('notifier', notifier);
             if (displayName === '右侧toggle') node.a('notifier', notifier);
-        });
-        g2d.addPropertyChangeListener((e) => {
-            if (e.property === "videoLayout") {
-                if (!this.player) {
-                    this.dataFill.getFlowVedioToken(result => {
-                        if (result.token) {
-                            let token = result.token;
-                            videojs.Hls.xhr.beforeRequest = function(options) {
-                                options.headers = { "Authorization": "Bearer " + token }
-                                return options;
-                            };
-                            this.player = videojs('robot-video-flow');
-                            this.player.src({
-                                src: 'https://exaleap.net/videos/robot_dog_sr_20004/index.m3u8?token=' + encodeURIComponent(token),
-                                type: 'application/x-mpegURL',
-                            });
-                            this.player.play();
-                        }
-                    });
-                }
-            }
         });
     }
     init3dNodes() {
@@ -504,5 +490,29 @@ export default class Build {
     refreshAlarmData() {
         let { dataFill, bottomPanel } = this;
         dataFill.initEmergencyAlarm(bottomPanel);
+    }
+    // 根据楼层类别以及楼层人数获取楼层颜色以及等级信息
+    getInfoByNum(type, num) {
+        if(type === 'office') { // 办公楼
+            if(num >= 0 && num < 250) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if(num >= 250 && num < 500) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if(num >= 500 && num < 750) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if(num >= 750 && num < 1000) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if(num >= 1000) return { color: 'rgb(224, 68, 3)', level: 1 };
+        }
+        if(type === 'business') { // 商业楼层
+            if(num >= 0 && num < 500) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if(num >= 500 && num < 1000) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if(num >= 1000 && num < 1500) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if(num >= 1500 && num < 2000) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if(num >= 2000) return { color: 'rgb(224, 68, 3)', level: 1 };
+        }
+        if(type === 'basement') { // 地下室
+            if(num >= 0 && num < 50) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if(num >= 50 && num < 100) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if(num >= 100 && num < 150) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if(num >= 150 && num < 200) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if(num >= 200) return { color: 'rgb(224, 68, 3)', level: 1 };
+        }
     }
 }

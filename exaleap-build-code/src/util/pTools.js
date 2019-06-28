@@ -1,12 +1,18 @@
 import util from './util';
 const leftPanel = {
-    lineSymbol: 'symbols/3d-panel/alarm/left/line.json',
-    symbolUrl: { alarm: 'symbols/3d-panel/alarm/left/alarm.json' }
-};
+        lineSymbol: 'symbols/3d-panel/alarm/left/line.json',
+        symbolUrl: { alarmPanel: 'symbols/3d-panel/alarm/left/alarm.json',
+                    escalatorPanel: 'symbols/3d-panel/alarm/left/alarm.json',
+                    elevatorPanel: 'symbols/3d-panel/alarm/left/alarm.json',
+                    gatePanel: 'symbols/3d-panel/alarm/left/alarm.json' }
+    };
 const rightPanel = {
-    lineSymbol: 'symbols/3d-panel/alarm/right/line.json',
-    symbolUrl: { alarm: 'symbols/3d-panel/alarm/right/alarm.json' }
-};
+        lineSymbol: 'symbols/3d-panel/alarm/right/line.json',
+        symbolUrl: { alarmPanel: 'symbols/3d-panel/alarm/right/alarm.json',
+                    escalatorPanel: 'symbols/3d-panel/alarm/right/alarm.json',
+                    elevatorPanel: 'symbols/3d-panel/alarm/right/alarm.json',
+                    gatePanel: 'symbols/3d-panel/alarm/right/alarm.json' }
+    };
 export default {
     addDevicePanel(dm3d, type, direction, scale) {
         let panel = new ht.Node();
