@@ -51,10 +51,8 @@ const mi2dEvent = function (e) {
         let { displayName } = comp;
         if (displayName === '还原') {
             for (let i = 1; i <= 6; i++) {
-                this.settingPanel.a({
-                    ['btn' + i]: undefined,
-                    ['mark' + i]: undefined
-                });
+                this.settingPanel.a('btn' + i, undefined);
+                this.settingPanel.a('mark' + i, undefined);
             }
             pTools.layout2dPanel(this, 6);
             data.s('2d.visible', false);
