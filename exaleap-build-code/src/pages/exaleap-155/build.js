@@ -24,7 +24,7 @@ export default class Build {
     loadScreen(screen) {
         Object.assign(this, { g3d: screen.g3d, dm3d: screen.dm3d, g2d: screen.g2d, dm2d: screen.dm2d });
         let { g3d } = this, { pc2d, pc3d } = window.htBuildConfig.screen,
-            dirBasePath = window.wfcUrl.dirBasePath;
+            dirBasePath = window.buildURL.dirBasePath;
         g3d.setOrtho(true);
         screen.load3dScreen(dirBasePath + '/' + pc3d, null, (g3d, dm3d) => {
             this.init3dNodes();
@@ -62,14 +62,14 @@ export default class Build {
         this.preClickInfo = null;
         this.buildPanelStatus = null;
         this.editBuildName = null;
-        if(this.right_alarmPanel) this.right_alarmPanel = null;
-        if(this.left_alarmPanel) this.left_alarmPanel = null;
-        if(this.right_escalatorPanel) this.right_escalatorPanel = null;
-        if(this.left_escalatorPanel) this.left_escalatorPanel = null;
-        if(this.right_elevatorPanel) this.right_elevatorPanel = null;
-        if(this.left_elevatorPanel) this.left_elevatorPanel = null;
-        if(this.right_gatePanel) this.right_gatePanel = null;
-        if(this.left_gatePanel) this.left_gatePanel = null;
+        if (this.right_alarmPanel) this.right_alarmPanel = null;
+        if (this.left_alarmPanel) this.left_alarmPanel = null;
+        if (this.right_escalatorPanel) this.right_escalatorPanel = null;
+        if (this.left_escalatorPanel) this.left_escalatorPanel = null;
+        if (this.right_elevatorPanel) this.right_elevatorPanel = null;
+        if (this.left_elevatorPanel) this.left_elevatorPanel = null;
+        if (this.right_gatePanel) this.right_gatePanel = null;
+        if (this.left_gatePanel) this.left_gatePanel = null;
         if (this.player) {
             this.player.dispose();
             this.player = null;
@@ -80,7 +80,7 @@ export default class Build {
             this.task3d = null;
         }
         // 3d 隐藏闪烁调度
-        if(this.nodeBlinkTask) {
+        if (this.nodeBlinkTask) {
             dm3d.removeScheduleTask(this.nodeBlinkTask);
             this.nodeBlinkTask = null;
         }
@@ -120,9 +120,9 @@ export default class Build {
         }
     }
     initBuildSpaceId() {
-        let { dimensionInfo } = window.wfcUrl;
+        let { dimensionInfo } = window.buildURL;
         let { basement, business, office } = this, { ID, Building } = dimensionInfo,
-            basementFloorIds = Building[0].Floor,
+        basementFloorIds = Building[0].Floor,
             businessFloorIds = Building[1].Floor,
             officeFloorIds = Building[2].Floor;
 
@@ -321,7 +321,7 @@ export default class Build {
         all.elevatorLines.forEach((elevatorLine) => {
             let splitDisplayName = elevatorLine.getDisplayName().split('-'),
                 { beginIndex, endIndex } = pTools.getBeginAndEndFloorIndex(4, splitDisplayName[1], splitDisplayName[2]);
-            elevatorLine.setAnchor3d({x: 0.5, y: 0, z: 0.5}, true);
+            elevatorLine.setAnchor3d({ x: 0.5, y: 0, z: 0.5 }, true);
             let beginFloor = all.floorNodes[beginIndex],
                 endFloor = all.floorNodes[endIndex],
                 endFloorDown = endFloor.getElevation() - endFloor.getTall() / 2,
@@ -330,10 +330,9 @@ export default class Build {
                 tall = endFloorUp - beginFloorUp,
                 elevation = beginFloorUp;
             let endNextFloor = all.floorNodes[endIndex + 1];
-            if(endNextFloor) {
+            if (endNextFloor) {
                 tall += endNextFloor.getElevation() - endNextFloor.getTall() / 2 - endFloorUp;
-            }
-            else {
+            } else {
                 let endPreFloor = all.floorNodes[endIndex - 1];
                 tall += endFloorDown - (endPreFloor.getElevation() + endPreFloor.getTall() / 2);
             }
@@ -458,8 +457,7 @@ export default class Build {
         }, defXZ);
     }
     refresh() {
-        let { normalRefreshTime, alarmRefreshTime, emergencyAlarmRefreshTime } = window.wfcUrl,
-            { dataFill, timePanel, bottomPanel } = this;
+        let { normalRefreshTime, alarmRefreshTime, emergencyAlarmRefreshTime } = window.buildURL, { dataFill, timePanel, bottomPanel } = this;
         dataFill.initTime(timePanel);
         this.refreshNormalData();
         this.refreshAlarmData();
@@ -491,31 +489,31 @@ export default class Build {
         //dataFill.initEquipmentAlarm(this);
     }
     refreshAlarmData() {
-        let { dataFill, bottomPanel } = this;
-        dataFill.initEmergencyAlarm(bottomPanel);
-    }
-    // 根据楼层类别以及楼层人数获取楼层颜色以及等级信息
+            let { dataFill, bottomPanel } = this;
+            dataFill.initEmergencyAlarm(bottomPanel);
+        }
+        // 根据楼层类别以及楼层人数获取楼层颜色以及等级信息
     getInfoByNum(type, num) {
-        if(type === 'office') { // 办公楼
-            if(num >= 0 && num < 250) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(num >= 250 && num < 500) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(num >= 500 && num < 750) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(num >= 750 && num < 1000) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(num >= 1000) return { color: 'rgb(224, 68, 3)', level: 1 };
+        if (type === 'office') { // 办公楼
+            if (num >= 0 && num < 250) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if (num >= 250 && num < 500) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if (num >= 500 && num < 750) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if (num >= 750 && num < 1000) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if (num >= 1000) return { color: 'rgb(224, 68, 3)', level: 1 };
         }
-        if(type === 'business') { // 商业楼层
-            if(num >= 0 && num < 500) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(num >= 500 && num < 1000) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(num >= 1000 && num < 1500) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(num >= 1500 && num < 2000) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(num >= 2000) return { color: 'rgb(224, 68, 3)', level: 1 };
+        if (type === 'business') { // 商业楼层
+            if (num >= 0 && num < 500) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if (num >= 500 && num < 1000) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if (num >= 1000 && num < 1500) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if (num >= 1500 && num < 2000) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if (num >= 2000) return { color: 'rgb(224, 68, 3)', level: 1 };
         }
-        if(type === 'basement') { // 地下室
-            if(num >= 0 && num < 50) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(num >= 50 && num < 100) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(num >= 100 && num < 150) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(num >= 150 && num < 200) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(num >= 200) return { color: 'rgb(224, 68, 3)', level: 1 };
+        if (type === 'basement') { // 地下室
+            if (num >= 0 && num < 50) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if (num >= 50 && num < 100) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if (num >= 100 && num < 150) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if (num >= 150 && num < 200) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if (num >= 200) return { color: 'rgb(224, 68, 3)', level: 1 };
         }
     }
 }

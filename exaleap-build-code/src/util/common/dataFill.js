@@ -13,9 +13,10 @@ export default class DataFill {
     initFloorPassengers(build, floor, panel) {
         const symbolUrl = 'symbols/3d-panel/build-panel/mr-build-panel.json';
         let floorNum = floor.a('floorNum'),
-            floorType = floor.a('floorType'), { ID } = floor.a('info');
+            floorType = floor.a('floorType'),
+            { ID } = floor.a('info');
 
-        if (window.wfcUrl.debug) {
+        if (window.buildURL.debug) {
             ID = util.randomNumBetween(0, 1);
         }
 
@@ -226,7 +227,7 @@ export default class DataFill {
             panel.a("alarmNum", data.alarmNum);
             panel.a("unhandled", data.unhandled);
             panel.a("handled", data.handled);
-        }) 
+        })
     }
 
     // 获取视频流 token

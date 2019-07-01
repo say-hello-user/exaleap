@@ -2,7 +2,7 @@ window.htconfig = {
     Default: {
         crossOrigin: 'anonymous',
         convertURL: function(url) {
-            var storagePrefix = window.wfcUrl.dirBasePath;
+            var storagePrefix = window.buildURL.dirBasePath;
             if (storagePrefix && url && !/^data:image/.test(url) && !/^http/.test(url) && !/^https/.test(url)) {
                 url = storagePrefix + '/' + url
             }
@@ -13,7 +13,7 @@ window.htconfig = {
             if (match) {
                 window.sid = match[1]
             }
-            if(window.sid){
+            if (window.sid) {
                 url += '&sid=' + window.sid;
             }
             return url;

@@ -24,7 +24,7 @@ export default class Build {
     loadScreen(screen) {
         Object.assign(this, { g3d: screen.g3d, dm3d: screen.dm3d, g2d: screen.g2d, dm2d: screen.dm2d });
         let { g3d } = this, { pc2d, pc3d } = window.htBuildConfig.screen,
-            dirBasePath = window.wfcUrl.dirBasePath;
+            dirBasePath = window.buildURL.dirBasePath;
         g3d.setOrtho(true);
         screen.load3dScreen(dirBasePath + '/' + pc3d, null, (g3d, dm3d) => {
             this.init3dNodes();
@@ -62,14 +62,14 @@ export default class Build {
         this.buildPanelStatus = null;
         this.editBuildName = null;
         this.preClickInfo = null;
-        if(this.right_alarmPanel) this.right_alarmPanel = null;
-        if(this.left_alarmPanel) this.left_alarmPanel = null;
-        if(this.right_escalatorPanel) this.right_escalatorPanel = null;
-        if(this.left_escalatorPanel) this.left_escalatorPanel = null;
-        if(this.right_elevatorPanel) this.right_elevatorPanel = null;
-        if(this.left_elevatorPanel) this.left_elevatorPanel = null;
-        if(this.right_gatePanel) this.right_gatePanel = null;
-        if(this.left_gatePanel) this.left_gatePanel = null;
+        if (this.right_alarmPanel) this.right_alarmPanel = null;
+        if (this.left_alarmPanel) this.left_alarmPanel = null;
+        if (this.right_escalatorPanel) this.right_escalatorPanel = null;
+        if (this.left_escalatorPanel) this.left_escalatorPanel = null;
+        if (this.right_elevatorPanel) this.right_elevatorPanel = null;
+        if (this.left_elevatorPanel) this.left_elevatorPanel = null;
+        if (this.right_gatePanel) this.right_gatePanel = null;
+        if (this.left_gatePanel) this.left_gatePanel = null;
         if (this.player) {
             this.player.dispose();
             this.player = null;
@@ -80,7 +80,7 @@ export default class Build {
             this.task3d = null;
         }
         // 3d 隐藏闪烁调度
-        if(this.nodeBlinkTask) {
+        if (this.nodeBlinkTask) {
             dm3d.removeScheduleTask(this.nodeBlinkTask);
             this.nodeBlinkTask = null;
         }
@@ -120,11 +120,11 @@ export default class Build {
         }
     }
     initBuildSpaceId() {
-        let { dimensionInfo } = window.wfcUrl;
+        let { dimensionInfo } = window.buildURL;
         let { basement, office } = this, { ID, Building } = dimensionInfo,
-            basementFloorIds = Building[0].Floor,
+        basementFloorIds = Building[0].Floor,
             officeFloorIds = Building[1].Floor;
-    
+
         basement.floorNodes.forEach((floor, index) => {
             floor.a('info', basementFloorIds[index]);
         });
@@ -135,9 +135,9 @@ export default class Build {
     init2dNodes() {
         let { dm2d, notifier } = this;
         this.editBuildName = 'all';
-        this.buildPanelStatus = { 
-            all: { 'zj': true, 'dt': true, 'ft': false, 'jb': true, 'kl': true }, 
-            basement: { 'zj': true, 'dt': true, 'ft': false, 'jb': true, 'kl': true }, 
+        this.buildPanelStatus = {
+            all: { 'zj': true, 'dt': true, 'ft': false, 'jb': true, 'kl': true },
+            basement: { 'zj': true, 'dt': true, 'ft': false, 'jb': true, 'kl': true },
             office: { 'zj': true, 'dt': true, 'ft': false, 'jb': true, 'kl': true }
         };
         dm2d.each((node) => {
@@ -177,51 +177,72 @@ export default class Build {
     }
     init3dNodes() {
         let { g3d, dm3d } = this;
-        let basement = this.basement = { gates: [], gateBlinks: [], elevators: [], elevatorLines: [], floorNodes: [],
-                                         escalators: [], alarms: [] }, // 地下室
-            office = this.office = { gates: [], gateBlinks: [], elevators: [], elevatorLines: [], floorNodes: [],
-                                     escalators: [], alarms: [] }, // 办公楼层
-            all = this.all = { gates: [], gateBlinks: [], elevators: [], elevatorLines: [], floorNodes: [],
-                               escalators: [], alarms: [] }; //全楼
+        let basement = this.basement = {
+                gates: [],
+                gateBlinks: [],
+                elevators: [],
+                elevatorLines: [],
+                floorNodes: [],
+                escalators: [],
+                alarms: []
+            }, // 地下室
+            office = this.office = {
+                gates: [],
+                gateBlinks: [],
+                elevators: [],
+                elevatorLines: [],
+                floorNodes: [],
+                escalators: [],
+                alarms: []
+            }, // 办公楼层
+            all = this.all = {
+                gates: [],
+                gateBlinks: [],
+                elevators: [],
+                elevatorLines: [],
+                floorNodes: [],
+                escalators: [],
+                alarms: []
+            }; //全楼
 
         this.makeBuilding();
         this.initBuildSpaceId();
-        
+
         dm3d.each((node) => {
-           let displayName = node.getDisplayName();
-           if(displayName === '地-办') {
-               let childs = node.getChildren();
-               childs.each((child) => {
-                   let displayName = child.getDisplayName();
-                   if(displayName === '电梯线集合') {
-                       let elevatorLines = child.getChildren().toArray();
-                       basement.elevatorLines.push(...elevatorLines);
-                       office.elevatorLines.push(...elevatorLines);
-                       all.elevatorLines.push(...elevatorLines);
-                   }
-                   if (displayName === '电梯集合') {
+            let displayName = node.getDisplayName();
+            if (displayName === '地-办') {
+                let childs = node.getChildren();
+                childs.each((child) => {
+                    let displayName = child.getDisplayName();
+                    if (displayName === '电梯线集合') {
+                        let elevatorLines = child.getChildren().toArray();
+                        basement.elevatorLines.push(...elevatorLines);
+                        office.elevatorLines.push(...elevatorLines);
+                        all.elevatorLines.push(...elevatorLines);
+                    }
+                    if (displayName === '电梯集合') {
                         let elevators = child.getChildren().toArray();
                         basement.elevators.push(...elevators);
                         office.elevators.push(...elevators);
                         all.elevators.push(...elevators);
                     }
-               });
-           }
-           if(displayName === '办') {
+                });
+            }
+            if (displayName === '办') {
                 let childs = node.getChildren();
                 childs.each((child) => {
                     let displayName = child.getDisplayName();
-                    if(displayName === '扶梯集合') {
+                    if (displayName === '扶梯集合') {
                         let escalators = child.getChildren().toArray();
                         office.escalators.push(...escalators);
                         all.escalators.push(...escalators);
                     }
-                    if(displayName === '闸机集合') {
+                    if (displayName === '闸机集合') {
                         let gates = child.getChildren().toArray();
                         office.gates.push(...gates);
                         all.gates.push(...gates);
                     }
-                    if(displayName === '电梯线集合') {
+                    if (displayName === '电梯线集合') {
                         let elevatorLines = child.getChildren().toArray();
                         office.elevatorLines.push(...elevatorLines);
                         all.elevatorLines.push(...elevatorLines);
@@ -232,15 +253,15 @@ export default class Build {
                         all.elevators.push(...elevators);
                     }
                 });
-           }
-           if(displayName === '楼层面板') {
-               this.floorPanel = node;
-           }
+            }
+            if (displayName === '楼层面板') {
+                this.floorPanel = node;
+            }
         });
         all.floorNodes = basement.floorNodes.concat(office.floorNodes);
 
-         // 设置电梯的运行范围。 3d 编辑器中电梯名称命名规则 电梯-B4-22F 即 电梯-起始楼层-结束楼层 否则解析错误
-         all.elevators.forEach((elevator) => {
+        // 设置电梯的运行范围。 3d 编辑器中电梯名称命名规则 电梯-B4-22F 即 电梯-起始楼层-结束楼层 否则解析错误
+        all.elevators.forEach((elevator) => {
             let splitDisplayName = elevator.getDisplayName().split('-'),
                 { beginIndex, endIndex } = pTools.getBeginAndEndFloorIndex(3, splitDisplayName[1], splitDisplayName[2]);
             pTools.setElevatorMoveRange(all.floorNodes.slice(beginIndex, endIndex + 1), elevator);
@@ -249,7 +270,7 @@ export default class Build {
         all.elevatorLines.forEach((elevatorLine) => {
             let splitDisplayName = elevatorLine.getDisplayName().split('-'),
                 { beginIndex, endIndex } = pTools.getBeginAndEndFloorIndex(3, splitDisplayName[1], splitDisplayName[2]);
-            elevatorLine.setAnchor3d({x: 0.5, y: 0, z: 0.5}, true);
+            elevatorLine.setAnchor3d({ x: 0.5, y: 0, z: 0.5 }, true);
             let beginFloor = all.floorNodes[beginIndex],
                 endFloor = all.floorNodes[endIndex],
                 endFloorDown = endFloor.getElevation() - endFloor.getTall() / 2,
@@ -258,30 +279,29 @@ export default class Build {
                 tall = endFloorUp - beginFloorUp,
                 elevation = beginFloorUp;
             let endNextFloor = all.floorNodes[endIndex + 1];
-            if(endNextFloor) {
+            if (endNextFloor) {
                 tall += endNextFloor.getElevation() - endNextFloor.getTall() / 2 - endFloorUp;
-            }
-            else {
+            } else {
                 let endPreFloor = all.floorNodes[endIndex - 1];
                 tall += endFloorDown - (endPreFloor.getElevation() + endPreFloor.getTall() / 2);
             }
             elevatorLine.setTall(tall);
             elevatorLine.setElevation(elevation);
         });
-        
+
         pTools.sortDm3dData(g3d, dm3d);
     }
     makeBuilding() {
         let { g3d, dm3d, basement, office } = this,
-            first1 = dm3d.getDataByTag('first1'), last1 = dm3d.getDataByTag('last1'), 
-            first2 = dm3d.getDataByTag('first2'), 
-            first3 = dm3d.getDataByTag('first3'), 
-            first4 = dm3d.getDataByTag('first4'), last4 = dm3d.getDataByTag('last4'), 
+        first1 = dm3d.getDataByTag('first1'), last1 = dm3d.getDataByTag('last1'),
+            first2 = dm3d.getDataByTag('first2'),
+            first3 = dm3d.getDataByTag('first3'),
+            first4 = dm3d.getDataByTag('first4'), last4 = dm3d.getDataByTag('last4'),
             first5 = dm3d.getDataByTag('first5'), last5 = dm3d.getDataByTag('last5'),
             first6 = dm3d.getDataByTag('first6'), last6 = dm3d.getDataByTag('last6');
         const defXZ = { x: 200, z: 344 };
         architecture.makeBuilding(g3d, first1, last1, 3, {
-            getColor: (floorNum) => '0, 164, 152', 
+            getColor: (floorNum) => '0, 164, 152',
             getOpacity: (floorNum) => 0.43,
             getTall: (floorNum) => 20,
             getThickness: (floorNum) => 10,
@@ -295,7 +315,7 @@ export default class Build {
             }
         }, defXZ);
         architecture.makeBuilding(g3d, first2, first2, 1, {
-            getColor: (floorNum) => '0, 255, 255', 
+            getColor: (floorNum) => '0, 255, 255',
             getOpacity: (floorNum) => 1,
             getTall: (floorNum) => 20,
             getThickness: (floorNum) => 10,
@@ -309,7 +329,7 @@ export default class Build {
             }
         }, defXZ);
         architecture.makeBuilding(g3d, first3, first3, 1, {
-            getColor: (floorNum) => '0, 255, 255', 
+            getColor: (floorNum) => '0, 255, 255',
             getOpacity: (floorNum) => 1,
             getTall: (floorNum) => 20,
             getThickness: (floorNum) => 10,
@@ -323,7 +343,7 @@ export default class Build {
             }
         }, defXZ);
         architecture.makeBuilding(g3d, first4, last4, 9, {
-            getColor: (floorNum) => '37, 168, 219', 
+            getColor: (floorNum) => '37, 168, 219',
             getOpacity: (floorNum) => 0.8,
             getTall: (floorNum) => 20,
             getThickness: (floorNum) => 10,
@@ -338,11 +358,11 @@ export default class Build {
         }, defXZ);
         architecture.makeBuilding(g3d, first5, last5, 9, {
             getColor: (floorNum) => {
-                if(floorNum === 9) return '214, 43, 149';
+                if (floorNum === 9) return '214, 43, 149';
                 return '103, 46, 140';
-            }, 
+            },
             getOpacity: (floorNum) => {
-                if(floorNum === 9) return 1;
+                if (floorNum === 9) return 1;
                 return 0.7;
             },
             getTall: (floorNum) => 20,
@@ -357,7 +377,7 @@ export default class Build {
             }
         }, defXZ);
         architecture.makeBuilding(g3d, first6, last6, 4, {
-            getColor: (floorNum) => '108, 128, 228', 
+            getColor: (floorNum) => '108, 128, 228',
             getOpacity: (floorNum) => 0.8,
             getTall: (floorNum) => 20,
             getThickness: (floorNum) => 10,
@@ -369,11 +389,10 @@ export default class Build {
                 floorNode.a('panelAnchor', { x: 0.25, y: 0.5, z: 1 });
                 office.floorNodes.push(floorNode);
             }
-        }, defXZ); 
+        }, defXZ);
     }
     refresh() {
-        let { normalRefreshTime, alarmRefreshTime, emergencyAlarmRefreshTime } = window.wfcUrl,
-            { dataFill, timePanel, bottomPanel } = this;
+        let { normalRefreshTime, alarmRefreshTime, emergencyAlarmRefreshTime } = window.buildURL, { dataFill, timePanel, bottomPanel } = this;
         dataFill.initTime(timePanel);
         this.refreshNormalData();
         this.refreshAlarmData();
@@ -405,31 +424,31 @@ export default class Build {
         //dataFill.initEquipmentAlarm(this);
     }
     refreshAlarmData() {
-        let { dataFill, bottomPanel } = this;
-        dataFill.initEmergencyAlarm(bottomPanel);
-    }
-    // 根据楼层类别以及楼层人数获取楼层颜色以及等级信息
+            let { dataFill, bottomPanel } = this;
+            dataFill.initEmergencyAlarm(bottomPanel);
+        }
+        // 根据楼层类别以及楼层人数获取楼层颜色以及等级信息
     getInfoByNum(type, num) {
-        if(type === 'office') { // 办公楼
-            if(num >= 0 && num < 250) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(num >= 250 && num < 500) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(num >= 500 && num < 750) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(num >= 750 && num < 1000) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(num >= 1000) return { color: 'rgb(224, 68, 3)', level: 1 };
+        if (type === 'office') { // 办公楼
+            if (num >= 0 && num < 250) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if (num >= 250 && num < 500) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if (num >= 500 && num < 750) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if (num >= 750 && num < 1000) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if (num >= 1000) return { color: 'rgb(224, 68, 3)', level: 1 };
         }
-        if(type === 'business') { // 商业楼层
-            if(num >= 0 && num < 500) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(num >= 500 && num < 1000) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(num >= 1000 && num < 1500) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(num >= 1500 && num < 2000) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(num >= 2000) return { color: 'rgb(224, 68, 3)', level: 1 };
+        if (type === 'business') { // 商业楼层
+            if (num >= 0 && num < 500) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if (num >= 500 && num < 1000) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if (num >= 1000 && num < 1500) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if (num >= 1500 && num < 2000) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if (num >= 2000) return { color: 'rgb(224, 68, 3)', level: 1 };
         }
-        if(type === 'basement') { // 地下室
-            if(num >= 0 && num < 50) return { color: 'rgb(0, 180, 81)', level: 5 };
-            if(num >= 50 && num < 100) return { color: 'rgb(115, 204, 52)', level: 4 };
-            if(num >= 100 && num < 150) return { color: 'rgb(66, 180, 218)', level: 3 };
-            if(num >= 150 && num < 200) return { color: 'rgb(255, 183, 27)', level: 2 };
-            if(num >= 200) return { color: 'rgb(224, 68, 3)', level: 1 };
+        if (type === 'basement') { // 地下室
+            if (num >= 0 && num < 50) return { color: 'rgb(0, 180, 81)', level: 5 };
+            if (num >= 50 && num < 100) return { color: 'rgb(115, 204, 52)', level: 4 };
+            if (num >= 100 && num < 150) return { color: 'rgb(66, 180, 218)', level: 3 };
+            if (num >= 150 && num < 200) return { color: 'rgb(255, 183, 27)', level: 2 };
+            if (num >= 200) return { color: 'rgb(224, 68, 3)', level: 1 };
         }
     }
 }

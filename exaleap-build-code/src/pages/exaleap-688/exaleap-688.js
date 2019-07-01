@@ -9,7 +9,7 @@ class Main {
     setScreenLang(lang, callBack) {
         let langTypes = ['en', 'tw', 'zh'];
         if (langTypes.indexOf(lang) > -1) {
-            ht.Default.loadJS([`${window.wfcUrl.dirBasePath}/js/locales/${lang}.js`], () => {
+            ht.Default.loadJS([`${window.buildURL.dirBasePath}/js/locales/${lang}.js`], () => {
                 let { g2d, g3d } = this;
                 g2d && g2d.redraw();
                 g3d && g3d.iv();
@@ -20,7 +20,7 @@ class Main {
         }
     }
     loadScreen(parentElement) {
-        this.setScreenLang(window.wfcUrl.defaultLang || 'zh', () => {
+        this.setScreenLang(window.buildURL.defaultLang || 'zh', () => {
             let screen = this.screen = new Screen();
             screen.init3dScreen(parentElement);
             screen.init2dScreen({

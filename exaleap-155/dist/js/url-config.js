@@ -5,7 +5,7 @@
 // '消防报警面板' { kind: 'firePanel' }
 // 重点区域监控面板 { kind: 'monitorPanel' }
 // '投屏' { kind: 'screening' }
-window.wfcUrl = {
+window.buildURL = {
     debug: true,
     dirBasePath: 'http://192.168.0.25:8080/ht/3dSupport/exaleap/exaleap-155/dist',
     baseurl: 'http://192.168.0.25:8080/ht/3dSupport/exaleap/exaleap-155/dist',

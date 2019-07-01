@@ -1,6 +1,6 @@
 export default class DataSource {
     constructor() {
-        let { baseurl, siteId, ajax } = window.wfcUrl;
+        let { baseurl, siteId, ajax } = window.buildURL;
         this.baseurl = baseurl;
         this.siteId = siteId;
         this.ajax = ajax;
@@ -117,11 +117,11 @@ export default class DataSource {
                 subPath = subPath.replace('{' + key + '}', replaceData[key]);
             }
         }
-        let reqUrl = window.wfcUrl.debug ? baseurl + '/console' + subPath + '.json' : baseurl + '/console' + subPath;
+        let reqUrl = window.buildURL.debug ? baseurl + '/console' + subPath + '.json' : baseurl + '/console' + subPath;
         return {
             url: reqUrl,
             method: method,
-            headers: window.wfcUrl.headers
+            headers: window.buildURL.headers
         }
     }
 
@@ -142,7 +142,7 @@ export default class DataSource {
         }
         request.send(body);
     }
-    
+
     destory() {
         this.ajax = null;
         this.baseurl = null;

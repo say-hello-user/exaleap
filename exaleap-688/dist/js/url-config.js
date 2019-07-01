@@ -5,7 +5,7 @@
 // '消防报警面板' { kind: 'firePanel' }
 // 重点区域监控面板 { kind: 'monitorPanel' }
 // '投屏' { kind: 'screening' }
-window.wfcUrl = {
+window.buildURL = {
     debug: true,
     dirBasePath: 'http://192.168.0.25:8080/ht/3dSupport/exaleap/exaleap-688/dist',
     baseurl: 'http://192.168.0.25:8080/ht/3dSupport/exaleap/exaleap-688/dist',
@@ -117,10 +117,10 @@ window.wfcUrl = {
                     {
                         "ID": "b6012269-017b-4fbb-a884-6cedcbdcbb59",
                         "Name": "Office-07 Floor"
-                    }, 
+                    },
                     {
-                      "ID": "8ebd1466-e769-408b-a6db-5b5b5d9c745f",
-                      "Name": "Office-08 Floor"
+                        "ID": "8ebd1466-e769-408b-a6db-5b5b5d9c745f",
+                        "Name": "Office-08 Floor"
                     },
                     {
                         "ID": "65c98a59-a139-46f7-ae27-e9768ce7d462",
@@ -179,12 +179,12 @@ window.wfcUrl = {
                         "Name": "Office-22 Floor"
                     },
                     {
-                      "ID": "ab4f09da-3f37-4040-8484-58c571aab5e8",
-                      "Name": "Office-23 Floor"
+                        "ID": "ab4f09da-3f37-4040-8484-58c571aab5e8",
+                        "Name": "Office-23 Floor"
                     },
                     {
-                      "ID": "ab4f09da-3f37-4040-8484-58c571aab5e9",
-                      "Name": "Office-24 Floor"
+                        "ID": "ab4f09da-3f37-4040-8484-58c571aab5e9",
+                        "Name": "Office-24 Floor"
                     },
                 ],
             }
