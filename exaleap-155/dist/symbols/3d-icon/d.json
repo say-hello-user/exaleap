@@ -1,0 +1,30 @@
+{
+  "modified": "Tue Jul 02 2019 18:00:01 GMT+0800 (中国标准时间)",
+  "gridBlockSize": 4,
+  "width": 64,
+  "height": 64,
+  "comps": [
+    {
+      "type": "shape",
+      "background": "rgb(125,195,125)",
+      "borderColor": "#979797",
+      "rotation": 3.14159,
+      "points": [
+        32,
+        0,
+        0,
+        32,
+        20,
+        32,
+        32,
+        64,
+        44,
+        32,
+        64,
+        32,
+        32,
+        0
+      ]
+    }
+  ]
+}
