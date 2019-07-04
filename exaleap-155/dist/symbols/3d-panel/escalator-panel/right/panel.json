@@ -1,0 +1,75 @@
+{
+  "modified": "Wed Jul 03 2019 17:42:18 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "name",
+      "valueType": "String"
+    },
+    {
+      "attr": "state",
+      "valueType": "String"
+    },
+    {
+      "attr": "date",
+      "valueType": "String"
+    }
+  ],
+  "width": 200,
+  "height": 80,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "rgb(222,84,42)",
+      "borderWidth": -23,
+      "borderColor": "#979797",
+      "rect": [
+        17.97617,
+        9.4075,
+        3.68995,
+        52.12051
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@name",
+        "value": "扶梯21 B1-1F"
+      },
+      "color": "rgb(232,195,195)",
+      "rect": [
+        24.12481,
+        13.4075,
+        74.87519,
+        12.67501
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@state",
+        "value": "运行"
+      },
+      "color": "rgb(232,195,195)",
+      "rect": [
+        24.12481,
+        29.4075,
+        74.87519,
+        12.67501
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@date",
+        "value": "2019-6-5 12:56"
+      },
+      "color": "rgb(232,195,195)",
+      "rect": [
+        25.12481,
+        45.4075,
+        74.87519,
+        12.67501
+      ]
+    }
+  ]
+}
