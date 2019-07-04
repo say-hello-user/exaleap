@@ -4,14 +4,14 @@ const leftPanel = {
         symbolUrl: { alarmPanel: 'symbols/3d-panel/alarm/left/alarm.json',
                     escalatorPanel: 'symbols/3d-panel/escalator-panel/left/panel.json',
                     elevatorPanel: 'symbols/3d-panel/escalator-panel/left/panel.json',
-                    gatePanel: 'symbols/3d-panel/alarm/left/alarm.json' }
+                    gatePanel: 'symbols/3d-panel/escalator-panel/left/panel.json' }
     };
 const rightPanel = {
         lineSymbol: 'symbols/3d-panel/alarm/right/line.json',
         symbolUrl: { alarmPanel: 'symbols/3d-panel/alarm/right/alarm.json',
                     escalatorPanel: 'symbols/3d-panel/escalator-panel/right/panel.json',
                     elevatorPanel: 'symbols/3d-panel/escalator-panel/right/panel.json',
-                    gatePanel: 'symbols/3d-panel/alarm/right/alarm.json' }
+                    gatePanel: 'symbols/3d-panel/escalator-panel/right/panel.json' }
     };
 export default {
     addDevicePanel(dm3d, type, direction, scale) {
