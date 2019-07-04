@@ -352,8 +352,8 @@ export default class Build {
             first6 = dm3d.getDataByTag('first6'), last6 = dm3d.getDataByTag('last6');
         const defXZ = { x: 476, z: 439 };
         architecture.makeBuilding(g3d, first1, first1, 1, {
-            getColor: (floorNum) => '53, 153, 219',
-            getOpacity: (floorNum) => 0.71,
+            getColor: (floorNum) => '41, 166, 221',
+            getOpacity: (floorNum) => 0.3,
             getTall: (floorNum) => 14,
             getThickness: (floorNum) => 6,
             floorCall: (floorNum, floorNode, wireNode) => {
@@ -365,8 +365,8 @@ export default class Build {
             }
         }, defXZ);
         architecture.makeBuilding(g3d, first2, last2, 3, {
-            getColor: (floorNum) => '53, 153, 219',
-            getOpacity: (floorNum) => 0.71,
+            getColor: (floorNum) => '41, 166, 221',
+            getOpacity: (floorNum) => 0.3,
             getTall: (floorNum) => 14,
             getThickness: (floorNum) => 6,
             floorCall: (floorNum, floorNode, wireNode) => {
@@ -386,7 +386,7 @@ export default class Build {
             getColor: (floorNum) => {
                 if (floorNum === 1) return '255, 184, 77';
                 if (floorNum >= 2 && floorNum <= 4) return '194, 133, 43';
-                return '209, 42, 145'
+                return '232, 30, 121'
             },
             getOpacity: (floorNum) => {
                 if (floorNum === 1) return 1;
@@ -414,8 +414,14 @@ export default class Build {
                 if (floorNum === 2) return 1;
                 return 0.58
             },
-            getTall: (floorNum) => 14,
-            getThickness: (floorNum) => 6,
+            getTall: (floorNum) => {
+                if (floorNum === 1 || floorNum === 2) return 14;
+                return 8
+            },
+            getThickness: (floorNum) => {
+                if (floorNum === 1 || floorNum === 2) return 6;
+                return 3
+            },
             floorCall: (floorNum, floorNode, wireNode) => {
                 const floorNums = ['6F', '7F', '8F', '9F', '10F', '11F', '12F', '15F', '16F'];
                 floorNode.setDisplayName('楼层地板');
@@ -444,7 +450,7 @@ export default class Build {
         }, defXZ);
         architecture.makeBuilding(g3d, first6, last6, 2, {
             getColor: (floorNum) => '49, 210, 235',
-            getOpacity: (floorNum) => 0.8,
+            getOpacity: (floorNum) => 0.9,
             getTall: (floorNum) => 14,
             getThickness: (floorNum) => 6,
             floorCall: (floorNum, floorNode, wireNode) => {

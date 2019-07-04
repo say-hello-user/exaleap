@@ -302,7 +302,7 @@ export default class Build {
         const defXZ = { x: 200, z: 344 };
         architecture.makeBuilding(g3d, first1, last1, 3, {
             getColor: (floorNum) => '0, 164, 152',
-            getOpacity: (floorNum) => 0.43,
+            getOpacity: (floorNum) => 0.3,
             getTall: (floorNum) => 20,
             getThickness: (floorNum) => 10,
             floorCall: (floorNum, floorNode, wireNode) => {
@@ -330,9 +330,9 @@ export default class Build {
         }, defXZ);
         architecture.makeBuilding(g3d, first3, first3, 1, {
             getColor: (floorNum) => '0, 255, 255',
-            getOpacity: (floorNum) => 1,
-            getTall: (floorNum) => 20,
-            getThickness: (floorNum) => 10,
+            getOpacity: (floorNum) => 0.4,
+            getTall: (floorNum) => 12,
+            getThickness: (floorNum) => 6,
             floorCall: (floorNum, floorNode, wireNode) => {
                 const floorNums = ['2F'];
                 floorNode.setDisplayName('楼层地板');
@@ -343,10 +343,10 @@ export default class Build {
             }
         }, defXZ);
         architecture.makeBuilding(g3d, first4, last4, 9, {
-            getColor: (floorNum) => '37, 168, 219',
+            getColor: (floorNum) => '41, 166, 221',
             getOpacity: (floorNum) => 0.8,
-            getTall: (floorNum) => 20,
-            getThickness: (floorNum) => 10,
+            getTall: (floorNum) => 12,
+            getThickness: (floorNum) => 6,
             floorCall: (floorNum, floorNode, wireNode) => {
                 const floorNums = ['3F', '4F', '5F', '6F', '7F', '8F', '9F', '10F', '11F'];
                 floorNode.setDisplayName('楼层地板');
@@ -358,12 +358,12 @@ export default class Build {
         }, defXZ);
         architecture.makeBuilding(g3d, first5, last5, 9, {
             getColor: (floorNum) => {
-                if (floorNum === 9) return '214, 43, 149';
+                if (floorNum === 9) return '232, 30, 121';
                 return '103, 46, 140';
             },
             getOpacity: (floorNum) => {
                 if (floorNum === 9) return 1;
-                return 0.7;
+                return 0.5;
             },
             getTall: (floorNum) => 20,
             getThickness: (floorNum) => 10,
@@ -378,7 +378,7 @@ export default class Build {
         }, defXZ);
         architecture.makeBuilding(g3d, first6, last6, 4, {
             getColor: (floorNum) => '108, 128, 228',
-            getOpacity: (floorNum) => 0.8,
+            getOpacity: (floorNum) => 0.9,
             getTall: (floorNum) => 20,
             getThickness: (floorNum) => 10,
             floorCall: (floorNum, floorNode, wireNode) => {
@@ -424,10 +424,11 @@ export default class Build {
         //dataFill.initEquipmentAlarm(this);
     }
     refreshAlarmData() {
-            let { dataFill, bottomPanel } = this;
-            dataFill.initEmergencyAlarm(bottomPanel);
-        }
-        // 根据楼层类别以及楼层人数获取楼层颜色以及等级信息
+        let { dataFill, bottomPanel } = this;
+        dataFill.initEmergencyAlarm(bottomPanel);
+    }
+
+    // 根据楼层类别以及楼层人数获取楼层颜色以及等级信息
     getInfoByNum(type, num) {
         if (type === 'office') { // 办公楼
             if (num >= 0 && num < 250) return { color: 'rgb(0, 180, 81)', level: 5 };

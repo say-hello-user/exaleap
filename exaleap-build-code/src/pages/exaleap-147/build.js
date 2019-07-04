@@ -326,8 +326,8 @@ export default class Build {
 
         const defXZ = { x: 1000, z: 400 };
         architecture.makeBuilding(g3d, first1, last1, 2, {
-            getColor: (floorNum) => '51, 153, 255',
-            getOpacity: (floorNum) => 0.43,
+            getColor: (floorNum) => '41, 166, 221',
+            getOpacity: (floorNum) => 0.3,
             getTall: (floorNum) => 18,
             getThickness: (floorNum) => 6,
             floorCall: (floorNum, floorNode, wireNode) => {

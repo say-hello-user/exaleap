@@ -7,8 +7,8 @@
 // '投屏' { kind: 'screening' }
 window.buildURL = {
     debug: true,
-    dirBasePath: 'http://192.168.0.25:8080/ht/3dSupport/exaleap/exaleap-155/dist',
-    baseurl: 'http://192.168.0.25:8080/ht/3dSupport/exaleap/exaleap-155/dist',
+    dirBasePath: '',
+    baseurl: '',
     siteId: 'cbe83f10-2b9f-4252-abc4-b16f557ab18d',
     normalRefreshTime: 15 * 60 * 1000, // 正常数据请求周期 单位毫秒
     alarmRefreshTime: 60 * 1000, // 实时警告消息数据请求周期 单位毫秒
