@@ -92,13 +92,13 @@ const mi3dEvent = function (e) {
                 }
             }
             if (displayName === '扶梯') {
-                //adjustDevicePanle.call(this, data, 'escalatorPanel');
+                // adjustDevicePanle.call(this, data, 'escalatorPanel');
             }
             if (displayName.indexOf('电梯-') > -1) {
-                //adjustDevicePanle.call(this, data, 'elevatorPanel');
+                // adjustDevicePanle.call(this, data, 'elevatorPanel');
             }
             if (displayName === '闸机') {
-                //adjustDevicePanle.call(this, data, 'gatePanel');
+                adjustDevicePanle.call(this, data, 'gatePanel');
             }
         }
     }

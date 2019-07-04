@@ -2,15 +2,15 @@ import util from './util';
 const leftPanel = {
         lineSymbol: 'symbols/3d-panel/alarm/left/line.json',
         symbolUrl: { alarmPanel: 'symbols/3d-panel/alarm/left/alarm.json',
-                    escalatorPanel: 'symbols/3d-panel/alarm/left/alarm.json',
-                    elevatorPanel: 'symbols/3d-panel/alarm/left/alarm.json',
+                    escalatorPanel: 'symbols/3d-panel/escalator-panel/left/panel.json',
+                    elevatorPanel: 'symbols/3d-panel/escalator-panel/left/panel.json',
                     gatePanel: 'symbols/3d-panel/alarm/left/alarm.json' }
     };
 const rightPanel = {
         lineSymbol: 'symbols/3d-panel/alarm/right/line.json',
         symbolUrl: { alarmPanel: 'symbols/3d-panel/alarm/right/alarm.json',
-                    escalatorPanel: 'symbols/3d-panel/alarm/right/alarm.json',
-                    elevatorPanel: 'symbols/3d-panel/alarm/right/alarm.json',
+                    escalatorPanel: 'symbols/3d-panel/escalator-panel/right/panel.json',
+                    elevatorPanel: 'symbols/3d-panel/escalator-panel/right/panel.json',
                     gatePanel: 'symbols/3d-panel/alarm/right/alarm.json' }
     };
 export default {
@@ -33,7 +33,7 @@ export default {
         panel.setSize3d([200, 80, 1]);
         panel.setScaleX(scale);
         panel.setScaleTall(scale);
-       
+
         let line = new ht.Node();
         line.setAnchor3d({ x: direction === 'right' ? 0 : 1, y: 0, z: .5 });
         line.s({
@@ -122,7 +122,7 @@ export default {
             let { xzDistance: xzDistance1, xyzDistance: xyzDistance1 } = weight[data1.getId()];
             let { xzDistance: xzDistance2, xyzDistance: xyzDistance2 } = weight[data2.getId()];
             if(Math.abs(xzDistance2 - xzDistance1) > 0.5) {
-                return  xzDistance2 - xzDistance1; 
+                return  xzDistance2 - xzDistance1;
             }
             else {
                 return xyzDistance2 - xyzDistance1;
