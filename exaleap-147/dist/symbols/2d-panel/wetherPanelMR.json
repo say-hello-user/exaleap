@@ -1,5 +1,5 @@
 {
-  "modified": "Tue Jun 11 2019 10:35:59 GMT+0800 (中国标准时间)",
+  "modified": "Fri Jul 05 2019 17:01:20 GMT+0800 (中国标准时间)",
   "background": "rgb(61,61,61)",
   "dataBindings": [
     {
@@ -366,7 +366,8 @@
     },
     {
       "type": "text",
-      "text": "E氪智慧楼宇企业管理平台",
+      "text": "智慧企业管理平台",
+      "align": "center",
       "color": "rgb(255,255,255)",
       "font": "14px PingFangSC-Thin",
       "scaleX": 1.4,
@@ -377,32 +378,6 @@
         39.51187,
         145.65301,
         19.58915
-      ]
-    },
-    {
-      "type": "text",
-      "text": "千兆跃",
-      "color": "rgb(255,255,255)",
-      "font": "14px PingFangSC-Thin",
-      "scaleX": 1.4,
-      "scaleY": 1.4,
-      "rotation": 6.28319,
-      "rect": [
-        582.11526,
-        39.51155,
-        76.55806,
-        19.58915
-      ]
-    },
-    {
-      "type": "oval",
-      "background": "rgb(255,255,255)",
-      "borderColor": "#979797",
-      "rect": [
-        646.44613,
-        47.80645,
-        3,
-        3
       ]
     }
   ]

@@ -1,6 +1,6 @@
 window.localString = {
     'main-title': '千兆跃',
-    'sub-title': 'E氪智慧楼宇企业管理平台',
+    'sub-title': '智慧企业管理平台',
     'staff': '员工',
     'visitor': '访客',
     'total.parking.space': '总车位',
