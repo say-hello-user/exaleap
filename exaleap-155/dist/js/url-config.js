@@ -7,6 +7,7 @@
 // '投屏' { kind: 'screening' }
 window.buildURL = {
     debug: true,
+    isEnterToFloor: true,
     dirBasePath: '',
     baseurl: '',
     siteId: 'cbe83f10-2b9f-4252-abc4-b16f557ab18d',

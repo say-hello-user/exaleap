@@ -1,14 +1,12 @@
 import pTools from '../pTools';
 
 const adjustDevicePanle = function(data, devicePanelName) {
-    let { dm3d, allPanelStatus } = this,
-        { scale, leftX, rightX } = allPanelStatus[devicePanelName],
+    let { dm3d, allPanelStatus } = this, { scale, leftX, rightX } = allPanelStatus[devicePanelName],
         xNum, direction;
-    if(data.getX() <= (leftX + rightX) / 2) {
+    if (data.getX() <= (leftX + rightX) / 2) {
         xNum = leftX;
         direction = 'left';
-    }
-    else {
+    } else {
         xNum = rightX;
         direction = 'right';
     }
@@ -23,7 +21,7 @@ const adjustDevicePanle = function(data, devicePanelName) {
     pTools.showPanel(this, data, devicePanel);
 }
 
-const mi2dEvent = function (e) {
+const mi2dEvent = function(e) {
     let { kind, data, type, comp } = e;
     if (kind === 'clickData') {
         let displayName = data.getDisplayName(),
@@ -64,7 +62,7 @@ const mi2dEvent = function (e) {
     }
 };
 
-const mi3dEvent = function (e) {
+const mi3dEvent = function(e) {
     let { kind, event, data, type, comp } = e;
     if (kind === 'clickBackground') {
         if (ht.Default.isLeftButton(event)) {
@@ -128,7 +126,16 @@ const mi3dEvent = function (e) {
             this.dataFill.initFloorPassengers(this, floorNode, floorPanel);
         }
         if (displayName === '楼层号码') {
+            if (window.buildURL.isEnterToFloor) {
+                let floorNum = data.a('floorNum') || 'F01';
+                console.log(floorNum)
+                this.notifier.fire({
+                    kind: 'loadFloorScreen',
+                    para: {
 
+                    }
+                });
+            }
         }
     }
     if (kind === 'onEnter' && type === 'data') {
@@ -175,7 +182,7 @@ const mi3dEvent = function (e) {
     }
 }
 
-const mp3dEvent = function (e) {
+const mp3dEvent = function(e) {
     if (e.property === 'eye') {
         let { g3d, dm3d } = this;
         pTools.sortDm3dData(g3d, dm3d);
