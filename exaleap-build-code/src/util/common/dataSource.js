@@ -110,6 +110,24 @@ export default class DataSource {
         });
     }
 
+    // 获取停车场面板信息
+    getFloorParkingInfo(floorId, callBack) {
+        this.sendAjax(this.methodGetSettings('floorParkingInfo', { siteId: this.siteId, floorId }), (response) => {
+            typeof callBack === 'function' && callBack(response);
+        }, (errorMsg) => {
+            console.error(errorMsg);
+        });
+    }
+
+    // 停车场当前状态信息
+    getParkingStatus(callBack) {
+        this.sendAjax(this.methodGetSettings('parkingStatus', { siteId: this.siteId }), (response) => {
+            typeof callBack === 'function' && callBack(response);
+        }, (errorMsg) => {
+            console.error(errorMsg);
+        });
+    }
+
     methodGetSettings(name, replaceData) {
         let { baseurl, ajax } = this, { url: subPath, method } = ajax[name];
         if (replaceData) {

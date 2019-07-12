@@ -237,6 +237,37 @@ export default class DataFill {
         });
     }
 
+    // 初始化停车场面板
+    initFloorInfoPanel(floorId, panel) {
+        this.dataSource.getFloorParkingInfo(floorId, result => {
+            let data = result.data || {};
+            panel.a("parkingFloorName", data.parkingFloorName);
+            panel.a("parkingFloorArea", data.parkingFloorArea);
+            panel.a("totalParkingSpace", data.totalParkingSpace);
+        })
+    }
+
+    // 获取停车场当前状态信息
+    getParkingStatus(panel) {
+        this.dataSource.getParkingStatus(result => {
+            let data = result.data || {};
+            panel.a('monthRent_0', false);
+            panel.a('monthRent_1', false);
+            panel.a('monthRent_2', false);
+            data.latestLeavingCars.map((item, index) => {
+                if (item.isMonthlyRenting === '1') {
+                    panel.a('monthRent_' + index, true);
+                } else {
+                    panel.a('monthRent_' + index, false);
+                }
+            })
+            panel.a('emptyParkingSpace', data.emptyParkingSpace);
+            panel.a('enteringTimes', data.enteringTimes);
+            panel.a('totalParkingFee', data.totalParkingFee);
+            panel.a('latestLeavingCars', data.latestLeavingCars);
+        })
+    }
+
     // 销毁函数
     destory() {
         this.dataSource.destory();

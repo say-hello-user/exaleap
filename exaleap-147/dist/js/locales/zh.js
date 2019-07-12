@@ -23,8 +23,8 @@ window.localString = {
     'parking.space.statistics': '停车场车位统计',
     'parking.hours': '营业时间',
     'parking.used': '已使用车位',
-    'equipment.frequent.visitor': '常访客车位',
-    'equipment.very.visitor': '非常访客车位',
+    'equipment.frequent.visitor': '常访客车',
+    'equipment.very.visitor': '非常访客车',
 
     'gate': '闸机',
     'elevator': '电梯',

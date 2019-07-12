@@ -64,10 +64,18 @@ window.buildURL = {
             url: '/dashboard/{siteId}/equipment-alarm',
             method: 'GET'
         },
+        floorParkingInfo: { // 停车场面板信息
+            url: '/dashboard/{siteId}/{floorId}/parking-floor-info',
+            method: 'GET'
+        },
+        parkingStatus: { // 停车场当前状态信息
+            url: '/dashboard/{siteId}/parking-status',
+            method: 'GET'
+        }
     },
     dimensionInfo: {
         "Name": "上海名人商业大厦", // 楼宇的名字
-        "ID": "634f2b89-3ed2-4324-8f06-0690c7276d8a", // 楼宇的id
+        "ID": "cbe83f10-2b9f-4252-abc4-b16f557ab18d", // 楼宇的id
         "Building": [ // 樓宇下的building列表
             {
                 "ID": "3bf9ca7e-2c23-4fc2-9309-1f237da60be8",

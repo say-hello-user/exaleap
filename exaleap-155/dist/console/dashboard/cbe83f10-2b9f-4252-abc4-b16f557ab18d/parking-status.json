@@ -1,0 +1,23 @@
+{
+    "code": 0,
+    "data": {
+        "siteId": "78cae204-00e8-4f26-a1e0-5e20ffe54974",
+        "emptyParkingSpace": "10000",
+        "enteringTimes": "32718",
+        "totalParkingFee": "3728.27",
+        "latestLeavingCars": [{
+            "plateName": "京A12345",
+            "leavingTime": "2019-07-12 17:37:00",
+            "isMonthlyRenting": "1"
+        }, {
+            "plateName": "京B78902",
+            "leavingTime": "2019-07-12 17:38:00",
+            "isMonthlyRenting": "0"
+        }, {
+            "plateName": "京A78672",
+            "leavingTime": "2019-07-12 17:44:00",
+            "isMonthlyRenting": "1"
+        }]
+    },
+    "time": "2019-04-22 18:08:04"
+}

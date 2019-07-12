@@ -440,7 +440,7 @@ export default class Build {
             if (num >= 480 && num < 640) return { color: 'rgb(255, 183, 27)', level: 2 };
             if (num >= 640) return { color: 'rgb(224, 68, 3)', level: 1 };
         }
-        if (type === 'basement') { // 地下室
+        if (type === 'basement' || type === 'parking') { // 地下室
             if (num >= 0 && num < 40) return { color: 'rgb(0, 180, 81)', level: 5 };
             if (num >= 40 && num < 80) return { color: 'rgb(115, 204, 52)', level: 4 };
             if (num >= 80 && num < 120) return { color: 'rgb(66, 180, 218)', level: 3 };

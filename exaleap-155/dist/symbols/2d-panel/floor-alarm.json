@@ -1,0 +1,432 @@
+{
+  "modified": "Fri Jul 12 2019 17:45:59 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "ht.dataSource",
+      "valueType": "Object",
+      "name": "TableDataSource"
+    }
+  ],
+  "width": 283,
+  "height": 299,
+  "interactive": true,
+  "pixelPerfect": false,
+  "attachStyle": "close",
+  "comps": [
+    {
+      "type": "shape",
+      "gradientPack": [
+        "L",
+        145,
+        299,
+        145,
+        2,
+        1.0418,
+        0,
+        0,
+        1.0034,
+        -9.74973,
+        -1.61633,
+        0,
+        "rgba(0, 7, 29, 0.3)",
+        0.5,
+        "#00071D",
+        1,
+        "rgba(0, 7, 29, 0.3)"
+      ],
+      "points": [
+        0.6683,
+        0.39048,
+        281.95492,
+        0.39048,
+        281.95492,
+        0.39048,
+        281.95492,
+        0.39048,
+        281.95492,
+        298.40076,
+        281.95492,
+        298.40076,
+        281.95492,
+        298.40076,
+        0.6683,
+        298.40076,
+        0.6683,
+        298.40076,
+        0.6683,
+        298.40076,
+        0.6683,
+        0.39048,
+        0.6683,
+        0.39048,
+        0.6683,
+        0.39048
+      ],
+      "segments": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "background": "#03326d",
+      "points": [
+        271.43109,
+        2.39054,
+        276.01502,
+        2.39054,
+        279.76551,
+        5.99067,
+        279.76551,
+        10.39082,
+        279.76551,
+        287.40038,
+        279.76551,
+        291.80053,
+        276.01502,
+        295.40066,
+        271.43109,
+        295.40066,
+        10.98051,
+        295.40066,
+        6.39658,
+        295.40066,
+        2.64609,
+        291.80053,
+        2.64609,
+        287.40038,
+        2.64609,
+        10.39082,
+        2.64609,
+        5.99067,
+        6.39658,
+        2.39054,
+        10.98051,
+        2.39054,
+        271.43109,
+        2.39054,
+        271.43109,
+        0.39048,
+        10.98051,
+        0.39048,
+        5.2506,
+        0.39048,
+        0.56249,
+        4.89063,
+        0.56249,
+        10.39082,
+        0.56249,
+        287.40038,
+        0.56249,
+        292.90057,
+        5.2506,
+        297.40073,
+        10.98051,
+        297.40073,
+        271.43109,
+        297.40073,
+        277.161,
+        297.40073,
+        281.84911,
+        292.90057,
+        281.84911,
+        287.40038,
+        281.84911,
+        10.39082,
+        281.84911,
+        4.89063,
+        277.161,
+        0.39048,
+        271.43109,
+        0.39048,
+        271.43109,
+        0.39048
+      ],
+      "segments": [
+        1,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        1,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        5
+      ]
+    },
+    {
+      "type": "shape",
+      "borderWidth": 1.5,
+      "borderColor": "#03326d",
+      "points": [
+        18.36197,
+        180.15435,
+        266.77829,
+        180.15435
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['panel.recentLeaveing'] || '最近离开车辆';\n}",
+        "value": "最近离开车辆"
+      },
+      "color": "rgb(247,247,247)",
+      "font": "14px PingFangSC-Thin",
+      "displayName": "text",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rotation": 6.28319,
+      "rect": [
+        39.9538,
+        147.25015,
+        86.36706,
+        19.58915
+      ]
+    },
+    {
+      "type": "components/ht/ui/table.json",
+      "displayName": "table",
+      "rect": [
+        18.36197,
+        188.76012,
+        259.21399,
+        100.82447
+      ],
+      "columns": [
+        {
+          "key": "plateName",
+          "displayName": "车牌号",
+          "width": "0.4",
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "key": "leavingTime",
+          "displayName": "离开时间",
+          "width": "0.6",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "dataSource": {
+        "func": "attr@latestLeavingCars",
+        "value": []
+      },
+      "borderWidth": 0,
+      "columnLineWidth": 0,
+      "rowLineWidth": 0,
+      "thHeight": 0,
+      "tdHeight": 30,
+      "textLineHeight": 24,
+      "tdColor": "rgb(247,247,247)",
+      "thFont": "14px PingFangSC-Thin",
+      "tdFont": "14px PingFangSC-Thin",
+      "scrollable": false,
+      "pannable": false,
+      "autoHideScrollBar": true,
+      "scrollBarWidth": 0
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['panel.monthRent'] || '月租车';\n}",
+        "value": "月租车"
+      },
+      "align": "right",
+      "color": "rgb(247,247,247)",
+      "font": "14px PingFangSC-Thin",
+      "displayName": "text",
+      "scaleX": 1.5,
+      "scaleY": 1.5,
+      "rotation": 6.28319,
+      "rect": [
+        202.08442,
+        147.25026,
+        53.39342,
+        19.58915
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(78,193,225)",
+      "borderColor": "#979797",
+      "rect": [
+        194.71336,
+        153.28771,
+        7.51426,
+        7.51426
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['panel.emptyCarPlate'] || '空余车位';\n}",
+        "value": "空余车位"
+      },
+      "color": "rgb(247,247,247)",
+      "font": "14px PingFangSC-Thin",
+      "displayName": "楼层面积",
+      "rotation": 6.28319,
+      "rect": [
+        20.47777,
+        27.48573,
+        83.67388,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['panel.dayChargeMoney'] || '日实收车费';\n}",
+        "value": "日实收车费"
+      },
+      "color": "rgb(247,247,247)",
+      "font": "14px PingFangSC-Thin",
+      "displayName": "楼层面积",
+      "rotation": 6.28319,
+      "rect": [
+        20.47777,
+        90.48573,
+        83.67388,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['panel.dayEnterTime'] || '日入场车次';\n}",
+        "value": "日入场车次"
+      },
+      "color": "rgb(247,247,247)",
+      "font": "14px PingFangSC-Thin",
+      "displayName": "楼层面积",
+      "rotation": 6.28319,
+      "rect": [
+        20.47777,
+        57.48573,
+        83.67388,
+        19.58915
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@emptyParkingSpace",
+        "value": "0"
+      },
+      "color": "rgb(78,193,225)",
+      "font": "18px Avenir Book",
+      "rect": [
+        102.52239,
+        16.41695,
+        138.43993,
+        38.16322
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@totalParkingFee",
+        "value": "0"
+      },
+      "color": "rgb(78,193,225)",
+      "font": "18px Avenir Book",
+      "rect": [
+        113.10476,
+        81.41695,
+        127.85756,
+        38.16322
+      ]
+    },
+    {
+      "type": "text",
+      "text": {
+        "func": "attr@enteringTimes",
+        "value": "0"
+      },
+      "color": "rgb(78,193,225)",
+      "font": "18px Avenir Book",
+      "rect": [
+        102.52239,
+        48.41695,
+        138.43993,
+        38.16322
+      ]
+    },
+    {
+      "type": "text",
+      "text": "¥",
+      "color": "rgb(78,193,225)",
+      "font": "14px PingFangSC-Thin",
+      "rect": [
+        102.65528,
+        76.86664,
+        50,
+        50
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(78,193,225)",
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@monthRent_0",
+        "value": false
+      },
+      "rect": [
+        13.71336,
+        202.28771,
+        3.99499,
+        3.99499
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(78,193,225)",
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@monthRent_1",
+        "value": false
+      },
+      "rect": [
+        13.71336,
+        231.28771,
+        3.99499,
+        3.99499
+      ]
+    },
+    {
+      "type": "oval",
+      "background": "rgb(78,193,225)",
+      "borderColor": "#979797",
+      "visible": {
+        "func": "attr@monthRent_2",
+        "value": false
+      },
+      "rect": [
+        13.71336,
+        261.28771,
+        3.99499,
+        3.99499
+      ]
+    }
+  ]
+}

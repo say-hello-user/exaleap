@@ -1,0 +1,234 @@
+{
+  "v": "7.0.1",
+  "p": {
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "rotateAsClock": false,
+    "connectActionType": "host"
+  },
+  "d": [
+    {
+      "c": "ht.Shape",
+      "i": 7736,
+      "p": {
+        "displayName": "背景",
+        "position": {
+          "x": 960,
+          "y": 540
+        },
+        "width": 1920,
+        "height": 1080,
+        "segments": {
+          "__a": [
+            1,
+            2,
+            3,
+            2,
+            3,
+            2,
+            3,
+            2,
+            3,
+            5
+          ]
+        },
+        "points": {
+          "__a": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1920,
+              "y": 0
+            },
+            {
+              "x": 1920,
+              "y": 0
+            },
+            {
+              "x": 1920,
+              "y": 0
+            },
+            {
+              "x": 1920,
+              "y": 1080
+            },
+            {
+              "x": 1920,
+              "y": 1080
+            },
+            {
+              "x": 1920,
+              "y": 1080
+            },
+            {
+              "x": 0,
+              "y": 1080
+            },
+            {
+              "x": 0,
+              "y": 1080
+            },
+            {
+              "x": 0,
+              "y": 1080
+            },
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "s": {
+        "type": "shape",
+        "opacity": 1,
+        "shape.background": "#00071d",
+        "shape.border.color": null,
+        "shape.dash.pattern": [
+          16,
+          16
+        ],
+        "2d.movable": false,
+        "pixelPerfect": false,
+        "fullscreen.lock": "v",
+        "fullscreen.gap": 0,
+        "2d.visible": false,
+        "fullscreen": "fill"
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7737,
+      "p": {
+        "displayName": "切换至建筑",
+        "parent": {
+          "__i": 7736
+        },
+        "image": "symbols/2d-icon/switch-to-build.json",
+        "host": {
+          "__i": 7736
+        },
+        "position": {
+          "x": 92.75309,
+          "y": 85.10965
+        },
+        "width": 86,
+        "height": 63
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "left",
+        "onEnter": "__ht__function(event, data, view) {\nview.getView().style.cursor = 'pointer';\ndata.a('color', 'rgb(255, 255, 255)');\n}",
+        "onLeave": "__ht__function(event, data, view) {\nview.getView().style.cursor = 'default';\ndata.a('color', 'rgb(117, 175, 255)');\n}",
+        "interactive": true
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7738,
+      "p": {
+        "displayName": "楼层信息块",
+        "parent": {
+          "__i": 7736
+        },
+        "tag": "panel1",
+        "host": {
+          "__i": 7736
+        },
+        "position": {
+          "x": 1758.29406,
+          "y": 211.04782
+        },
+        "width": 283,
+        "height": 182.38719,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.v": "top",
+        "layout.h": "right",
+        "2d.selectable": false,
+        "pixelPerfect": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7739,
+      "p": {
+        "displayName": "楼层信息面板",
+        "parent": {
+          "__i": 7738
+        },
+        "image": "symbols/2d-panel/floor-panel.json",
+        "position": {
+          "x": 1758.29406,
+          "y": 211.04782
+        },
+        "width": 283,
+        "height": 182.38719
+      }
+    },
+    {
+      "c": "ht.Block",
+      "i": 7740,
+      "p": {
+        "displayName": "车位信息块",
+        "parent": {
+          "__i": 7736
+        },
+        "tag": "panel2",
+        "host": {
+          "__i": 7736
+        },
+        "position": {
+          "x": 1758.29406,
+          "y": 482.74141
+        },
+        "width": 283,
+        "height": 299,
+        "clickThroughEnabled": true
+      },
+      "s": {
+        "layout.h": "right",
+        "layout.v": "center",
+        "2d.selectable": false,
+        "pixelPerfect": false
+      }
+    },
+    {
+      "c": "ht.Node",
+      "i": 7741,
+      "p": {
+        "displayName": "车位信息面板",
+        "parent": {
+          "__i": 7740
+        },
+        "image": "symbols/2d-panel/floor-alarm.json",
+        "position": {
+          "x": 1758.29406,
+          "y": 482.74141
+        },
+        "width": 283,
+        "height": 299
+      }
+    }
+  ],
+  "modified": "Fri Jul 12 2019 15:30:06 GMT+0800 (中国标准时间)",
+  "contentRect": {
+    "x": 29.75309,
+    "y": 33.60965,
+    "width": 1870.04097,
+    "height": 598.63176
+  }
+}

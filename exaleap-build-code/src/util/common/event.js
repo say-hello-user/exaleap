@@ -127,14 +127,19 @@ const mi3dEvent = function(e) {
         }
         if (displayName === '楼层号码') {
             if (window.buildURL.isEnterToFloor) {
-                let floorNum = data.a('floorNum') || 'F01';
-                console.log(floorNum)
-                this.notifier.fire({
-                    kind: 'loadFloorScreen',
-                    para: {
-
-                    }
-                });
+                let { preClickInfo } = this;
+                let preClickNode = preClickInfo.preClickNode;
+                let floorID = preClickNode.a('info')['ID'];
+                let floorType = preClickNode.a('floorType');
+                if (floorType === 'parking') {
+                    // let floorNum = data.a('floorNum') || 'F01';
+                    this.notifier.fire({
+                        kind: 'loadFloorScreen',
+                        para: {
+                            floorID
+                        }
+                    });
+                }
             }
         }
     }

@@ -25,8 +25,8 @@ window.localString = {
     'parking.space.statistics': '停车场车位统计',
     'parking.hours': '营业时间',
     'parking.used': '已使用车位',
-    'equipment.frequent.visitor': '常访客车位',
-    'equipment.very.visitor': '非常访客车位',
+    'equipment.frequent.visitor': '常访客车',
+    'equipment.very.visitor': '非常访客车',
 
     'gate': '闸机',
     'elevator': '电梯',
@@ -48,5 +48,12 @@ window.localString = {
     'panel.park': '车位统计面板',
     'panel.build': '功能面板',
 
-    'confirm': '确认'
+    'confirm': '确认',
+    'panel.floorArea': '楼层面积',
+    'panel.floorCarPlate': '本层车位',
+    'panel.emptyCarPlate': '空余车位',
+    'panel.dayEnterTime': '日入场车次',
+    'panel.dayChargeMoney': '日实收车费',
+    'panel.recentLeaveing': '最近离开车辆',
+    'panel.monthRent': '月租车',
 };

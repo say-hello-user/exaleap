@@ -1,5 +1,5 @@
 {
-  "modified": "Mon Jun 24 2019 18:07:17 GMT+0800 (中国标准时间)",
+  "modified": "Fri Jul 12 2019 15:18:15 GMT+0800 (中国标准时间)",
   "background": "rgb(61,61,61)",
   "dataBindings": [],
   "width": 283,
@@ -378,8 +378,8 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.frequent.visitor'] || '常访客车位';\n}",
-        "value": "常访客车位"
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.frequent.visitor'] || '常访客车';\n}",
+        "value": "常访客车"
       },
       "align": "right",
       "color": "rgb(255,255,255)",
@@ -394,8 +394,8 @@
     {
       "type": "text",
       "text": {
-        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.very.visitor'] || '非常访客车位';\n}",
-        "value": "非常访客车位"
+        "func": "__ht__function(data, view) {\nvar localString = window.localString || {};\nreturn localString['equipment.very.visitor'] || '非常访客车';\n}",
+        "value": "非常访客车"
       },
       "align": "right",
       "color": "rgb(255,255,255)",

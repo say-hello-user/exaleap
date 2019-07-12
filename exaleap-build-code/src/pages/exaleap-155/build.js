@@ -360,7 +360,7 @@ export default class Build {
                 const floorNums = ['B4'];
                 floorNode.setDisplayName('楼层地板');
                 floorNode.a('floorNum', floorNums[floorNum - 1]);
-                floorNode.a('floorType', 'basement');
+                floorNode.a('floorType', 'parking');
                 basement.floorNodes.push(floorNode);
             }
         }, defXZ);
@@ -374,7 +374,7 @@ export default class Build {
                 floorNode.setDisplayName('楼层地板');
                 floorNode.a('floorNum', floorNums[floorNum - 1]);
                 if (floorNum === 1) {
-                    floorNode.a('floorType', 'basement');
+                    floorNode.a('floorType', 'parking');
                     basement.floorNodes.push(floorNode);
                 } else {
                     floorNode.a('floorType', 'business');
@@ -514,7 +514,7 @@ export default class Build {
             if (num >= 1500 && num < 2000) return { color: 'rgb(255, 183, 27)', level: 2 };
             if (num >= 2000) return { color: 'rgb(224, 68, 3)', level: 1 };
         }
-        if (type === 'basement') { // 地下室
+        if (type === 'basement' || type === 'parking') { // 地下室
             if (num >= 0 && num < 50) return { color: 'rgb(0, 180, 81)', level: 5 };
             if (num >= 50 && num < 100) return { color: 'rgb(115, 204, 52)', level: 4 };
             if (num >= 100 && num < 150) return { color: 'rgb(66, 180, 218)', level: 3 };
