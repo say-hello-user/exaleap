@@ -16,10 +16,9 @@ export default class DataFill {
             floorType = floor.a('floorType'),
             { ID } = floor.a('info');
 
-        // if (window.buildURL.debug) {
-        //     ID = util.randomNumBetween(0, 1);
-        // }
-        console.log(ID)
+        if (window.buildURL.debug) {
+            ID = util.randomNumBetween(0, 1);
+        }
         panel.s('shape3d.image', 'symbols/3d-icon/loading.json');
         panel.a('isLoading', true);
         panel.p3(util.getP3ByAnchor3d(build.g3d, floor, floor.a('panelAnchor') ? floor.a('panelAnchor') : { x: 0, y: 0.5, z: 1 }));
