@@ -1,10 +1,23 @@
 import Screen from "../../util/screen";
 import Build from './build';
+import Floor from './floor';
 
 class Main {
     constructor() {
         let notifier = this.notifier = new ht.Notifier();
         this.build = new Build(notifier);
+        this.floor = new Floor(notifier);
+        this.notifier.add((e) => {
+            let { kind, para } = e;
+            if (kind === 'loadBuildScreen') {
+                this.floor.destory();
+                this.build.loadScreen(this.screen);
+            }
+            if (kind === 'loadFloorScreen') {
+                this.build.destory();
+                this.floor.loadScreen(this.screen, para);
+            }
+        });
     }
     setScreenLang(lang, callBack) {
         let langTypes = ['en', 'tw', 'zh'];

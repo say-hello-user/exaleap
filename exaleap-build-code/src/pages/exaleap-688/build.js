@@ -309,7 +309,7 @@ export default class Build {
                 const floorNums = ['B3', 'B2', 'B1'];
                 floorNode.setDisplayName('楼层地板');
                 floorNode.a('floorNum', floorNums[floorNum - 1]);
-                floorNode.a('floorType', 'basement');
+                floorNode.a('floorType', 'parking');
                 floorNode.a('panelAnchor', { x: 0.35, y: 0.5, z: 0.88 });
                 basement.floorNodes.push(floorNode);
             }

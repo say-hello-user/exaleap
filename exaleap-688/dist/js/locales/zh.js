@@ -48,5 +48,12 @@ window.localString = {
     'panel.park': '车位统计面板',
     'panel.build': '功能面板',
 
-    'confirm': '确认'
+    'confirm': '确认',
+    'panel.floorArea': '楼层面积',
+    'panel.floorCarPlate': '车场总车位数',
+    'panel.emptyCarPlate': '空余车位',
+    'panel.dayEnterTime': '日入场车次',
+    'panel.dayChargeMoney': '日实收车费',
+    'panel.recentLeaveing': '最近离开车辆',
+    'panel.monthRent': '月租车',
 };

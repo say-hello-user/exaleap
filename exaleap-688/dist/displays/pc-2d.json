@@ -11,7 +11,7 @@
   "d": [
     {
       "c": "ht.Shape",
-      "i": 261,
+      "i": 262,
       "p": {
         "displayName": "背景",
         "position": {
@@ -111,15 +111,15 @@
     },
     {
       "c": "ht.Block",
-      "i": 262,
+      "i": 263,
       "p": {
         "displayName": "块1",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "tag": "panel1",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 162.64888,
@@ -139,11 +139,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 263,
+      "i": 264,
       "p": {
         "displayName": "工单面板",
         "parent": {
-          "__i": 262
+          "__i": 263
         },
         "image": "symbols/2d-panel/workSheetPanel.json",
         "position": {
@@ -182,15 +182,15 @@
     },
     {
       "c": "ht.Block",
-      "i": 264,
+      "i": 265,
       "p": {
         "displayName": "块2",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "tag": "panel2",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 162.64888,
@@ -210,11 +210,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 265,
+      "i": 266,
       "p": {
         "displayName": "客流量面板",
         "parent": {
-          "__i": 264
+          "__i": 265
         },
         "image": "symbols/2d-panel/visitFlowPanel.json",
         "position": {
@@ -238,15 +238,15 @@
     },
     {
       "c": "ht.Block",
-      "i": 266,
+      "i": 267,
       "p": {
         "displayName": "块3",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "tag": "panel3",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 162.64888,
@@ -266,11 +266,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 267,
+      "i": 268,
       "p": {
         "displayName": "消防报警面板",
         "parent": {
-          "__i": 266
+          "__i": 267
         },
         "image": "symbols/2d-panel/fireControl.json",
         "position": {
@@ -291,15 +291,15 @@
     },
     {
       "c": "ht.Block",
-      "i": 268,
+      "i": 269,
       "p": {
         "displayName": "块4",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "tag": "panel4",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 1758.29406,
@@ -319,11 +319,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 269,
+      "i": 270,
       "p": {
         "displayName": "重点区域监控面板",
         "parent": {
-          "__i": 268
+          "__i": 269
         },
         "image": "symbols/2d-panel/monitorPanel.json",
         "position": {
@@ -344,16 +344,16 @@
     },
     {
       "c": "ht.Node",
-      "i": 270,
+      "i": 271,
       "p": {
         "displayName": "video1",
         "parent": {
-          "__i": 269
+          "__i": 270
         },
         "tag": "video1",
         "image": "symbols/html/video.json",
         "host": {
-          "__i": 269
+          "__i": 270
         },
         "position": {
           "x": 1758.07159,
@@ -363,20 +363,21 @@
         "height": 225
       },
       "s": {
-        "pixelPerfect": false
+        "pixelPerfect": false,
+        "2d.visible": false
       }
     },
     {
       "c": "ht.Block",
-      "i": 271,
+      "i": 272,
       "p": {
         "displayName": "块5",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "tag": "panel5",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 1758.29406,
@@ -396,11 +397,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 272,
+      "i": 273,
       "p": {
         "displayName": "车位统计面板",
         "parent": {
-          "__i": 271
+          "__i": 272
         },
         "image": "symbols/2d-panel/Parking.json",
         "position": {
@@ -435,15 +436,15 @@
     },
     {
       "c": "ht.Block",
-      "i": 273,
+      "i": 274,
       "p": {
         "displayName": "块6",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "tag": "panel6",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 1758.29406,
@@ -463,11 +464,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 274,
+      "i": 275,
       "p": {
         "displayName": "功能面板",
         "parent": {
-          "__i": 273
+          "__i": 274
         },
         "image": "symbols/2d-panel/buildPanelmr.json",
         "position": {
@@ -493,14 +494,14 @@
     },
     {
       "c": "ht.Block",
-      "i": 275,
+      "i": 276,
       "p": {
         "displayName": "四个icon",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 1729,
@@ -520,11 +521,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 276,
+      "i": 277,
       "p": {
         "displayName": "设置",
         "parent": {
-          "__i": 275
+          "__i": 276
         },
         "tag": "setting",
         "image": "symbols/2d-icon/setting.json",
@@ -547,11 +548,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 277,
+      "i": 278,
       "p": {
         "displayName": "还原",
         "parent": {
-          "__i": 275
+          "__i": 276
         },
         "tag": "reduction",
         "image": "symbols/2d-icon/reduction1.json",
@@ -574,11 +575,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 278,
+      "i": 279,
       "p": {
         "displayName": "详情",
         "parent": {
-          "__i": 275
+          "__i": 276
         },
         "tag": "detail",
         "image": "symbols/2d-icon/detail.json",
@@ -603,11 +604,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 279,
+      "i": 280,
       "p": {
         "displayName": "切换",
         "parent": {
-          "__i": 275
+          "__i": 276
         },
         "tag": "Switch",
         "image": "symbols/2d-icon/switch.json",
@@ -631,15 +632,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 280,
+      "i": 281,
       "p": {
         "displayName": "投屏",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "image": "symbols/2d-slide/screen.json",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 960,
@@ -660,11 +661,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 281,
+      "i": 282,
       "p": {
         "displayName": "左侧toggle",
         "parent": {
-          "__i": 280
+          "__i": 281
         },
         "image": "symbols/2d-slide/slider-icon.json",
         "position": {
@@ -681,11 +682,11 @@
     },
     {
       "c": "ht.Node",
-      "i": 282,
+      "i": 283,
       "p": {
         "displayName": "右侧toggle",
         "parent": {
-          "__i": 280
+          "__i": 281
         },
         "image": "symbols/2d-slide/slider-icon.json",
         "rotation": 3.14159,
@@ -704,15 +705,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 283,
+      "i": 284,
       "p": {
         "displayName": "设置面板",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "image": "symbols/2d-panel/setPanel.json",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 960,
@@ -739,15 +740,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 284,
+      "i": 285,
       "p": {
         "displayName": "天气面板",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "image": "symbols/2d-panel/wetherPanelMR.json",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 960,
@@ -765,15 +766,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 285,
+      "i": 286,
       "p": {
         "displayName": "时间面板",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "image": "symbols/2d-panel/timePanelMR.json",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 960,
@@ -790,15 +791,15 @@
     },
     {
       "c": "ht.Node",
-      "i": 286,
+      "i": 287,
       "p": {
         "displayName": "底部面板",
         "parent": {
-          "__i": 261
+          "__i": 262
         },
         "image": "symbols/2d-panel/bottomPanelMR.json",
         "host": {
-          "__i": 261
+          "__i": 262
         },
         "position": {
           "x": 960,
@@ -820,7 +821,7 @@
       }
     }
   ],
-  "modified": "Thu Jun 27 2019 19:31:29 GMT+0800 (中国标准时间)",
+  "modified": "Mon Jul 15 2019 14:17:05 GMT+0800 (中国标准时间)",
   "contentRect": {
     "x": 21.14888,
     "y": 1.16865,
