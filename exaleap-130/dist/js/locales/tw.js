@@ -61,7 +61,7 @@ window.localString = {
     'confirm': '確認',
     'msg-btn': '信息按鈕',
     'main-title': 'ExaLeap',
-    'sub-title': 'EKr智慧企業管理平台',
+    'sub-title': '智慧企業管理平台',
     'staff': '員工',
     'visitor': '訪客',
     'total.parking.space': '總車位',

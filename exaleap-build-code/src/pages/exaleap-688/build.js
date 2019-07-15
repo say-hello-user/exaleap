@@ -30,6 +30,7 @@ export default class Build {
             this.init3dNodes();
             screen.add3dMiEvent(event.mi3dEvent, this);
             screen.add3dMpEvent(event.mp3dEvent, this);
+            g3d.setHeadlightIntensity(1);
             this.notifier.fire({ kind: 'buildLoaded' });
         });
         screen.load2dScreen(dirBasePath + '/' + pc2d, null, (g2d, dm2d) => {

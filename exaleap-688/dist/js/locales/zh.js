@@ -61,7 +61,7 @@ window.localString = {
     'confirm': '确认',
     'msg-btn': '信息按钮',
     'main-title': '千兆跃',
-    'sub-title': 'E氪智慧楼宇企业管理平台',
+    'sub-title': '智慧企业管理平台',
     'staff': '员工',
     'visitor': '访客',
     'total.parking.space': '总车位',

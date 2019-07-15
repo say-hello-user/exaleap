@@ -13,6 +13,7 @@ export default class Floor {
         dirBasePath = window.buildURL.dirBasePath;
         g3d.setOrtho(false);
         screen.load3dScreen(dirBasePath + '/' + 'scenes/floor-B1.json', null, (g3d, dm3d) => {
+            g3d.setHeadlightIntensity(0.2);
             this.notifier.fire({ kind: 'floorLoaded', para });
         });
         screen.load2dScreen(dirBasePath + '/' + 'displays/floor.json', null, (g2d, dm2d) => {

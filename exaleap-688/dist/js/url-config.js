@@ -6,11 +6,11 @@
 // 重点区域监控面板 { kind: 'monitorPanel' }
 // '投屏' { kind: 'screening' }
 window.buildURL = {
-    debug: true,
+    debug: false,
     isEnterToFloor: true,
     dirBasePath: '',
-    baseurl: '',
-    siteId: 'cbe83f10-2b9f-4252-abc4-b16f557ab18d',
+    baseurl: 'https://qa-api.exaleap.io',
+    siteId: '78cae204-00e8-4f26-a1e0-5e20ffe50000',
     normalRefreshTime: 15 * 60 * 1000, // 正常数据请求周期 单位毫秒
     alarmRefreshTime: 60 * 1000, // 实时警告消息数据请求周期 单位毫秒
     emergencyAlarmRefreshTime: 10 * 1000, // 紧急警报滚动间隔 单位毫秒
@@ -19,8 +19,8 @@ window.buildURL = {
         "Content-Type": "application/json",
         "X-API-Language": "zh_CN",
         "X-API-Version": 1.0,
-        "X-Auth-Token": "40adb5f3bfb6b72e1d4a7aec215d1a5d",
-        "X-Client-Site-Id": "634f2b89-3ed2-4324-8f06-0690c7276d8a",
+        "X-Auth-Token": "1e603a0872669aee2b8ee13e805a017b",
+        "X-Client-Site-Id": "78cae204-00e8-4f26-a1e0-5e20ffe50000",
         "X-Client-Type": "Web"
     },
     ajax: {

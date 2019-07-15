@@ -65,21 +65,28 @@ export default class DataFill {
     initWorkOrder(panel) {
         this.dataSource.getWorkOrder((result) => {
             let { today, week } = result.data || {}, { totalWork, unhandled } = today || {},
-                xData = [];
+                xAxis = [],
+                xLbale = [];
             if (week instanceof Array && week.length > 0) {
-                week.forEach((day, index) => {
-                    let { timePoint = '2019-01-01', totalWork } = day;
-                    xData.push(totalWork);
-                    xData.push(0);
-                    //panel.a('label_' + index, timePoint.match(/\d{2}-\d{2}$/)[0]);
+                week.forEach((day) => {
+                    xAxis.push(day.totalWork);
+                    xAxis.push(0);
+                    xLbale.push(day.timePoint);
                 });
             }
             totalWork = totalWork || 0;
             unhandled = unhandled || 0;
             panel.a({
-                'chart.values': xData,
+                'chart.values': xAxis,
                 totalWork,
-                unhandled
+                unhandled,
+                label_0: util.time2week(xLbale[0]),
+                label_1: util.time2week(xLbale[1]),
+                label_2: util.time2week(xLbale[2]),
+                label_3: util.time2week(xLbale[3]),
+                label_4: util.time2week(xLbale[4]),
+                label_5: util.time2week(xLbale[5]),
+                label_6: util.time2week(xLbale[6]),
             });
         });
     }

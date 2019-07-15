@@ -1,5 +1,5 @@
 {
-  "modified": "Mon Jul 15 2019 11:45:18 GMT+0800 (中国标准时间)",
+  "modified": "Mon Jul 15 2019 19:55:32 GMT+0800 (中国标准时间)",
   "dataBindings": [],
   "width": 283,
   "height": 130,
@@ -176,6 +176,7 @@
       },
       "color": "rgb(247,247,247)",
       "font": "14px PingFangSC-Thin",
+      "visible": false,
       "scaleX": 1.5,
       "scaleY": 1.5,
       "rotation": 6.28319,
@@ -185,6 +186,22 @@
         167.59068,
         23.36528
       ]
+    },
+    {
+      "type": "components/ht/text/textEllipsis.json",
+      "displayName": "textEllipsis",
+      "rect": [
+        20.47772,
+        13.35255,
+        249.27041,
+        35.51409
+      ],
+      "content": {
+        "func": "attr@parkingFloorName",
+        "value": " "
+      },
+      "font": "14px PingFangSC-Thin",
+      "color": "rgb(247,247,247)"
     },
     {
       "type": "text",
