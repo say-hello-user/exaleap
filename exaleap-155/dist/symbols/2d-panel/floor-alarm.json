@@ -1,5 +1,5 @@
 {
-  "modified": "Fri Jul 12 2019 17:45:59 GMT+0800 (中国标准时间)",
+  "modified": "Fri Jul 12 2019 17:57:23 GMT+0800 (中国标准时间)",
   "dataBindings": [
     {
       "attr": "ht.dataSource",
@@ -269,7 +269,7 @@
       "background": "rgb(78,193,225)",
       "borderColor": "#979797",
       "rect": [
-        194.71336,
+        190.71336,
         153.28771,
         7.51426,
         7.51426
