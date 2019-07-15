@@ -63,7 +63,7 @@ export default class DataSource {
 
     // 获取根据客流设备获取的单个楼层客流统计数据
     getFloorPassengers(floorId, callBack) {
-        this.sendAjax(this.methodGetSettings('floorPassengers', { floorId }), (response) => {
+        this.sendAjax(this.methodGetSettings('floorPassengers', { siteId: this.siteId, floorId }), (response) => {
             typeof callBack === 'function' && callBack(response);
         }, (errorMsg) => {
             console.error(errorMsg);

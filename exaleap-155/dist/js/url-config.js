@@ -57,7 +57,7 @@ window.buildURL = {
             method: 'GET'
         },
         floorPassengers: { // 单个楼层客流统计数据
-            url: '/dashboard/{floorId}/inside-passengers',
+            url: '/dashboard/{siteId}/{floorId}/inside-passengers',
             method: 'GET'
         },
         equipmentAlarm: { // 设备警报
